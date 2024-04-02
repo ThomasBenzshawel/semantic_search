@@ -2,8 +2,8 @@ from __future__ import unicode_literals, print_function, division
 from io import open
 import torch
 
-from model_structure.model import EOS_token
-from model_structure.model import SOS_token
+from model import EOS_token
+from model import SOS_token
 
 
 class Tokenize:
@@ -27,11 +27,11 @@ class Tokenize:
         else:
             self.word2count[word] += 1
 
-def indexesFromSentence(lang, sentence):
-    return [lang.word2index[word] for word in sentence.split(' ')]
+def indexesFromSentence(input, sentence):
+    return [input.word2index[word] for word in sentence.split(' ')]
 
-def tensorFromSentence(lang, sentence, device):
-    indexes = indexesFromSentence(lang, sentence)
+def tensorFromSentence(input, sentence, device):
+    indexes = indexesFromSentence(input, sentence)
     indexes.append(EOS_token)
     return torch.tensor(indexes, dtype=torch.long, device=device).view(1, -1)
 

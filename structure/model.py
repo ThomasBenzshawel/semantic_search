@@ -1,17 +1,13 @@
 from __future__ import unicode_literals, print_function, division
-from io import open
-
-
 import torch
 import torch.nn as nn
-from torch import optim
 import torch.nn.functional as F
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # TODO improve the tokenization process by using byte pair encoding instead of one hot encoding
 
-MAX_LENGTH = 10
+MAX_OUTPUT_LENGTH = 10
 SOS_token = 0
 EOS_token = 1
 
@@ -42,7 +38,7 @@ class DecoderRNN(nn.Module):
         decoder_hidden = encoder_hidden
         decoder_outputs = []
 
-        for i in range(MAX_LENGTH):
+        for i in range(MAX_OUTPUT_LENGTH):
             decoder_output, decoder_hidden  = self.forward_step(decoder_input, decoder_hidden)
             decoder_outputs.append(decoder_output)
 

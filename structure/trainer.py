@@ -8,8 +8,8 @@ from torch import optim
 import time
 import math
 
-from model_structure.model import *
-from model_structure.utils import tensorFromSentence, indexesFromSentence
+from model import *
+from utils import tensorFromSentence, indexesFromSentence
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -74,6 +74,9 @@ def train(train_dataloader, encoder, decoder, n_epochs, learning_rate=0.001,
             print_loss_total = 0
             print('%s (%d %d%%) %.4f' % (timeSince(start, epoch / n_epochs),
                                         epoch, epoch / n_epochs * 100, print_loss_avg))
+            # Save the model
+            torch.save(encoder.state_dict(), 'encoder.pth')
+            torch.save(decoder.state_dict(), 'decoder.pth')
 
         if epoch % plot_every == 0:
             plot_loss_avg = plot_loss_total / plot_every
