@@ -5,41 +5,34 @@ import torch
 from model import EOS_token
 from model import SOS_token
 import unicodedata
+import tiktoken
 
-
-class Tokenize:
+# Use byte pair encoding instead of one hot encoding
+class BytePairTokenizer:
     def __init__(self):
-        self.word2index = {}
-        self.word2count = {}
-        self.index2word = {0: "SOS", 1: "EOS"}
-        self.n_words = 2  # Count SOS and EOS
+        self.enc = tiktoken.get_encoding("cl100k_base")
+        self.dec = tiktoken.get_decoding("cl100k_base")
+        self.n_words = self.enc.vocab_size
 
-    def addSentence(self, sentence):
-        for word in sentence.split(' '):
-            self.addWord(word)
-
-    def addWord(self, word):
-        if word not in self.word2index:
-            self.word2index[word] = self.n_words
-            self.word2count[word] = 1
-            self.index2word[self.n_words] = word
-            self.n_words += 1
-        else:
-            self.word2count[word] += 1
-
-def indexesFromSentence(input, sentence):
-    return [input.word2index[word] for word in sentence.split(' ')]
-
-def tensorFromSentence(input, sentence, device):
-    indexes = indexesFromSentence(input, sentence)
-    indexes.append(EOS_token)
-    return torch.tensor(indexes, dtype=torch.long, device=device).view(1, -1)
-
-def tensorsFromPair(pair, input, output):
-    input_tensor = tensorFromSentence(input, pair[0])
-    target_tensor = tensorFromSentence(output, pair[1])
-    return (input_tensor, target_tensor)
-
+    def tokenize(self, sentence):
+        return self.enc.encode(sentence)
+    
+    def detokenize(self, tokens):
+        return self.dec.decode(tokens)
+    
+    def tensorFromSentence(self, sentence, device):
+        indexes = self.tokenize(sentence)
+        indexes.append(EOS_token)
+        return torch.tensor(indexes, dtype=torch.long, device=device).view(1, -1)
+    
+    def tensorsFromPair(self, pair):
+        input_tensor = self.tensorFromSentence(pair[0])
+        target_tensor = self.tensorFromSentence(pair[1])
+        return (input_tensor, target_tensor)
+    
+    def indexesFromSentence(self, sentence):
+        return self.tokenize(sentence)
+    
 
 def unicodeToAscii(s):
     return ''.join(
