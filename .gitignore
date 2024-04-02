@@ -3,6 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#Ignore data/literature files and directories
+data/literature/
+data/literature/*
+
+#Ignore data/notes files and directories
+data/notes/
+data/notes/*
+
+
+
 # C extensions
 *.so
 

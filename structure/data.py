@@ -12,9 +12,9 @@ class NotesDataset(Dataset):
         self.loadTest = loadTest
         self.data = []
 
-        directory = os.path.join('data//', folder)
+        directory = os.path.join('data/', folder)
         for filename in os.listdir(directory):
-            f = os.path.join(directory + "//", filename)
+            f = os.path.join(directory + "/", filename)
             # checking if it is a file
             if os.path.isfile(f):
                 self.data.append(f)
