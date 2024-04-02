@@ -6,8 +6,7 @@ import torch
 import torch.nn as nn
 from torch import optim
 import time
-import math
-
+from utils import timeSince
 from model import *
 from utils import tensorFromSentence, indexesFromSentence
 
@@ -39,18 +38,6 @@ def train_epoch(dataloader, encoder, decoder, encoder_optimizer,
         total_loss += loss.item()
 
     return total_loss / len(dataloader)
-
-def asMinutes(s):
-    m = math.floor(s / 60)
-    s -= m * 60
-    return '%dm %ds' % (m, s)
-
-def timeSince(since, percent):
-    now = time.time()
-    s = now - since
-    es = s / (percent)
-    rs = es - s
-    return '%s (- %s)' % (asMinutes(s), asMinutes(rs))
 
 
 def train(train_dataloader, encoder, decoder, n_epochs, learning_rate=0.001,

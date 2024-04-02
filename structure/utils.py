@@ -4,11 +4,11 @@ import torch
 
 from model import EOS_token
 from model import SOS_token
+import unicodedata
 
 
 class Tokenize:
-    def __init__(self, name):
-        self.name = name
+    def __init__(self):
         self.word2index = {}
         self.word2count = {}
         self.index2word = {0: "SOS", 1: "EOS"}
@@ -39,3 +39,10 @@ def tensorsFromPair(pair, input, output):
     input_tensor = tensorFromSentence(input, pair[0])
     target_tensor = tensorFromSentence(output, pair[1])
     return (input_tensor, target_tensor)
+
+
+def unicodeToAscii(s):
+    return ''.join(
+        c for c in unicodedata.normalize('NFD', s)
+        if unicodedata.category(c) != 'Mn'
+    )

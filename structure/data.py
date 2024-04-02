@@ -3,6 +3,7 @@ from io import open
 import os
 import torch.nn.functional as F
 from torch.utils.data import Dataset
+import utils
 
 
 class NotesDataset(Dataset):
@@ -23,8 +24,12 @@ class NotesDataset(Dataset):
         return len(self.data)
     
     def __getitem__(self, idx):
-        with open(self.data[idx], 'r') as file:
-            input = file.read()
+        with open(self.data[idx], 'r', encoding="utf_8") as file:
+            #Read in as utf-8
+            input = file.read().strip()
         
             target = self.data.split("/")[-1].split(".")[0]
+            input = utils.unicodeToAscii(input)
+            target = utils.unicodeToAscii(target)
+
             return input, target
