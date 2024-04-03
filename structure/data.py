@@ -31,16 +31,6 @@ class NotesDataset(Dataset):
                 tokenized_input = tokenizer.tokenize(utils.unicodeToAscii(input))
                 self.input_list.append(tokenized_input)
 
-                #TODO Change the target to be the next word in the sequence or a paraphrase of the input
-                # target = filename.split("/")[-1].split(".")[0]
-                # tokenized_target = tokenizer.tokenize(utils.unicodeToAscii(target))
-                # self.name_list.append(tokenized_target)
-
-                #TODO Change the target to be the next word in the sequence
-
-
-
-                
 
     def __len__(self):
         return len(self.data_list)
@@ -52,48 +42,23 @@ class NotesDataset(Dataset):
 
         #Target is the next word in the sequence 
         input = self.input_list[idx]
-        # Inpout must be split into chunks of CONTEXT_LENGTH, so we can predict the next word in the sequence
-        input_tensor_document = torch.tensor(input, dtype=torch.long)
+        # Input must be split into overlapping chunks of CONTEXT_LENGTH, so we can predict the next word in the sequence
+        
+        input_tensor_list = []
+        target_tensor_list = []
+        for i in range(0, len(input)-CONTEXT_LENGTH):
+            #Get the input tensor
+            input_tensor = torch.tensor(input[i:i+CONTEXT_LENGTH], dtype=torch.long)
+            #Get the target tensor
+            target_tensor = torch.tensor(input[i+1:i+CONTEXT_LENGTH+1], dtype=torch.long)
 
-        # Grab the target tensor from the input tensor by shifting the input tensor by one
-        target_tensor = input_tensor_document.clone()
-        target_tensor = target_tensor[1:]
+            input_tensor_list.append(input_tensor)
+            target_tensor_list.append(target_tensor)
 
-        #input is currently a whole document, we need to split it into chunks of CONTEXT_LENGTH
+            
 
-        # Split the input tensor into chunks of CONTEXT_LENGTH
-        input_tensor = torch.split(input_tensor_document, CONTEXT_LENGTH)
-        #turn the chunks into a list
-        input_tensor = list(input_tensor)
-        #Check the shape
-        # print(input_tensor[0].shape, "input_tensor[0].shape")
-        #fill the last chunk with zeros if it is less than CONTEXT_LENGTH
-        if len(input_tensor[-1]) < CONTEXT_LENGTH:
-            input_tensor[-1] = F.pad(input_tensor[-1], (0, CONTEXT_LENGTH - len(input_tensor[-1])), "constant", 0)
-
-        # Split the target tensor into chunks of CONTEXT_LENGTH
-        target_tensor = torch.split(target_tensor, CONTEXT_LENGTH)
-
-        #turn the chunks into a list
-        target_tensor = list(target_tensor)
-
-        #fill the last chunk with zeros if it is less than CONTEXT_LENGTH
-        if len(target_tensor[-1]) < CONTEXT_LENGTH:
-            target_tensor[-1] = F.pad(target_tensor[-1], (0, CONTEXT_LENGTH - len(target_tensor[-1])), "constant", 0)
-
-
-        #Check the shape
-        # print(target_tensor[0].shape, "target_tensor[0].shape")
-
-        #Stack the input and target tensors
-        # print(input_tensor[0].shape, "input_tensor[0].shape")
-        # print(len(input_tensor), "len(input_tensor)")
-
-        #input tensor is a list of tensors, each tensor is of shape (1, CONTEXT_LENGTH)
-        # We stack the tensors to create a 2D tensor of shape (batch_size, CONTEXT_LENGTH) 
-        input_tensor = torch.stack(input_tensor, dim=0)
-        target_tensor = torch.stack(target_tensor, dim=0)
-
-        # print(input_tensor.shape, "input_tensor.shape")
+        #Stack the tensors ontop of each other
+        input_tensor = torch.stack(input_tensor_list)
+        target_tensor = torch.stack(target_tensor_list)
 
         return input_tensor, target_tensor

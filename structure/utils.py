@@ -16,7 +16,7 @@ class BytePairTokenizer:
         self.n_words = self.enc.n_vocab
 
     def tokenize(self, sentence):
-        return self.enc.encode(sentence)
+        return self.enc.encode(sentence, allowed_special="all")
     
     def detokenize(self, tokens):
         return self.enc.decode(tokens)

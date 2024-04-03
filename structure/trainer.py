@@ -26,7 +26,7 @@ def train_epoch(dataloader, encoder, decoder, encoder_optimizer,
         #change shape
         target_tensor = target_tensor.view(-1, CONTEXT_LENGTH)
         #check shape
-        # print(input_tensor.shape, "input shape")
+        print(input_tensor.shape, "input shape")
 
         encoder_optimizer.zero_grad()
         decoder_optimizer.zero_grad()
@@ -73,16 +73,10 @@ def train(train_dataloader, encoder, decoder, n_epochs, learning_rate=0.001,
             print_loss_total = 0
             print('%s (%d %d%%) %.4f' % (timeSince(start, epoch / n_epochs),
                                         epoch, epoch / n_epochs * 100, print_loss_avg))
-            # Save the model
-            torch.save(encoder.state_dict(), 'encoder.pth')
-            torch.save(decoder.state_dict(), 'decoder.pth')
-
-        if epoch % plot_every == 0:
-            plot_loss_avg = plot_loss_total / plot_every
-            plot_losses.append(plot_loss_avg)
-            plot_loss_total = 0
-
-
+            # Save the model to saved_models folder
+            torch.save(encoder, 'saved_models/encoder_epoch_'+ str(epoch) +'.pth')
+            torch.save(decoder, 'saved_models/decoder_epoch_'+ str(epoch) +'.pth')
+            
 def evaluate(encoder, decoder, sentence, input_lang, output_lang):
     with torch.no_grad():
         tokenizer = BytePairTokenizer()
