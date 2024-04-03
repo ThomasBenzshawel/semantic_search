@@ -9,15 +9,14 @@ import torch
 
 
 class NotesDataset(Dataset):
-    def __init__(self, folder, loadTest=False):
+    def __init__(self, directory, loadTest=False):
     # Iterate through the data in the data folder with the folder name specified
-        self.folder = folder
         self.loadTest = loadTest
         self.data_list = []
         # self.name_list = []
         self.input_list = []
 
-        directory = os.path.join('data/', folder)
+        
         for filename in os.listdir(directory):
             f = os.path.join(directory + "/", filename)
             # checking if it is a file
