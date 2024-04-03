@@ -1,9 +1,9 @@
 from trainer import train
 import torch
-import torch.nn as nn
 import os
 from data import NotesDataset
-from model import EncoderRNN, DecoderRNN
+from model import EncoderTransformer, DecoderTransformer
+import utils
 
 if __name__ == "__main__":
 
@@ -17,17 +17,18 @@ if __name__ == "__main__":
         os.makedirs(folder)
 
     dataset = NotesDataset("literature", loadTest=False)
-    dataloader = torch.utils.data.DataLoader(dataset, batch_size=16, shuffle=True, num_workers=2)
+    dataloader = torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=True, num_workers=0)
 
     # Define the model
-    input_size = 100
-    hidden_size = 100
-    output_size = 100
-
+    
+    embedding_size = 256
+    num_heads = 8
+    tokenizer = utils.BytePairTokenizer()
+    vocab_size = tokenizer.n_words
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    encoder = EncoderRNN(input_size, hidden_size).to(device)
-    decoder = DecoderRNN(hidden_size, output_size).to(device)
+    encoder = EncoderTransformer(vocab_size, embedding_size, num_heads, context_length=1024).to(device)
+    decoder = DecoderTransformer(vocab_size, embedding_size, num_heads).to(device)
 
     # Train the model
     n_epochs = 100

@@ -1,33 +1,45 @@
 from __future__ import unicode_literals, print_function, division
-from io import open
 import random
-
 import torch
 import torch.nn as nn
 from torch import optim
 import time
-from utils import timeSince
 from model import *
-from utils import tensorFromSentence, indexesFromSentence
+from utils import *
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
 def train_epoch(dataloader, encoder, decoder, encoder_optimizer,
           decoder_optimizer, criterion):
+    
+    tokenizer = BytePairTokenizer()
+    vocab_size = tokenizer.n_words
 
     total_loss = 0
     for data in dataloader:
-        input_tensor, target_tensor = data
+        
+        input_tensor = data[0].to(device)
+        #chagnge shape
+        input_tensor = input_tensor.view(-1, CONTEXT_LENGTH)
+        target_tensor = data[1].to(device)
+        #change shape
+        target_tensor = target_tensor.view(-1, CONTEXT_LENGTH)
+        #check shape
+        # print(input_tensor.shape, "input shape")
 
         encoder_optimizer.zero_grad()
         decoder_optimizer.zero_grad()
 
-        encoder_outputs, encoder_hidden = encoder(input_tensor)
-        decoder_outputs, _, _ = decoder(encoder_outputs, encoder_hidden, target_tensor)
+        encoder_outputs = encoder(input_tensor)
+        decoder_outputs = decoder(encoder_outputs, target_tensor)
+
+        #check shape
+        # print(decoder_outputs.shape, "decoder shape")
+        # print(target_tensor.view(-1))
 
         loss = criterion(
-            decoder_outputs.view(-1, decoder_outputs.size(-1)),
+            decoder_outputs.view(-1, vocab_size),
             target_tensor.view(-1)
         )
         loss.backward()
@@ -73,7 +85,8 @@ def train(train_dataloader, encoder, decoder, n_epochs, learning_rate=0.001,
 
 def evaluate(encoder, decoder, sentence, input_lang, output_lang):
     with torch.no_grad():
-        input_tensor = tensorFromSentence(input_lang, sentence)
+        tokenizer = BytePairTokenizer()
+        input_tensor = tokenizer.tensorFromSentence(input_lang, sentence)
 
         encoder_outputs, encoder_hidden = encoder(input_tensor)
         decoder_outputs, decoder_hidden, decoder_attn = decoder(encoder_outputs, encoder_hidden)
