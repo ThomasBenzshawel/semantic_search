@@ -1,14 +1,21 @@
 import torch
 
-# Load the saved model
-model = torch.load('path/to/saved/model.pth')
 
-# Set the model to evaluation mode
-model.eval()
+def predict(input_data):
+    
+    # Load the saved model
+    model = torch.load('path/to/saved/model.pth')
 
-# Disable gradient computation
-with torch.no_grad():
-    # Prepare your input data
-    input_data = "The quick brown fox jumps over the lazy dog"
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    output = model(input_data)
+    # Move the model to the device
+    model.to(device)
+
+    # Set the model to evaluation mode
+    model.eval()
+
+    # Disable gradient computation
+    with torch.no_grad():
+        output = model(input_data)
+    
+    return output

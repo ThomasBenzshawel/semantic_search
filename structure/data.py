@@ -46,16 +46,28 @@ class NotesDataset(Dataset):
         
         input_tensor_list = []
         target_tensor_list = []
+
+        #if the input is less than the context length, we can't  iterate over it, so we grab it and then pad it with zeros to the context length
+        if len(input) < CONTEXT_LENGTH:
+            input_tensor = torch.tensor(input, dtype=torch.long)
+            #Shift the target tensor by one
+            target_tensor = torch.tensor(input[1:], dtype=torch.long)
+            #pad the input and target tensors
+            input_tensor = F.pad(input_tensor, (0, CONTEXT_LENGTH - len(input)), value=0)
+            target_tensor = F.pad(target_tensor, (0, CONTEXT_LENGTH - len(input)), value=0)
+
         for i in range(0, len(input)-CONTEXT_LENGTH):
             #Get the input tensor
             input_tensor = torch.tensor(input[i:i+CONTEXT_LENGTH], dtype=torch.long)
             #Get the target tensor
             target_tensor = torch.tensor(input[i+1:i+CONTEXT_LENGTH+1], dtype=torch.long)
 
+
+
             input_tensor_list.append(input_tensor)
             target_tensor_list.append(target_tensor)
 
-            
+
 
         #Stack the tensors ontop of each other
         input_tensor = torch.stack(input_tensor_list)

@@ -17,7 +17,7 @@ if __name__ == "__main__":
         os.makedirs(folder)
 
     dataset = NotesDataset("literature", loadTest=False)
-    dataloader = torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=True, num_workers=0)
+    dataloader = torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=True, num_workers=1)
 
     # Define the model
     
