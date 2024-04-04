@@ -68,9 +68,10 @@ class NotesDataset(Dataset):
                 #Get the target tensor
                 target_tensor = torch.tensor(input[i+1:i+CONTEXT_LENGTH + 1], dtype=torch.long)
 
-                # if input_tensor.shape[0] > CONTEXT_LENGTH:
-                #     #slice up to the context length
-                #     input_tensor = input_tensor[:, :CONTEXT_LENGTH]
+                #if the tensor is size 513, we need to remove the last element
+                if input_tensor.shape[0] == CONTEXT_LENGTH + 1:
+                    input_tensor = input_tensor[:-1]
+                    target_tensor = target_tensor[:-1]
 
                 
                 input_tensor_list.append(input_tensor)
