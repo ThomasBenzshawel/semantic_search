@@ -5,11 +5,11 @@ import math
 import unicodedata
 import tiktoken
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
 SOS_token = 0
 EOS_token = 1
 CONTEXT_LENGTH = 512
-
-# Use byte pair encoding instead of one hot encoding
 class BytePairTokenizer:
     def __init__(self, embedding_size=256):
         self.enc = tiktoken.get_encoding("cl100k_base")

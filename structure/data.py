@@ -54,14 +54,20 @@ class NotesDataset(Dataset):
             #pad the input and target tensors
             input_tensor = F.pad(input_tensor, (0, CONTEXT_LENGTH - len(input)), value=0)
             #since the target tensor is shifted by one, we need to pad it with one less than the context length
-            target_tensor = F.pad(target_tensor, (0, CONTEXT_LENGTH - len(input) - 1), value=0)
+            target_tensor = F.pad(target_tensor, (0, CONTEXT_LENGTH - len(input)+1), value=0)
             
 
-        for i in range(0, len(input)-CONTEXT_LENGTH):
+        # if the input is greater than the context length, we can iterate over it
+        # How do we fix an error where we randomly get a tensor of -1, 513.
+        for i in range(len(input) - CONTEXT_LENGTH):
             #Get the input tensor
             input_tensor = torch.tensor(input[i:i+CONTEXT_LENGTH], dtype=torch.long)
             #Get the target tensor
             target_tensor = torch.tensor(input[i+1:i+CONTEXT_LENGTH+1], dtype=torch.long)
+
+            #Fixing target tensor length is 513
+            if len(target_tensor) > CONTEXT_LENGTH:
+                target_tensor = target_tensor[:CONTEXT_LENGTH]
 
 
 
