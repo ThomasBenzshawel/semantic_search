@@ -109,6 +109,7 @@ class DecoderTransformer(nn.Module):
         self.dropout = nn.Dropout(0.1)
         transformer = nn.TransformerDecoderLayer(d_model=hidden_size, nhead=num_heads, batch_first=True)
         self.transformer_decoder = nn.TransformerDecoder(transformer, num_layers=6)
+        self.layernorm = nn.LayerNorm(hidden_size)
         self.out = nn.Linear(hidden_size, vocab_size)
 
 
@@ -116,6 +117,7 @@ class DecoderTransformer(nn.Module):
         target = self.embedding(target_tensor)
         target = self.pos_encoder(target)
         decooded_output = self.transformer_decoder(target, encoded_memory)
+        decoder_output = self.layernorm(decooded_output)
         decoder_output = self.out(decooded_output)
         return decoder_output
 

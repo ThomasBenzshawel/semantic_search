@@ -31,18 +31,18 @@ def train_epoch(dataloader, encoder, decoder, encoder_optimizer,
         encoder_optimizer.zero_grad()
         decoder_optimizer.zero_grad()
 
-        encoder_outputs = encoder(input_tensor)
-        decoder_outputs = decoder(encoder_outputs, target_tensor)
+        #since we cannot use batching, take the first element of the input tensor for each item in the batch
 
-        #check shape
-        # print(decoder_outputs.shape, "decoder shape")
-        # print(target_tensor.view(-1))
+        for i in range(input_tensor.shape[0]):
+            encoder_outputs = encoder(input_tensor[i])
+            decoder_outputs = decoder(encoder_outputs, target_tensor[i])
 
-        loss = criterion(
-            decoder_outputs.view(-1, vocab_size),
-            target_tensor.view(-1)
-        )
-        loss.backward()
+            #use decoder output to predict the next word, output shape is (vocab_size) and target shape is (1)
+            #find the next word by finding the max value in the output
+            _, decoder_outp = decoder_outputs.topk(1)
+            decoder_outp = decoder_outp.squeeze()
+            loss = criterion(decoder_outp, target_tensor[i])
+            loss.backward()
 
         encoder_optimizer.step()
         decoder_optimizer.step()

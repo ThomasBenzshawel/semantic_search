@@ -53,7 +53,7 @@ class NotesDataset(Dataset):
             target_tensor = torch.tensor(input[1:], dtype=torch.long)
             #pad the input and target tensors
             input_tensor = F.pad(input_tensor, (0, CONTEXT_LENGTH - len(input)), value=0)
-            target_tensor = F.pad(target_tensor, (0, CONTEXT_LENGTH - len(input)), value=0)
+            target_tensor = F.pad(target_tensor, (0, (CONTEXT_LENGTH - len(input))+1), value=0)
 
         for i in range(0, len(input)-CONTEXT_LENGTH):
             #Get the input tensor
