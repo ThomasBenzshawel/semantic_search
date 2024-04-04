@@ -24,9 +24,6 @@ def train_epoch(dataloader, encoder, decoder, encoder_optimizer,
         input_tensor = input_tensor.view(-1, CONTEXT_LENGTH)
         target_tensor = data[1].to(device)
         #change shape
-        # Had an error here, ensure that the target tensor is reshaped to (batch_size, CONTEXT_LENGTH)
-        # Delete everythin after context length if the tensor is longer than context length
-        target_tensor = target_tensor[:, :CONTEXT_LENGTH]
         target_tensor = target_tensor.view(-1, CONTEXT_LENGTH)
         #check shape
         print(input_tensor.shape, "input shape")
