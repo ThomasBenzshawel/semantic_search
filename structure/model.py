@@ -65,13 +65,13 @@ class DecoderTransformer(nn.Module):
 
     def forward(self, encoded_memory, target_tensor=None):
         target = self.embedding(target_tensor)
-#         print(target.shape, "SHOULD BE 2D FIRST")
+        print(target.shape, "SHOULD BE 2D FIRST")
         target = self.pos_encoder(target)
-#         print(target.shape, "SHOULD BE 2D SECOND")
+        print(target.shape, "SHOULD BE 2D SECOND")
         decoded_output = self.transformer_decoder(target, encoded_memory)
 #         print(decoded_output.shape)
         decoder_output = self.layernorm(decoded_output)
-#         print(decoded_output.shape, "SHOULD BE 2D LAST")
+        print(decoded_output.shape, "SHOULD BE 2D LAST")
         decoder_output = self.out(decoded_output)
         return decoder_output
 
