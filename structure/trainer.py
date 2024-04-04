@@ -30,6 +30,7 @@ def train_epoch(dataloader, encoder, decoder, encoder_optimizer,
         target_tensor = target_tensor.view(-1, CONTEXT_LENGTH)
         #check shape
         print(input_tensor.shape, "input shape")
+        print(target_tensor.shape, "target shape")
 
         encoder_optimizer.zero_grad()
         decoder_optimizer.zero_grad()
