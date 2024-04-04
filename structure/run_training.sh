@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name="UNet_Lower_LR"
+#SBATCH --job-name="Transformer"
 #SBATCH --output=job_%j.out
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=benzshawelt@msoe.edu
