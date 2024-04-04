@@ -40,11 +40,7 @@ def train_epoch(dataloader, encoder, decoder, encoder_optimizer,
             encoder_outputs = encoder(input_tensor[i])
             decoder_outputs = decoder(encoder_outputs, target_tensor[i])
 
-            #use decoder output to predict the next word, output shape is (vocab_size) and target shape is (1)
-            #find the next word by finding the max value in the output
-            _, decoder_outp = decoder_outputs.topk(1)
-            decoder_outp = decoder_outp.squeeze()
-            loss = criterion(decoder_outp, target_tensor[i])
+            loss = criterion(target_tensor, decoder_outputs)
             loss.backward()
 
         encoder_optimizer.step()
