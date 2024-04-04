@@ -54,7 +54,7 @@ class NotesDataset(Dataset):
             #pad the input and target tensors
             input_tensor = F.pad(input_tensor, (0, CONTEXT_LENGTH - len(input)), value=0)
             #since the target tensor is shifted by one, we need to pad it with one less than the context length
-            target_tensor = F.pad(target_tensor, (0, CONTEXT_LENGTH - len(input)), value=0)
+            target_tensor = F.pad(target_tensor, (0, CONTEXT_LENGTH - len(input) + 1), value=0)
 
             input_tensor_list.append(input_tensor)
             target_tensor_list.append(target_tensor)
@@ -72,6 +72,10 @@ class NotesDataset(Dataset):
                 if input_tensor.shape[0] == CONTEXT_LENGTH + 1:
                     input_tensor = input_tensor[:-1]
                     target_tensor = target_tensor[:-1]
+
+                input_tensor = F.pad(input_tensor, (0, CONTEXT_LENGTH - len(input_tensor)), value=0)
+                #since the target tensor is shifted by one, we need to pad it with one less than the context length
+                target_tensor = F.pad(target_tensor, (0, CONTEXT_LENGTH - len(target_tensor) + 1), value=0)
 
                 
                 input_tensor_list.append(input_tensor)
