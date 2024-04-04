@@ -56,19 +56,18 @@ class NotesDataset(Dataset):
             #since the target tensor is shifted by one, we need to pad it with one less than the context length
             target_tensor = F.pad(target_tensor, (0, CONTEXT_LENGTH - len(input)+1), value=0)
             
-
-        # if the input is greater than the context length, we can iterate over it
-        # How do we fix an error where we randomly get a tensor of -1, 513.
+        #iterate over for overlapping chunks of CONTEXT_LENGTH
         for i in range(len(input) - CONTEXT_LENGTH):
             #Get the input tensor
             input_tensor = torch.tensor(input[i:i+CONTEXT_LENGTH], dtype=torch.long)
             #Get the target tensor
             target_tensor = torch.tensor(input[i+1:i+CONTEXT_LENGTH+1], dtype=torch.long)
 
-            #Fixing target tensor length is 513
+            #Fixing tnensors being longer than context length
             if len(target_tensor) > CONTEXT_LENGTH:
-                target_tensor = target_tensor[:CONTEXT_LENGTH]
-
+                target_tensor = target_tensor[0:CONTEXT_LENGTH]
+            if len(input_tensor) > CONTEXT_LENGTH:
+                input_tensor = input_tensor[0:CONTEXT_LENGTH]
 
 
             input_tensor_list.append(input_tensor)
