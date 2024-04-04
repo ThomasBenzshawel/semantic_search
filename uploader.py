@@ -2,6 +2,8 @@ import pymongo
 import os
 import time
 import certifi
+import inference
+import torch
 
 ca = certifi.where()
 
@@ -13,24 +15,45 @@ data_will_pc_path = 'C:\\Users\\wgaty\\Documents\\School\\Spring 23-24\\NLP\\Ter
 db = client['corpus']
 collection = db['sparknotes_lit']
 
+# for filename in os.listdir(data_will_pc_path):
+#     path = os.path.join(data_will_pc_path, filename)
+#     f = open(path, 'r', encoding='utf-8', errors='ignore')
+#     fname_split = ''.join(filename.split('.')[:-1]).split("__")[1:]
+#     if fname_split[-1] == '':
+#         fname_split = fname_split[:-1]
+#     topic = fname_split[0]
+#     title = fname_split[1]
+#     section = "NA"
+#     if len(fname_split) >= 3:
+#         section = fname_split[2]
+#     subsection = "NA"
+#     if len(fname_split) >= 4:
+#         subsection = fname_split[3]
+#     doc = {"filename": filename, "title": title, "section": section, "subsection": subsection, "text": f.read()}
+#     #doc = {"filename": filename, "topic": topic, "title": title, "section": section, "subsection": subsection, "text": f.read()} #totally forgot to add the topic field on the first runthrough... oops
+#     collection.insert_one(doc)
+#     print(filename)
+#     time.sleep(0.03)
+
 for filename in os.listdir(data_will_pc_path):
     path = os.path.join(data_will_pc_path, filename)
     f = open(path, 'r', encoding='utf-8', errors='ignore')
-    fname_split = ''.join(filename.split('.')[:-1]).split("__")[1:]
-    if fname_split[-1] == '':
-        fname_split = fname_split[:-1]
-    topic = fname_split[0]
-    title = fname_split[1]
-    section = "NA"
-    if len(fname_split) >= 3:
-        section = fname_split[2]
-    subsection = "NA"
-    if len(fname_split) >= 4:
-        subsection = fname_split[3]
-    doc = {"filename": filename, "title": title, "section": section, "subsection": subsection, "text": f.read()}
+    # fname_split = ''.join(filename.split('.')[:-1]).split("__")[1:]
+    # if fname_split[-1] == '':
+    #     fname_split = fname_split[:-1]
+    # topic = fname_split[0]
+    # title = fname_split[1]
+    # section = "NA"
+    # if len(fname_split) >= 3:
+    #     section = fname_split[2]
+    # subsection = "NA"
+    # if len(fname_split) >= 4:
+    #     subsection = fname_split[3]
+    # doc = {"filename": filename, "title": title, "section": section, "subsection": subsection, "text": f.read()}
     #doc = {"filename": filename, "topic": topic, "title": title, "section": section, "subsection": subsection, "text": f.read()} #totally forgot to add the topic field on the first runthrough... oops
-    collection.insert_one(doc)
-    print(filename)
+    vectorized_doc = inference.vectorize_document(f.read())
+    collection.find_one_and_update({"filename": filename}, {'$set': {"vector": vectorized_doc}})
+    print(filename, vectorized_doc)
     time.sleep(0.03)
 
 

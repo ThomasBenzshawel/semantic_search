@@ -4,7 +4,8 @@ from flask_socketio import SocketIO, emit
 import socketio
 import pymongo
 import sys
-from structure import inference
+# from structure import inference
+import inference
 #import Thing from '../structure/model.py'
 
 app = Flask(__name__)
@@ -44,7 +45,7 @@ def return_output_text():
     if user_input is not None:
         result_vector = inference.predict(user_input)
     result = db_search_query(result_vector)
-    json = {}
+    json = {"resultTitle": result['title'], "resultText": result['']}
     json['resultText'] = result
     return json
 

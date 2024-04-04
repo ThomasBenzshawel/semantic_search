@@ -16,7 +16,10 @@ if __name__ == "__main__":
     if not os.path.exists(folder):
         os.makedirs(folder)
 
-    dataset = NotesDataset("literature", loadTest=False)
+    # Load the dataset 
+    # Path to the dataset
+    path = "data/literature"
+    dataset = NotesDataset(path, loadTest=False)
     dataloader = torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=True, num_workers=1)
 
     # Define the model

@@ -7,7 +7,7 @@ import tiktoken
 
 SOS_token = 0
 EOS_token = 1
-CONTEXT_LENGTH = 1024
+CONTEXT_LENGTH = 512
 
 # Use byte pair encoding instead of one hot encoding
 class BytePairTokenizer:
