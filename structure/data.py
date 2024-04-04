@@ -54,7 +54,7 @@ class NotesDataset(Dataset):
             #pad the input and target tensors
             input_tensor = F.pad(input_tensor, (0, CONTEXT_LENGTH - len(input)), value=0)
             #since the target tensor is shifted by one, we need to pad it with one less than the context length
-            target_tensor = F.pad(target_tensor, (0, CONTEXT_LENGTH - len(input)+1), value=0)
+            target_tensor = F.pad(target_tensor, (0, CONTEXT_LENGTH - len(input)), value=0)
 
             input_tensor_list.append(input_tensor)
             target_tensor_list.append(target_tensor)
@@ -66,7 +66,7 @@ class NotesDataset(Dataset):
                 #Get the input tensor
                 input_tensor = torch.tensor(input[i:i+CONTEXT_LENGTH], dtype=torch.long)
                 #Get the target tensor
-                target_tensor = torch.tensor(input[i+1:i+CONTEXT_LENGTH+1], dtype=torch.long)
+                target_tensor = torch.tensor(input[i+1:i+CONTEXT_LENGTH], dtype=torch.long)
                 
                 input_tensor_list.append(input_tensor)
                 target_tensor_list.append(target_tensor)
