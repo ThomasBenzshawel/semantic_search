@@ -24,23 +24,28 @@ def train_epoch(dataloader, encoder, decoder, encoder_optimizer,
         input_tensor = input_tensor.view(-1, CONTEXT_LENGTH)
         target_tensor = data[1].to(device)
         #change shape
+        # Had an error here, ensure that the target tensor is reshaped to (batch_size, CONTEXT_LENGTH)
+        # Delete everythin after context length if the tensor is longer than context length
+        target_tensor = target_tensor[:, :CONTEXT_LENGTH]
         target_tensor = target_tensor.view(-1, CONTEXT_LENGTH)
         #check shape
-        # print(input_tensor.shape, "input shape")
-        # print(target_tensor.shape, "target shape")
+        print(input_tensor.shape, "input shape")
 
         encoder_optimizer.zero_grad()
         decoder_optimizer.zero_grad()
 
-        #Using batching
-        encoder_outputs = encoder(input_tensor)
-        decoder_outputs = decoder(encoder_outputs, target_tensor)
+        #since we cannot use batching, take the first element of the input tensor for each item in the batch
 
-        loss = criterion(
-            decoder_outputs.view(-1, vocab_size),
-            target_tensor.view(-1)
-        )
-        loss.backward()
+        for i in range(input_tensor.shape[0]):
+            encoder_outputs = encoder(input_tensor[i])
+            decoder_outputs = decoder(encoder_outputs, target_tensor[i])
+
+            #use decoder output to predict the next word, output shape is (vocab_size) and target shape is (1)
+            #find the next word by finding the max value in the output
+            _, decoder_outp = decoder_outputs.topk(1)
+            decoder_outp = decoder_outp.squeeze()
+            loss = criterion(decoder_outp, target_tensor[i])
+            loss.backward()
 
         encoder_optimizer.step()
         decoder_optimizer.step()
