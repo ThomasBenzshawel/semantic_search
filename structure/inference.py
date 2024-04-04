@@ -1,4 +1,5 @@
 import torch
+import torch.nn.functional as F
 import utils
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -20,7 +21,9 @@ def predict(input_data):
         input_data = torch.tensor(input_data, dtype=torch.long)
         input_data = input_data.to(device)
         output = model(input_data)
-    
+
+    #model output needs to be a 1 x embedding size tensor
+    output = output.mean(dim=0)
     return output
 
 
@@ -43,21 +46,28 @@ def vectorize_document(document):
         input_data = tokenizer.tokenize(utils.unicodeToAscii(document))
     
         tensor_list = []
-        for i in range(0, len(document), utils.CONTEXT_LENGTH):
-            input = tokenizer.tokenize(utils.unicodeToAscii(document[i:i+utils.CONTEXT_LENGTH]))
+        for i in range(0, len(input_data), utils.CONTEXT_LENGTH):
+            input = input_data[i:i+utils.CONTEXT_LENGTH]
             input_tensor = torch.tensor(input, dtype=torch.long)
             input_tensor = input_tensor.to(device)
             model_output = model(input_tensor)
+
+            #model output needs to be a 1 x embedding size tensor
+            #Average the output of the model
+            model_output = model_output.mean(dim=0)
+
             tensor_list.append(model_output)
     
         #take the item by item average of the tensor list
-        input_tensor = torch.stack(tensor_list).mean(dim=0)
-        return input_tensor
+        model_output = torch.stack(tensor_list).mean(dim=0)
+
+        #model output needs to be a 1 x embedding size tensor
+        return model_output
     
 if __name__ == "__main__":
     input_data = "This is a test document."
     output = predict(input_data)
     print(output)
-    document = "This is a test document. This is a test document. This is a test document."
+    document = "This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. and so on and more text. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. and so on and more text. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. and so on and more text. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. and so on and more text. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. and so on and more text. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. and so on and more text. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. and so on and more text. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. and so on and more text. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. and so on and more text. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. This is a test document. This is a test document. This is a test document. We need to make this super long to test the model. So we will keep adding more text to this document. and so on and more text."
     input_tensor = vectorize_document(document)
     print(input_tensor)

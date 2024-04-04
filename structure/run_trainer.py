@@ -30,7 +30,7 @@ if __name__ == "__main__":
     vocab_size = tokenizer.n_words
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    encoder = EncoderTransformer(vocab_size, embedding_size, num_heads, context_length=1024).to(device)
+    encoder = EncoderTransformer(vocab_size, embedding_size, num_heads, context_length=512).to(device)
     decoder = DecoderTransformer(vocab_size, embedding_size, num_heads).to(device)
 
     # Train the model
