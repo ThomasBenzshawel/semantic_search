@@ -40,7 +40,14 @@ def train_epoch(dataloader, encoder, decoder, encoder_optimizer,
             encoder_outputs = encoder(input_tensor[i])
             decoder_outputs = decoder(encoder_outputs, target_tensor[i])
 
-            loss = criterion(target_tensor, decoder_outputs)
+            #check shape
+#             print(decoder_outputs.shape, "decoder shape")
+#             print(target_tensor[i].view(-1))
+
+            loss = criterion(
+                decoder_outputs.view(-1, vocab_size),
+                target_tensor[i].view(-1)
+            )
             loss.backward()
 
         encoder_optimizer.step()
