@@ -66,7 +66,12 @@ class NotesDataset(Dataset):
                 #Get the input tensor
                 input_tensor = torch.tensor(input[i:i+CONTEXT_LENGTH], dtype=torch.long)
                 #Get the target tensor
-                target_tensor = torch.tensor(input[i+1:i+CONTEXT_LENGTH], dtype=torch.long)
+                target_tensor = torch.tensor(input[i+1:i+CONTEXT_LENGTH + 1], dtype=torch.long)
+
+                if input_tensor.shape[1] > CONTEXT_LENGTH:
+                    #slice up to the context length
+                    input_tensor = input_tensor[:, :CONTEXT_LENGTH]
+
                 
                 input_tensor_list.append(input_tensor)
                 target_tensor_list.append(target_tensor)
