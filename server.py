@@ -1,6 +1,6 @@
-from flask import Flask, Response, request, send_file
+from flask import Flask, Response, request, send_file, jsonify
 from flask_socketio import SocketIO, emit
-# from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 import socketio
 import pymongo
 import sys
@@ -9,52 +9,62 @@ import inference
 #import Thing from '../structure/model.py'
 
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 sio = socketio.Client()
 
 socket_io = SocketIO(app, cors_allowed_origins="*", logger=True)
 socket_io.init_app(app, cors_allowed_origins="*")
 
-uri = 'mongodb+srv://gatywill:74hk0kkbMDhSAY1Y@vectors.bigshoc.mongodb.net/?retryWrites=true&w=majority&appName=Vectors'
+uri = 'mongodb+srv://gatywill:Z86Qe7qi5qkR1dbd@vectors.bigshoc.mongodb.net/?retryWrites=true&w=majority&appName=Vectors'
 client = pymongo.MongoClient(uri, server_api=pymongo.server_api.ServerApi('1'))
 db = client['corpus']
 collection = db['sparknotes_lit']
 
-user_input = None
+USER_TEXT = ""
 
 @app.route('/user_input', methods=['POST'])
 def user_input():
-    user_input = request.get_json(force=True).get('input')
-    print(user_input)
+    # global user_text
+    global USER_TEXT
+    USER_TEXT = request.get_json(force=True).get('input')
     return 'Success'
 
-def db_search_query(vector, n_neighbors=100):
-    query = {
-        "$vectorSearch": {
+# def test_ui():
+#     user_text = "test user input"
+#     # print(user_text)
+#     return 'Success'
+
+def db_search_query(vector, n_neighbors=10):
+    return collection.aggregate([{"$vectorSearch": {
             "index": "vector_index",
-            "path": "", #dont think this can be implemented until the vectorized fields are added to the db
+            "path": "vector",
             "queryVector": vector,
             "numCandidates": n_neighbors,
             "limit": 1,
-        }
-    }
-    return collection.find(query)
+        }}])
 
 @app.route('/result_text', methods=['GET'])
+@cross_origin()
 def return_output_text():
     result_vector = None
-    if user_input is not None:
-        result_vector = inference.predict(user_input)
-    result = db_search_query(result_vector)
-    json = {"resultTitle": result['title'], "resultText": result['']}
-    json['resultText'] = result
-    return json
+    global USER_TEXT
+    if USER_TEXT is not None:
+        result_vector = inference.predict(USER_TEXT)
+    result = db_search_query(result_vector.tolist())
+    doc = result.next()
+    print(doc['title'])
+    json = {"result_title": doc['filename'], "result_text": str(doc['text'])}
+    print(jsonify(json).get_data())
+    response = jsonify(json)
+    return response
 
 
 # @app.route('/result_file', methods=['GET']) #TODO fix once file return is implemented
 # def return_output_file():
 #     result = 'test'
-#     if user_input is not None:
-#         result = inference.predict(user_input)
+#     if user_text is not None:
+#         result = inference.predict(user_text)
 #     json = {}
 #     json['resultText'] = result
 #     return result
@@ -62,3 +72,4 @@ def return_output_text():
 
 if __name__ == "__main__":
     socket_io.run(app, host='0.0.0.0', port=5000, debug=True)
+    # print(return_output_text())

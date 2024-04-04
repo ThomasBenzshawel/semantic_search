@@ -7,6 +7,7 @@ export default function App() {
     let backendURL = "http://localhost:5000" //flask app
     let [text] = useState('')
     let [resultText, setResultText] = useState('Result document text will appear here')
+    let [resultTitle, setResultTitle] = useState('Result document title will appear here')
     let [resultFile, setResultFile] = useState('')
     let resultText2 = ''
     // let  = "Result document text will appear here"
@@ -14,6 +15,7 @@ export default function App() {
 
     function sendUserInput(){
         console.log("called sendUserInput()")
+        console.log(text)
         fetch(`${backendURL}/user_input`, {
             method: 'POST',
             mode: 'no-cors',
@@ -36,13 +38,17 @@ export default function App() {
     function getResultText() {
         fetch(`${backendURL}/result_text`, {
             method: 'GET',
-            mode: 'no-cors',
             headers: {
                 'Content-Type': 'application/json'
             },
-        }).then(response => response).then(data => {
-            setResultText(data.resultText)
-            console.log(data.resultText)
+        }).then(response => response.json())
+        .then((data) => {
+            console.log(data)
+            console.log(data.result_text)
+            console.log(data.result_title)
+            setResultText(data.result_text)
+            setResultTitle(data.result_title)
+            // console.log(response)
         }).catch(e => console.log(e))
     }
 
@@ -60,19 +66,8 @@ export default function App() {
         }).catch(e => console.log(e))
     }
 
-    const setResultText_ = (t) => {
-        this.resultText = t
-        console.log(resultText)
-    }
-
-    const setResultFile_ = (f) => {
-        resultFile = f
-        console.log(resultFile)
-    }
-
     const process = (event) => {
         text = event.target.value
-        console.log(text)
     }
 
     return (
@@ -85,11 +80,16 @@ export default function App() {
                 <button type="submit" onClick={sendUserInput}>Enter</button>
             </div>
             <div className="main-container">
+                <h2>Document Title</h2>
+            </div>
+            <div className="main-container">
+                <h3>{resultTitle}</h3>
+            </div>
+            <div className="main-container">
                 <h2>Document Text</h2>
             </div>
             <div className="main-container">
                 <p>{resultText}</p>
-                {/* <textarea value={resultText} readOnly={true}/> */}
             </div>
         </div>
     );
