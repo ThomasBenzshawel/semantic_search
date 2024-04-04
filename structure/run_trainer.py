@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     # Load the dataset 
     # Path to the dataset
-    path = "/home/benzshawelt/semantic_search/data/zipped_data/literature"
+    path = "/home/benzshawelt/NLP/semantic_search/data/zipped_data/literature"
     dataset = NotesDataset(path, loadTest=False)
     dataloader = torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=True, num_workers=1)
 
