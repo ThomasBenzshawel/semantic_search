@@ -10,7 +10,7 @@ import torch
 import torch
 from torch.utils.data import Dataset
 
-class ContextDataset(Dataset):
+class NotesDataset(Dataset):
     def __init__(self, folder, context_length=512):
         documents = []
         for filename in os.listdir(folder):
