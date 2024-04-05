@@ -17,7 +17,7 @@ class EncoderTransformer(nn.Module):
         self.dropout = nn.Dropout(dropout_p)
         self.pos_encoder = PositionalEncoding(embedding_size, dropout_p, context_length)
         transformer_layer = nn.TransformerEncoderLayer(d_model=embedding_size, nhead=num_heads, batch_first=True)
-        self.transformer = nn.TransformerEncoder(transformer_layer, num_layers=6)
+        self.transformer = nn.TransformerEncoder(transformer_layer, num_layers=3)
 
     def forward(self, input):
         # The input is a tensor of shape (batch_size, seq_length)
