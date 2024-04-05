@@ -7,6 +7,11 @@ the new React app's src directory to overwrite the automatically created file. *
     flex-direction: column;
 }
 
+.sub-container {
+    display: flex;
+    flex-direction: row;
+}
+
 .main-container {
     display: flex;
 }

@@ -14,7 +14,9 @@ sio = socketio.Client()
 socket_io = SocketIO(app, cors_allowed_origins="*", logger=True)
 socket_io.init_app(app, cors_allowed_origins="*")
 
-uri = 'mongodb+srv://gatywill:Z86Qe7qi5qkR1dbd@vectors.bigshoc.mongodb.net/?retryWrites=true&w=majority&appName=Vectors'
+#API private key: 4606caf8-81da-4abe-9ea8-a3b4759b2a1a
+
+uri = 'mongodb+srv://default_user:6J383XfBONlfrx1r@vectors.bigshoc.mongodb.net/?retryWrites=true&w=majority&appName=Vectors'
 client = pymongo.MongoClient(uri, server_api=pymongo.server_api.ServerApi('1'))
 db = client['corpus']
 collection = db['sparknotes_lit']
@@ -28,6 +30,15 @@ def user_input():
     USER_TEXT = request.get_json(force=True).get('input')
     return 'Success'
 
+@app.route('/upload_doc', methods=['POST'])
+def upload_doc():
+    # global user_text
+    json = request.get_json(force=True)
+    fname = json.get('filename')
+    ftext = json.get('filecontents')
+    db_upload(fname, ftext)
+    return 'Success'
+
 def db_search_query(vector, n_neighbors=10):
     return collection.aggregate([{"$vectorSearch": {
             "index": "vector_index",
@@ -36,6 +47,14 @@ def db_search_query(vector, n_neighbors=10):
             "numCandidates": n_neighbors,
             "limit": 1,
         }}])
+
+def db_upload(filename, filecontents):
+    print(filename)
+    print(filecontents)
+    vectorized_doc = inference.vectorize_document(filecontents)
+    print(vectorized_doc.tolist())
+    doc = {"filename": filename, "topic": "NA", "title": "NA", "section": "NA", "subsection": "NA", "text": filecontents, "vector": vectorized_doc.tolist()}
+    collection.insert_one(doc)
 
 @app.route('/result_text', methods=['GET'])
 @cross_origin()
