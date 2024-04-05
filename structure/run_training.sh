@@ -7,7 +7,7 @@
 #SBATCH --partition=dgx
 #SBATCH --nodes=1
 #SBATCH --gres=gpu:v100:1
-#SBATCH --cpus-per-gpu=8
+#SBATCH --cpus-per-gpu=16
 #SBATCH --account=practicum
 
 
