@@ -26,7 +26,7 @@ def train_epoch(dataloader, encoder, decoder, encoder_optimizer,
         input_tensor = input_tensor.view(-1, CONTEXT_LENGTH)
         target_tensor = data[1].to(device)
 
-        print(input_tensor.shape, "input shape")
+        # print(input_tensor.shape, "input shape")
 
         encoder_optimizer.zero_grad()
         decoder_optimizer.zero_grad()
