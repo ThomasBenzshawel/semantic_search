@@ -5,6 +5,7 @@ import torch.nn as nn
 from torch import optim
 import time
 from model import *
+import tqdm
 from utils import *
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -17,14 +18,15 @@ def train_epoch(dataloader, encoder, decoder, encoder_optimizer,
     vocab_size = tokenizer.n_words
 
     total_loss = 0
-    for data in dataloader:
+    #Use tqdm to get a progress bar
+    with tqdm(dataloader, unit="batch") as data:
         
         input_tensor = data[0].to(device)
         #chagnge shape
         input_tensor = input_tensor.view(-1, CONTEXT_LENGTH)
         target_tensor = data[1].to(device)
 
-        print(input_tensor.shape, "input shape")
+        # print(input_tensor.shape, "input shape")
 
         encoder_optimizer.zero_grad()
         decoder_optimizer.zero_grad()
