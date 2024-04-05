@@ -19,14 +19,14 @@ def train_epoch(dataloader, encoder, decoder, encoder_optimizer,
 
     total_loss = 0
     #Use tqdm to get a progress bar
-    with tqdm(dataloader, unit="batch") as data:
+    for i, data in enumerate(tqdm.tqdm(dataloader)):
         
         input_tensor = data[0].to(device)
         #chagnge shape
         input_tensor = input_tensor.view(-1, CONTEXT_LENGTH)
         target_tensor = data[1].to(device)
 
-        # print(input_tensor.shape, "input shape")
+        print(input_tensor.shape, "input shape")
 
         encoder_optimizer.zero_grad()
         decoder_optimizer.zero_grad()
