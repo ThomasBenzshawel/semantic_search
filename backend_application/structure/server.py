@@ -4,9 +4,7 @@ from flask_cors import CORS, cross_origin
 import socketio
 import pymongo
 import sys
-# from structure import inference
 import inference
-#import Thing from '../structure/model.py'
 
 app = Flask(__name__)
 cors = CORS(app)
@@ -29,11 +27,6 @@ def user_input():
     global USER_TEXT
     USER_TEXT = request.get_json(force=True).get('input')
     return 'Success'
-
-# def test_ui():
-#     user_text = "test user input"
-#     # print(user_text)
-#     return 'Success'
 
 def db_search_query(vector, n_neighbors=10):
     return collection.aggregate([{"$vectorSearch": {
@@ -60,16 +53,5 @@ def return_output_text():
     return response
 
 
-# @app.route('/result_file', methods=['GET']) #TODO fix once file return is implemented
-# def return_output_file():
-#     result = 'test'
-#     if user_text is not None:
-#         result = inference.predict(user_text)
-#     json = {}
-#     json['resultText'] = result
-#     return result
-
-
 if __name__ == "__main__":
     socket_io.run(app, host='0.0.0.0', port=5000, debug=True)
-    # print(return_output_text())

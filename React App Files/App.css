@@ -1,0 +1,12 @@
+/* ATTENTION: upon downloading the repo to a new machine or directory, run 
+"npx create-react-app frontend" in the main semantic_search directory, and then copy this file into 
+the new React app's src directory to overwrite the automatically created file. */
+
+.App{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+}

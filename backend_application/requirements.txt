@@ -1,0 +1,9 @@
+socketio
+flask
+flask_socketio
+flask_cors
+pymongo
+socketio
+torch
+tiktoken
+unicodedata
