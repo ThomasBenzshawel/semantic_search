@@ -46,7 +46,7 @@ def train():
 
 
 
-def train_preloaded_data(documents, num_epochs=1, print_every=1):
+def train_preloaded_data(documents, num_epochs=10, print_every=1):
     #documents is a list of strings
     folder = "temp_structure"
     if not os.path.exists(folder):
@@ -55,7 +55,7 @@ def train_preloaded_data(documents, num_epochs=1, print_every=1):
     # Load the dataset 
     # Path to the dataset
     dataset = NotesDataset_Given_list(documents)
-    dataloader = torch.utils.data.DataLoader(dataset, batch_size=10, shuffle=True, num_workers=8)
+    dataloader = torch.utils.data.DataLoader(dataset, batch_size=16, shuffle=True, num_workers=8)
 
     # Define the model
     embedding_size = 128
