@@ -96,7 +96,7 @@ def run_test_with_train(documents, labels, n_splits=5):
         
         # Perform inference on the test documents
         predicted_labels = []
-        for doc in train_docs:
+        for doc in test_docs:
             vector = inference.predict(doc, model)
             result = db_search_query(vector.tolist())
             doc = result.next()
@@ -113,7 +113,7 @@ def run_test_with_train(documents, labels, n_splits=5):
         print(f"Precision: {precision:.4f}")
         print(f"Recall: {recall:.4f}")
         print(f"F-measure: {f1:.4f}")
-        
+
         
         precision_scores.append(precision)
         recall_scores.append(recall)
