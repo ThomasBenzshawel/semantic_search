@@ -69,6 +69,9 @@ def run_test_with_train(documents, labels, n_splits=5):
         # Split the data into training and testing sets
         train_docs, test_docs = [documents[i] for i in train_index], [documents[i] for i in test_index]
         train_labels, test_labels = [labels[i] for i in train_index], [labels[i] for i in test_index]
+
+        print(test_labels, "test labels")
+        print(train_labels, "train labels")
         
         # Train the model on the training set
         model = run_trainer.train_preloaded_data(train_docs)
