@@ -64,6 +64,10 @@ def run_test_with_train(documents, labels, n_splits=5):
     precision_scores = []
     recall_scores = []
     f1_scores = []
+
+    train_precision = []
+    train_recall = []
+    train_f1 = []
     
     for train_index, test_index in kf.split(documents):
         # Split the data into training and testing sets
@@ -95,6 +99,10 @@ def run_test_with_train(documents, labels, n_splits=5):
         print(f"Recall: {train_recall:.4f}")
         print(f"F-measure: {train_f1:.4f}")
 
+        #append the train precision, recall and f1 to the list
+        train_precision.append(train_precision)
+        train_recall.append(train_recall)
+        train_f1.append(train_f1)
 
         
         # Perform inference on the test documents
@@ -111,6 +119,8 @@ def run_test_with_train(documents, labels, n_splits=5):
         precision = precision_score(test_labels, predicted_labels, average='weighted')
         recall = recall_score(test_labels, predicted_labels, average='weighted')
         f1 = f1_score(test_labels, predicted_labels, average='weighted')
+
+        
 
         print("Test set:")
         print(f"Precision: {precision:.4f}")
