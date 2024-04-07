@@ -137,9 +137,9 @@ def run_test_with_train(documents, labels, n_splits=5):
     avg_recall = sum(recall_scores) / n_splits
     avg_f1 = sum(f1_scores) / n_splits
 
-    avg_train_precision = sum(train_precision) / n_splits
-    avg_train_recall = sum(train_recall) / n_splits
-    avg_train_f1 = sum(train_f1) / n_splits
+    avg_train_precision = sum(train_precision_scores) / n_splits
+    avg_train_recall = sum(train_recall_scores) / n_splits
+    avg_train_f1 = sum(train_f1_scores) / n_splits
 
     print("Training set:")
     print(f"Precision: {avg_train_precision:.4f}")
