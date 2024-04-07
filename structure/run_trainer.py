@@ -55,7 +55,7 @@ def train_preloaded_data(documents, num_epochs=1, print_every=1):
     # Load the dataset 
     # Path to the dataset
     dataset = NotesDataset_Given_list(documents)
-    dataloader = torch.utils.data.DataLoader(dataset, batch_size=32, shuffle=True, num_workers=16)
+    dataloader = torch.utils.data.DataLoader(dataset, batch_size=10, shuffle=True, num_workers=8)
 
     # Define the model
     embedding_size = 128
