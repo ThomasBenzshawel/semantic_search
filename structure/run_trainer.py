@@ -46,7 +46,7 @@ def train():
 
 
 
-def train_preloaded_data(documents, num_epochs=10, print_every=1):
+def train_preloaded_data(documents, num_epochs=2, print_every=1):
     #documents is a list of strings
     folder = "temp_structure"
     if not os.path.exists(folder):
