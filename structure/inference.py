@@ -18,13 +18,53 @@ def predict(input_data):
     with torch.no_grad():
         tokenizer = utils.BytePairTokenizer()
         input_data = tokenizer.tokenize(utils.unicodeToAscii(input_data))
+        # grab first CONTEXT_LENGTH tokens
+        input_data = input_data[:utils.CONTEXT_LENGTH]
         input_data = torch.tensor(input_data, dtype=torch.long)
+        #pad it with zeros
+        input_data = F.pad(input_data, (0, utils.CONTEXT_LENGTH - len(input_data)), value=0)
+        #turn into format of 1 x CONTEXT_LENGTH
+        input_data = input_data.view(1, utils.CONTEXT_LENGTH)
+        # print(input_data.shape)
         input_data = input_data.to(device)
         output = model(input_data)
 
     #model output needs to be a 1 x embedding size tensor
-    output = output.mean(dim=0)
+    #Average the output of the model until we get a 1 x embedding size tensor
+    while len(output.shape) > 1:
+        output = output.mean(dim=0)
     return output
+
+def predict(input_data, model):
+    # Move the model to the device
+    model.to(device)
+
+    # Set the model to evaluation mode
+    model.eval()
+
+    # Disable gradient computation
+    with torch.no_grad():
+        tokenizer = utils.BytePairTokenizer()
+        input_data = tokenizer.tokenize(utils.unicodeToAscii(input_data))
+        # grab first CONTEXT_LENGTH tokens
+        input_data = input_data[:utils.CONTEXT_LENGTH]
+        input_data = torch.tensor(input_data, dtype=torch.long)
+        #pad it with zeros
+        input_data = F.pad(input_data, (0, utils.CONTEXT_LENGTH - len(input_data)), value=0)
+        #turn into format of 1 x CONTEXT_LENGTH
+        input_data = input_data.view(1, utils.CONTEXT_LENGTH)
+        # print(input_data.shape)
+        input_data = input_data.to(device)
+        output = model(input_data)
+
+    #model output needs to be a 1 x embedding size tensor
+    #Average the output of the model until we get a 1 x embedding size tensor
+    while len(output.shape) > 1:
+        output = output.mean(dim=0)
+    return output
+
+
+
 
 
 def vectorize_document(document):
@@ -63,6 +103,45 @@ def vectorize_document(document):
 
         #model output needs to be a 1 x embedding size tensor
         return model_output
+    
+def vectorize_document(input_data, model):
+    tokenizer = utils.BytePairTokenizer()
+    # Move the model to the device
+    model.to(device)
+
+    # Set the model to evaluation
+    model.eval()
+
+
+        # Move the model to the device
+    model.to(device)
+
+    # Set the model to evaluation mode
+    model.eval()
+
+    # Disable gradient computation
+    with torch.no_grad():
+        input_data = tokenizer.tokenize(utils.unicodeToAscii(document))
+    
+        tensor_list = []
+        for i in range(0, len(input_data), utils.CONTEXT_LENGTH):
+            input = input_data[i:i+utils.CONTEXT_LENGTH]
+            input_tensor = torch.tensor(input, dtype=torch.long)
+            input_tensor = input_tensor.to(device)
+            model_output = model(input_tensor)
+
+            #model output needs to be a 1 x embedding size tensor
+            #Average the output of the model
+            model_output = model_output.mean(dim=0)
+
+            tensor_list.append(model_output)
+    
+        #take the item by item average of the tensor list
+        model_output = torch.stack(tensor_list).mean(dim=0)
+
+        #model output needs to be a 1 x embedding size tensor
+        return model_output
+
     
 if __name__ == "__main__":
     input_data = "This is a test document."

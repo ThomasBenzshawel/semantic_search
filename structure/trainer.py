@@ -98,4 +98,25 @@ def evaluateRandomly(encoder, decoder, input, output, pairs, n=10):
         print('<', output_sentence)
         print('')
 
+
+def train_return_model(train_dataloader, encoder, decoder, n_epochs, learning_rate=0.001, save_folder="saved_models"):
+    print_loss_total = 0  # Reset every print_every
+    plot_loss_total = 0  # Reset every plot_every
+
+    encoder_optimizer = optim.Adam(encoder.parameters(), lr=learning_rate)
+    decoder_optimizer = optim.Adam(decoder.parameters(), lr=learning_rate)
+    criterion = nn.NLLLoss()
+
+    for epoch in range(1, n_epochs + 1):
+        loss = train_epoch(train_dataloader, encoder, decoder, encoder_optimizer, decoder_optimizer, criterion)
+        print_loss_total += loss
+        plot_loss_total += loss
+
+        if epoch % 2 == 0:
+            print_loss_total = 0
+            # Save the model to saved_models folder relative to the current directory
+            torch.save(encoder, save_folder + '/encoder_epoch_'+ str(epoch) +'.pth')
+            torch.save(decoder, save_folder + '/decoder_epoch_'+ str(epoch) +'.pth')
+    
+    return encoder
     

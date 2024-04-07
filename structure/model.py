@@ -24,7 +24,7 @@ class EncoderTransformer(nn.Module):
         # Check the shape of the input tensor
         # print(input.shape, "input.shape")
         embedded = self.dropout(self.embedding(input))
-#         print(embedded.shape)
+        # print(embedded.shape)
         embedded = self.pos_encoder(embedded)
         #print the tensor
         # print(embedded)
@@ -32,7 +32,7 @@ class EncoderTransformer(nn.Module):
         return output
     
 class PositionalEncoding(nn.Module):
-    def __init__(self, d_model, dropout=0.1, max_len=1024):
+    def __init__(self, d_model, dropout=0.1, max_len=512):
         super(PositionalEncoding, self).__init__()
         self.dropout = nn.Dropout(p=dropout)
         
@@ -48,7 +48,8 @@ class PositionalEncoding(nn.Module):
 
     def forward(self, x):
         batch_size, seq_len, _ = x.size()
-        pe = self.pe[:, :seq_len, :]
+        # print(self.pe.shape)
+        pe = self.pe[:seq_len, :]
         pe = pe.expand(batch_size, -1, -1)
         
         x = x + pe
@@ -76,5 +77,4 @@ class DecoderTransformer(nn.Module):
         decoder_output = self.layernorm(decoded_output)
         decoder_output = self.out(decoded_output)
         return decoder_output
-
-
+    
