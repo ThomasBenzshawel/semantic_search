@@ -1,0 +1,40 @@
+﻿Eco 201
+Ethan Haas
+10/16/19
+Chapter 5   Elasticity and Its Applications
+Price elasticity of demand - a measure that indicates the degree of consumer response to a price 
+change.
+(% change in quantity)
+(% change in price)
+Midpoint Formula   Price elasticity of Demand (In notebook)
+How to interpret the elasticity coefficient:
+ If |Ed| > 1 demand is elastic
+|% Q| > 1
+|% P| or   |%  Q| > |% P|
+ If |Ed| < 1 demand is inelastic
+|% Q| < 1
+|% P|
+ If |Ed| = 1 demand is unitary elastic
+II. Price Elasticity of Demand Graphically Elasticity and St raight-Line Demand Curves.
+Slope and elasticity are not the same thing (two different numbe rs) 
+BUT 
+Comparing relative slopes of two demand curves allows you to compare e lasticity
+
+
+Perfectly elastic is straight vertical line.
+Determinants of elasticity of demand
+Availability of substitutes
+Is the good luxury or necessity?
+The more time buyers have, to buy an item the more elastic the deman d is.
+4) Definition of the Market: The more specific the classification for a  good, the more elastic the demand 
+is.
+Elasticity of supply
+Measures producer s response to a price change
+Es =  (% change in quantity supplied)
+         -------------------------------------------
+       (% change in price)
+If Es > 1 supply is elastic
+If Es < 1 supply is inelastic
+If Es = 1 supply is unitary elastic
+
+

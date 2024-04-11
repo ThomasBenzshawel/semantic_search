@@ -1,0 +1,41 @@
+﻿BANA 2082
+Chapter 3.2 Lecture notes
+Overview of Data Visualization
+Decades of psychological research and other fields demonstrate t hat the human mind can process visual 
+representations such as diagrams much more easily than numerical rows c an perceive. These same 
+experiments however also indicate that the capacity of the hu man mind to perceive visual images has 
+some limits and that certain images convey more detail than others. T he aim of this chapter is to 
+introduce some of the more common types of data visualization and show wh en each form is suitable.
+Microsoft Excel is an all-encompassing platform for business visualization o f basic data. Computer tools 
+like Excel allow the development of several common examples of dat a visualization for everyone. 
+However, the default tables and charts for Excel, as mentione d in this chapter, can be updated to 
+improve clarification. New software forms dedicated to data visualiz ation have recently emerged. In this 
+chapter, we are concentrating our techniques on Excel, but also me ntioning some of these more 
+sophisticated data visualization software packages.
+Effective Design Techniques
+The data-ink ratio, first defined by Edward R. Tufte in 2001 in hi s book Visual Display of Quantitative 
+Information, was one of the helpful ideas for creating efficient table s and charts for visualizing data. The 
+data-ink ratio calculates the share that the Tufte words "data- ink" have with the total amount of ink used
+in a table or diagram. Data-ink is the ink used to express the imp ortance of the data to the public in a 
+table or diagram. Non-data-ink is used to transmit data to the viewe r in a table or graph that serves no 
+helpful function.
+
+
+Tables
+The first decision is whether a table or a diagram is more successful . In general, diagrams sometimes 
+relay information to readers faster and easier, but in some situation s a table is better suited. Tables can 
+be included:
+1. The reader must refer to such numerical values.
+2. Reader must make accurate comparisons and not just relative c omparisons between different 
+values.
+3. The shown values have various units or very different magnitudes
+When the Gossamer Industries accounting department summariz es the annual details for completing 
+the company's federal tax form, the precise numbers for revenues a nd expenditures are relevant, not 
+just the relative values.
+Crosstabulation
+A useful type of table is a crosstabulation which provides a table sum mary for two variables for data 
+descriptions. Consider the following framework focused on Zagat' s Restaurant Review data to explain it. 
+Data on consistency, meal and the usual length of time to wait for a ta ble during peak hours was 
+collected for a sample of 300 local restaurants in Los Angeles.
+
+

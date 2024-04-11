@@ -1,0 +1,96 @@
+﻿BANA 2082
+Chapter 1.6
+Legal and Ethical Issues in the Use of Data and Analytics
+Increased attention has been paid to ethical questions regarding dat a protection and the ethical use of 
+data-based models with the advent of big data and the rapid grow th in the use of analytics and data 
+science to enhance decision making. 
+Since corporations constantly gather data about their clients, the y have a responsibility to protect the 
+information and not abuse the information. Customers and customer s have a responsibility to consider 
+the trade-offs between allowing the collection and use of their data  and the advantages they receive 
+from allowing a business to collect and use that data. For instance, m any businesses have loyalty cards 
+that collect customer purchasing data. Customers must consent to a llow the organization to collect and 
+use data on transactions in exchange for the rewards of using a loyalt y card, usually discounted rates. An 
+agreement between the client and the organization must be signe d, and the agreement must clarify 
+what data will be obtained and how it will be used. For example, the agreement might state that the 
+date , time, location, and card number will be obtained for all scanned transactions, but that the 
+company agrees to use that information only internally to the compa ny and not to give or sell that 
+information to outside companies or individuals. The entity then has an  ethical responsibility to uphold 
+the contract and make every effort to ensure that the information is se cure from any sort of 
+unauthorized access. Unauthorized data access is known as a violation  of data. For all businesses in the 
+modern age, data breaches are a major concern. A research by IB M and the Ponemon Institute 
+calculated that $3.86 million is the total cost of a data breach.
+
+
+The laws on data privacy are intended to protect the data of indiv iduals from being used against their 
+wishes. The General Data Protection Regulation ( GDPR), which we nt into force in the European Union in 
+May 2018, is one of the strictest data privacy regulations. The law  specifies that the request for 
+permission to use the data of a person must be easily understood and ava ilable, the intended use of the 
+data must be stated, and consent must be easily withdrawn. The  law also provides that an person has 
+the right to a copy of their records and the right to "be forgotten," th at is, the right to request the 
+erasure of their data. Analytics practitioners, indeed, anybody w ho handles or preserves data, are 
+responsible for knowing the laws associated with the collection, storage , and use of data from 
+individuals.
+Ethical problems resulting from the use of data and analytics are j ust as important as legal problems. It is
+the duty of analytics practitioners to act ethically, including protecting data, being open about the data 
+and how it was obtained, and what it does and does not contain. The meth ods used to interpret the data
+and any assumptions that have to be made for the methods used need to b e clear to analysts. Lastly, 
+analysts must provide their clients with clear conclusions and und erstandable recommendations.
+It is obviously immoral to knowingly use data and analytics for immoral p urposes. Of course, using 
+analytics to determine who to target for fraud, for instance, is  inherently unethical since the purpose 
+itself is an unethical aim. It is also fundamentally immoral to delib erately use skewed data to achieve an 
+objective. It is obviously immoral to deceive a customer by misrepresen ting outcomes.
+For instance, consider the case of an airline running an adverti sement that "84% of Chicago business 
+fliers prefer the airline over their competitors." Such a statem ent is true if the airline randomly surveyed 
+business fliers with a Chicago destination among all airlines. Although,  if the airline surveyed only its own
+passengers for convenience, the survey would be skewed, and the arg ument would be deceptive 
+because it did not survey fliers on other airlines. Indeed, if any thing, the only inference one might 
+
+
+legitimately draw from the skewed survey of their own customers w ill be that 84 percent of the 
+customers of those airlines favored that airline and 16 percent of  their own customers actually preferred 
+another airline!
+Author Cathy O'Neil explores how algorithms and models can be uncon sciously biased in her book, 
+Weapons of Math Destruction. For example , imagine an analyst wh o is developing a loan award credit 
+risk model. The location of the applicant 's home can be a predictor tha t correlates with other factors , 
+such as income and ethnicity. Wealth is perhaps a important factor in  deciding the volume of a loan, but 
+it is not race. In the credit risk model, a model using home location m ay also lead to unintentional bias. It
+is the duty of analysts to ensure that this form of model bias and data bias does not become part of the 
+model.
+Researcher and opinion writer Zeynep Tufecki explores so-called " unintended consequences" of 
+analytics, and particularly of engines for machine learning and r ecommendation. Tufecki has pointed out 
+that many websites that use recommendation engines also suggest more rad ical content to users based 
+on their previous browsing history, in terms of political beliefs and con spiracy theories. Tufecki and 
+others theorize that this is because the machine learning alg orithms used have found that more extreme
+content improves the browsing time of users on the web, which is also maxi mized by the machine 
+learning algorithm as the objective function. This can therefore be  the unintended consequence of using 
+a machine learning algorithm that maximizes the browsing time of u sers on the web, although it is not 
+the purpose of the algorithm to encourage more radical views and disse minate false information. 
+Analysts and decision-makers must be informed of their models' possible  unintended consequences, and
+once they are identified, they must determine how to respond to thes e consequences.
+Ethical standards for analysts are issued by many organisations, incl uding the American Statistical 
+Association (ASA) and the Center for Operations Research and Manage ment Sciences (INFORMS). "The 
+
+
+ASA uses the term statistician in its" Ethical Guidelines for Stati stical Practice, "but notes that this" 
+includes all statistics and quantitative science practitioners, i rrespective of job title or area of degree, 
+comprising statisticians at all levels of the profession and members of oth er professions who use and 
+report statistical analyses and their applications.
+INFORMS is a specialist association focused on research in operations and m anagement sciences, 
+including analytics. INFORMS provides a credential for analytics c alled CAP , a certified analytics 
+professional. To comply with the code of ethics / conduct provided by IN FORMS, all candidates for CAP 
+are required. The INFORMS CAP guidelines state, "In genera l, analytics practitioners are expected to 
+carry out their professional activities professionally, with special a ttention to the principles of quality, 
+respect for citizens, autonomy of all, dignity, fairness, usefulness and competence." INFORMS also 
+provides its members with a set of Ethics Guidelines covering ethic al behavior for professional analytics.
+INFORMS Ethics Guidelines
+Experts in analytics should strive to be: 
+i. Accountable for their professional decisions and their work's effe cts. 
+ii. Their assumptions, goals, supporters, intentions, shortcomings, and  possible conflicts of interest 
+are further explored. 
+iii. Honest in disclosing their results, even when they fail to achi eve the desired result. 
+iv. Objective, regardless of their views or opinions, in their analy ses of evidence. 
+v. Respectful of the views of others and their beliefs. 
+vi. Responsible for conducting studies and initiatives that, by im proving our scientific knowledge, 
+leading to organizational improvements and fostering social goods, h ave positive benefits.
+
+

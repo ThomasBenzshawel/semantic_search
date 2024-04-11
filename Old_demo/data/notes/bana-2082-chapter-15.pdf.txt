@@ -1,0 +1,127 @@
+﻿BANA 2082
+Chapter 1.5
+Financial Analytics
+Analytical applications in finance are numerous and widespread. F or the forecasting of financial 
+performance, the risk assessment of investment portfolios and ventures,  and the development of 
+financial instruments such as derivatives, predictive models are  used. Prescriptive models are used to 
+build optimal investment portfolios, assign assets and create optimal s trategies for the budgeting of 
+capital. Europcar, Europe's leading rental car company, for ins tance , uses forecasting, simulation and 
+optimization models to anticipate demand, evaluate risk and optimize  its fleet use. These models are 
+applied through a decision-making support structure used in nine  European countries and have resulted 
+in higher fleet efficiency , reduced costs and improved profitabili ty. Simulation is most frequently used 
+for risk management in the financial sector, such as the implementati on of simulation models by Hypo 
+Real Estate International to effectively mitigate the risk of commerci al real estate.
+Human Resource (HR) Analytics
+The management of the human capital of an enterprise is a relativ ely new application field for analytics. 
+The HR role is responsible for ensuring that the business 
+(1)has the mix of skill sets needed to fulfill its needs, 
+(2) attract and provide an atmosphere that attracts the highest-q uality talent, and 
+(3)achieves the targets of organizational diversity. Google refere nces the HR to 
+Analytics acts as 'people analytics.' To assess the attributes of great l eaders, to evaluate variables that 
+contribute to success, and to evaluate potential new hires, Google has a nalyzed extensive data on its 
+
+
+own workers. Google also utilizes predictive analytics to constantly u pdate its estimate of potential 
+turnover and retention of employees.
+Marketing Analytics
+One of the fastest-growing fields for the application of analytics is ma rketing. A deeper understanding of 
+customer behavior has led to an increased interest in marketing an alytics through the use of scanner 
+data and data created by social media. As a consequence, in mark eting, descriptive , predictive, and 
+prescriptive analytics are all extensively used. Via analytics, a  greater understanding of consumer 
+behavior leads to better use of advertisement budgets, more efficient p ricing techniques, improved 
+demand forecasting, improved product line management , and imp roved customer retention and loyalty.
+Turner Broadcasting System Inc., for example , uses forecasting a nd optimization models for its 
+advertising partners to create more focused audiences and to better  plan advertisements. The use of 
+these models led to an 186 percent rise in Turner's year-over- year advertisement revenue and, at the 
+same time, a dramatic rise in advertisers' revenues. Those marketer s who wanted to benchmark find a 
+$118 million revenue rise. Automobile maker Chrysler teamed with J .D. in another case of high-impact 
+marketing analytics. 
+To develop a groundbreaking range of predictive models to help its au tomotive pricing decisions,
+Power and Associates. These models allow Chrysler to better understan d the effects of the proposed 
+pricing arrangements (a mix of the proposed retail price, inter est rate offers, and rebates proposed by 
+the manufacturer) and, as a consequence, to enhance its pricing ch oices. An approximate annual savings
+of $500 million has been produced by the models.
+Health Care Analytics
+Due to demand to both manage costs and provide more efficient services, t he use of analytics in health 
+care is on the rise. Descriptive , predictive, and prescriptive ana lytics are used to optimize scheduling for 
+
+
+patients , employees, and facilities; patient flow; buying; and m anagement of inventory. A report by 
+McKinsey Global Institute (MGI) and McKinsey & Company reports t hat by properly using analytics, the 
+health care system in the United States could save more than $300 bi llion per year; these savings are 
+roughly the equivalent of countries like Finland, Singapore, a nd Ireland's entire gross domestic product.
+For diagnosis and treatment, the use of prescriptive analytics is rel atively recent, but it may prove to be 
+the most significant application of analytics in health care. In Georgia, for instance , a group of scientists 
+used predictive models and optimization to develop personalized diabet es care. They developed a 
+predictive model that uses fluid dynamics and data from patient monit oring to determine the 
+relationship at the individual level between drug dosage and dru g impact. This alleviates the need to 
+monitor drug concentration for more invasive procedures. They then used an optimization model that 
+takes output from the predictive model to decide how, using less dose, a p erson achieves better glycemic
+control. Using the models results in hospital cost savings of about 39 p ercent, which equates to about 
+$40,880 per patient.
+Supply Chain Analytics
+Effective distribution of products is the core service of companies s uch as UPS and FedEx, and analytics 
+have long been used to achieve quality. For logistics companies such as U PS and FedEx, the optimum 
+sorting of goods, vehicle and personnel scheduling, and vehicle routing a re all essential to profitability.
+Companies can take advantage of better management of inventory an d processing and more productive 
+supply chains. The analytical methods used in this field cover the enti re analytics spectrum. For example,
+Bernard Claus, Inc., the women 's apparel manufacturer, has effe ctively used descriptive analytics to 
+offer a visual representation of the status of its supply chain to its mana gers. By leveraging the inherent 
+volatility in product prices, ConAgra Foods uses predictive and presc riptive analytics to better plan power
+
+
+usage. In less than three months, ConAgra realized a 100 percent re turn on its investment in analytics, an
+unheard of outcome for a big investment in technology.
+Analytics for Government and Nonprofits
+Analytics have been used by government agencies and other non-pr ofits to drive out inefficiencies and 
+improve the efficacy and transparency of programs. Indeed, most adva nced analytics have their origins 
+in the U.S. and English military dating back to World War II. In an ything from elections to tax collection, 
+the use of analytics in government is becoming widespread today. For e xample, in the development of a 
+more efficient approach to tax collection, the New York State Departm ent of Taxation and Finance has 
+partnered with IBM to use prescriptive analytics. The result was a r ise of $83 million over two years in 
+payments from overdue payers. In order to detect trends that differ entiate problematic annual personal 
+income tax filings, the U.S. Internal Revenue Service has used  data mining. In one application, the IRS 
+combines its data on individual taxpayers with data on mortgage pa yments made by those taxpayers 
+collected from banks. When taxpayers record an unrealistica lly high mortgage payment compared to 
+their declared taxable income, they are flagged as potential ta xable income under-reporters. The filing is 
+then scrutinized further and can cause an audit.
+Similarly, to ensure their efficacy and transparency to their d onors and consumers, nonprofit 
+organizations have used analytics. The official international human itarian agency of the U.S. is Catholic 
+Relief Services (CRS). Group of Catholics. The CRS goal is to provi de relief through its health , education, 
+and agricultural programs to the victims of both natural and man-ma de disasters and to aid people in 
+need around the world. To assist in the distribution of its annual bu dget, CRS uses an objective 
+spreadsheet model focused on the impact that its different relief ac tivities and services would have in 
+different countries.
+Sports Analytics
+
+
+Since 2003, when the renowned author Michael Lewis published  Moneyball, the use of analytics in 
+sports has gained significant popularity. The book by Lewis tells th e story of how the Oakland Athletics 
+used a player assessment analytical method to build a winning team w ith a small budget. Particularly in 
+professional sports, the use of analytics for player evaluation and on-fiel d strategy is now widespread. To
+evaluate players for amateur drafts and to determine how much t o give players in contract negotiations, 
+professional sports teams use analytics; In order to achieve competitive a dvantage, professional 
+motorcycle racing teams use advanced optimization for gearbox design;  and teams use analytics to assist
+with on-field decisions such as which pitchers to use in a Major Leagu e Baseball playoff series in different
+games.
+There is also a rapid growth in the use of analytics for off-the-field busi ness decisions. For any business, 
+maintaining customer satisfaction is crucial, and fans are the c ustomers of sports teams. To design its 
+luxury seating offerings at Progressive Field based on fan survey resul ts, the Cleveland Indians 
+professional baseball team used a form of predictive modeling known as conjoint analysis. In order to 
+reflect the relative appeal and future demand for each game,  franchises across many major sports 
+dynamically change ticket prices during the season using prescri ptive analytics.
+Web Analytics
+The study of online behavior, including but not limited to visits to w ebsites and social networking sites 
+such as Facebook and LinkedIn, is Web analytics. Obviously, web ana lytics has tremendous consequences
+for the promotion and sale across the Internet of goods and services. To decid e the best way to 
+customize websites, place advertisements, and use social networks for the promotion of goods and 
+services, leading businesses apply descriptive and advanced analy tics to data collected in online 
+experiments. Online experimentation involves exposing different  subgroups to various versions of a 
+website and monitoring the findings. Experiments can be done wi thout causing the disruption of the 
+
+
+company's overall business because of the vast pool of Internet users.  These tests are useful since they 
+enable the organization to use trial-and - error in statistically d eciding what makes a difference in the 
+traffic and sales of their website.
+
+

@@ -1,0 +1,563 @@
+﻿ 
+CH 1: INTRO + OVERVIEW 
+Risk management: decision making under circumstances 
+Pure risk 
+  Uncertainty = regarding events which could produce a lot 
+  Can be losses for firms and/or individuals 
+  In financial terms - money 
+  Focus on Traditional Risk Management (TRM) 
+  Losses can be known with certainty 
+  A loss which is certain has 100% chance (ex: death and taxes) 
+  If something is certain you might budget for it, not insure it 
+  Impossible loss has 0% chance of happening (Ex: pigs fly) 
+  No risk is present, no uncertainty about loss - budget, plan, and avoid the loss 
+  Loss is present, no uncertainty about the loss 
+  Risk does not equal loss 
+Possibility of the loss 
+  Chance of loss - odds 
+  Prob ranges from 0 to 1 or 0% to 100% 
+  Risk does not equal the prob of loss 
+Pure Risk vs Speculative Risk 
+  Both involve uncertainty 
+  Difference is in the outcomes 
+  The future states of the world 
+Speculative risk 
+  3 future states of the world: gain, loss, or no gain or loss 
+  Ex: gambling, investment (stock), buying house 
+  Basis for Enterprise Risk Management (ERM) 
+Pure risk 
+  2 future states of the world: loss, no gain or loss 
+  Ex: fire, flood, death, sickness 
+Static vs Dynamic Risk 
+  Static: does not change significantly overtimes, always present 
+  Ex: fire, weather, death, violence, car accidents 
+  Dynamic: arises out of changing circumstances, new 
+  Ex: cybersecurity, AI, drones, modern day terrorism, product liability i nsurance - 
+driverless cars 
+  As technology grows, risk gets bigger 
+Diversifiable vs Non Diversifiable 
+  Diversifiable - impacts some individuals, business, or groups (ex: fire) 
+  Nondiversifiable - impacts only large segments in society at once (ex: natural dis asters, 
+inflation, unemployment) 
+Measurement of Risk 
+  Subjective risk  
+
+
+ 
+  an individual s view of uncertainty or the situation involving risk (ex: travel  on 
+airplane) 
+  Depends upon the individual - measures attitude towards risk 
+  Not easily measured, not easy to compare among individuals 
+  Risk lovers/takers, risk averse, or risk neutral 
+  Influences how a firm or key decision maker will handle risky situations 
+  Not everybody views the same exact situation the same way 
+  Objective risk 
+  Risk is uncertainty 
+  Variation is key 
+  Variation of actual outcomes around or about expected outcomes 
+  Expected loss (EL) 
+  Based on experience, data, or other means - what we expect to happen 
+  Actual loss (AL) 
+  Losses that actually occur 
+  Problem: timing - we are uncertain what will happen and when 
+Objective risk 
+  Landlord A Landlord B 
+  - 10 buildings     - 30 buildings 
+  - expects 2 fires     - expects 9 fires 
+  - 0 < # fires < 4     - 6 < # fires < 12 
+  Who faces most risk? (always look at worst case scenario) 
+  Probability or change of loss - does not equal risk 
+  A = (2/10) = 20% 
+  B = (9/30) = 30% 
+  Variation of the loss - variation of actual from expected relative to 
+expected: how we measure risk 
+  = (AL - EL)/EL 
+  A = (4-2)/2 = 100% 
+  B = (12-9)/9 = 33% 
+  A faces the most risk 
+Sources of Pure Risk - Personal 
+  Human capital 
+  Personal pure risk 
+  Our ability to generate income (anything that can get in the way of our ability to 
+make money) 
+  Subject to life and health exposure 
+  injury/illness/death/disability 
+  effects: 
+  Loss of income or reduction of income 
+  Increase in medical expenses 
+  Most people under 30 do not consider or budget for these types of risk 
+  retirement/unemployment (not able to work) 
+
+
+ 
+  Loss or reduction of income 
+  Possible higher medical expenses 
+Sources of Pure Risk - Property and Liability 
+  Ownership of financial or physical assets 
+  theft/damage - property pure risk 
+  Direct losses 
+  Cost of replacing asset 
+  Cost of repair 
+  Ex: car accident - loss of car 
+  Indirect losses 
+  Extra expenses 
+  Loss of income 
+  Ex: car accident - late for class, lower grade, uber rides, loss of work 
+paycheck 
+  Wealth losses from liability exposure - liability pure risk 
+  Judgement form lawsuit 
+  Legal fees 
+Factors That Affect Risk 
+  Peril (actual cause of loss), not the  why,   it is the  what 
+  Immediate cause of loss 
+  If house catches on fire, peril = fire  
+  Ex: fire, flood, theft, injury, sickness, death 
+  Frequency of the loss 
+  How often do losses occur 
+  Severity of the loss 
+  Given that a loss has occurred, how bad is it in $ terms 
+  Severity is conditional upon frequency being positive 
+  If frequency is 0, severity is not an issue 
+  Hazard 
+  Underlying condition lying behind a loss occurrence which either: 
+  Increases frequency of the loss 
+  Increases severity of the loss 
+  Increases both frequency and severity 
+  Smoking is a big hazard for lung cancer 
+Factors Affecting Risk 
+  Physical hazard 
+  Location 
+  If peril is flood, living at the beach is a physical hazard (frequency) 
+  If peril is fire, distance to a fire hydrant is a physical hazard (severit y) 
+  Construction - what it is made of 
+  If peril is fire, wood structure is a physical hazard (frequency and severity)  
+  Use - what the building being used for can pose a hazard 
+  University classroom vs a church 
+
+
+ 
+  If peril is fire, the use of building as a church poses a physical hazard 
+  Churches don t have security - everyone can go in and out: better 
+chance for someone to set building on fire 
+Moral hazard 
+  Where behavior changes because insurance exists 
+  Frequency or severity increases because of existence of insurance 
+  Odds of risk change because of moral hazard 
+  Not illegal, not fraud 
+  Moral hazard -  classic example  of fraud and dishonesty 
+  Insurance fraud 
+  Have your car  stolen  and collect insurance 
+  Arson 
+  Burn down your own building and collect insurance 
+  Spouse kills spouse to collect insurance 
+  Common thread of moral hazard: 
+  Change in behavior 
+  Existence of insurance 
+  Moral hazard in health insurance 
+  Two individuals that have the same health 
+  Individuals who have insurance consume more healthcare than those who do not 
+have insurance 
+  Price is fixed for someone with insurance 
+  Lowers user cost 
+  Lower price - increased demand 
+  Nothing to do with bad behavior - but changes occur because of insurance 
+  Costly activity - you pay more for auto or car insurance - or taxes 
+  Insurance fraud is not moral hazard, it is only and example of it. Not all moral hazard it 
+illegal or fraud 
+Morale Hazard 
+  careless concerning losses 
+  has nothing to do with the existence of insurance 
+  ex: texting while driving 
+Financial Burden and Consequences of Risk - 3 elements 
+  what does risk truly cost and organization? 
+  how does it impact the organization? 
+  how can that impact society? 
+  case study: Temple faces risk from Spring Fling 
+  expected cost of loss - money that comes from losses 
+  damages to infrastructure, damaged students 
+  ex: 
+  financial losses - lawsuits and legal fees 
+  goodwill loss - loss of reputation as a university, maybe revenue 
+goes down (creates a lower attendance rate) 
+
+
+ 
+  cost to manage / risk management expenditures - the money you spend to deal 
+with #1 
+  ex: safety program, police security, training, buy insurance 
+  residual uncertainty - loss of goods or services because they are  too risky  
+  ex: society maybe losses something valuable, Spring Fling cancelled 
+  because of medical malpractice and high infant/children insurance rates, 
+lots of hospitals shut down maternity section 
+ 
+TOPIC 2: RISK MANAGEMENT PROCESS 
+Decision Making Process 
+  manage pure risk (TRM) and speculative risk (ERM) 
+  goal is to minimize the financial impact on organization 
+  goal isn t to make money, but minimize how much you lose 
+Risk Management Function in an Organization 
+  risk management - specialized branch of financial management 
+  finance department deals with risk for small organizations 
+  risk manager deals with risk in medium organizations 
+  Chief Risk Officer (CRO) manages risk in large organizations 
+  need to be independent from finance 
+  risk management is continuously evolving 
+  risk management does not equal buying insurance 
+  buying insurance is a tool of risk management 
+Evolution of Risk Management 
+  1950s form did not manage risk - just bought insurance - very narrow and not strategic 
+   insurance buyer  - job title 
+  Mid 60s Professor Wayne Snider (Temple) helps coin the term of risk management 
+  after that - it becomes a strategy 
+  present - very important in a firm - very broad  
+  growing in forms because more organizations have more and more risk to 
+manage 
+Steps in Risk Management Process 
+1. identification to loss - failure of class ($2k) 
+2. evaluate exposures to loss - take class more seriously than others 
+3. identify possible alternatives - go to office hours, study, come to class, pay  attention, 
+drop class 
+4. select among the alternatives - pick 
+5. implementation of chosen topics (s) - implement, have to actually do it 
+6. re-evaluate periodically to the chosen strategies - check to see if alternatives ar e 
+working, definition of insanity 
+Step One: Identify Loss Exposure 
+  anytime something happens and costs you money 
+  tripped and broke leg, icy road and slide off and hit a tree and damaged car 
+
+
+ 
+  Loss exposure - possibility of a financial loss that a particular entity faces  as the result of 
+peril striking a thing of value 
+  The most crucial step in the risk management process, other steps rely on it 
+  Failure to properly identify can lead to bankruptcy - Big 6 accounting firm -> B ig 4 
+How to Identify Exposures 
+1. Inspections to plant and facility -  walk arounds  - physical inspections 
+a. Slippery steps, open wire 
+2. Contract analysis 
+a. Leases 
+b. Hold harmless agreement - volunteer to accept liability in a situation 
+i. Frat and university accepts all liability for any injury as a result of bounce 
+house accident 
+ii. Eagles make Temple University accept all liability for anything that may 
+go wrong at Temple football game 
+3. Look at past information - won t apply for dynamic risks 
+4. Share loss information with other similar firms through trade associations - 
+benchmarking 
+5. checklists/standardized surveys from insurance companies 
+a.  How old is your water heater  
+b.  Do you have cracks in your sidewalk  
+6. Flow chart approach - process analysis 
+a. Understand step by step process to understand what impacts and possible risks 
+or outcomes 
+7. Ask employees and managers in the firm 
+8. Financial statement approach - what do I have to lose? 
+a. Balance sheet: lists assets - physical, non physical 
+b. Liabilities: who owes us money and can they repay it? 
+c. Incomes statement: where does my money come from? 
+d. Budget 
+Categories of Loss Exposures 
+  Property 
+  Net Income 
+  Personnel 
+  Liability 
+Property Loss Exposures 
+  Real property: land building 
+  Personal property 
+  Tangible: equipment, furniture, clothes, accounting records 
+  Intangible: goodwill, patent, trademark, copyright, account receivables 
+  Legal interest in property 
+  Financial interest or stake in property 
+  If there is a loss to the property, you will also suffer a loss 
+Situations Giving Rise to Interest in Property 
+
+
+ 
+  Ownership interest 
+  Most common type of interest 
+  Can have present or future ownership interest 
+  Owning a house, until mortgage is paid off you don t own it yet: future (car 
+and any other loans are also future) 
+  Buyers and Sellers 
+  When it comes to shipping products 
+  FOB point - where the contract specifies the ownership changes hands 
+  eBay ex: owners are not liable for anything that happens after it is received by 
+the carrier 
+  Bailee Interest 
+  A bailee is an entity who receives property from another under a contract of 
+bailment - needs to have exchange for $ 
+  When you drop anything off to get repaired 
+  Interest for the bailee is a legal liability to return or cost replacement of pr operty 
+  Valet drivers have an interest to return cars not damaged because they enter a 
+liability if they do not 
+  Tenant interest 
+  Tenants don t own their apartment, but they have interest to continue to use it: 
+continued use 
+  Tenants are responsible for returning property in reasonable condition (in order to 
+get the security deposit), this is subjective 
+  Bad tenants > bad landlords 
+  Since tenants (especially college students) are uneducated about their 
+rights and renting process, landlords will try to take advantage of their 
+tenants - especially when it comes to security deposits 
+Net Income Loss Exposure 
+  Aka business interruption insurance 
+  Typically not bought 
+  A firm suffers a primary loss - as a result, firm suffers secondary  losses that 
+creates indirect expenses 
+  Net income loss exposure is not the 1st loss, it is the  bounce back  
+  The normal process of a firm is interrupted 
+  Decrease in revenues 
+  Increase in expenses (expenses that would not occur if ___ didn t happen) 
+  Impacts your bottom line (net income) 
+Event Causing Net Income Losses 
+  Damage to property owned by a firm 
+  Delivery truck stolen (property loss, NOT net income loss) 
+  Extra costs (net income losses): 
+  Losing customers in general 
+  Rent another truck causing increase in expenses 
+  Orders not filled causing a decrease in revenue 
+
+
+ 
+  Damage to property owned by others 
+  Key supplier has a property loss 
+  The firm is impacted by their supplier s loss and unable to produce goods 
+causing a decrease in revenue 
+  Ex: power/telephone company has a power outage for a storm 
+  Pizza place: electric co says  no power for 5 days  
+  Extra costs (net income loss) 
+  Loss of revenue 
+  Purchase of generator or dry ice to keep products from 
+spoiling - extra expenses 
+Personnel Loss Exposures 
+  A firm has a key employee (CEO, CFO, top salesman) who suffers a person  al   loss 
+(death, disability, illness) 
+  Ex: a firm s top salesman gets cancer 
+  The  person   specifically may suffer - loss of income, increase medical expenses, 
+personal issue  
+  This is why businesses give benefits 
+  The  firm   may also suffer 
+  Revenue decrease: sales down, decisions not made 
+  Expenses increase: cost of replacing that person 
+  Firms can buy insurance for this, called  key person  insurance 
+  Personal issue from employees becomes a business issue 
+ 
+TOPIC 3: LIABILITY LOSS EXPOSURES + ERM/TRM 
+Lawsuits (arise from) 
+  Bad behavior 
+  Breaking a contract can lead to a lawsuit 
+  Behavior is commonly classified as either: 
+  Intentional (assault, libel, slander) 
+  Libel and slander have increased recently because of social media 
+  Unitionional (negligence or carelessness) - most common type 
+Negligence and Legal Liability 
+  Legal liability is established when: 
+  There was negligence (jaywalking, speeding) 
+  There was actual damage or loss 
+What constitutes Negligence? 
+  A failure of a person to exercise the proper degree of care 
+  A jury decides what negligence is 
+  The absolute burden is on the injured party 
+  absolute/strict liability: doesn t try to figure out who s as fault, always employer 
+  LL is established because accidents happen 
+  Imposed whether anyone was at fault 
+
+
+ 
+  Happens if children are involved - may not be able to read, also happens with 
+workers compensation 
+Measurement Issue 
+  Usually easy to establish injury or damage occurred 
+  Establishing the amount of damage is difficult 
+  How much is someone s life worth 
+Measurement of Losses 
+  Property loss (PL) 
+  Relatively simple to calculate 
+  Get in a card accident and insurance co determines how much the car was 
+worth/damages 
+  Bodily Injury (BI) 
+  Special damages 
+  Compensate for measurable losses 
+  Medical expenses 
+  Loss of income (look at W2 to verify) 
+  Easy to calculate - human behavior element makes it slightly 
+subjective (some over exaggerate) 
+  General damages 
+  Compensate for intangible losses 
+  Pain and suffering 
+  Mental anguish 
+  Difficult to estimate and measure 
+  Similar to an inconvenience fee ($ for having to deal with something) 
+  Ex: tennis player gets hit by driver that is texting, can t play tennis 
+anymore - tennis player is compensated for not being able to play tennis 
+anymore (very subjective) 
+  Ex: elevator malfunction 
+  $ is determined by who and how they react 
+  Surgeon killed gets more $ than a janitor killed 
+  Punitive damages 
+  Amount assessed as a form of punishment 
+  Gross   negligence is involved: company  knew   about error 
+  Difficult to estimate and measure 
+  Typically seen in product type data: because there are facts and research behind 
+them 
+Defense to Liability 
+  Assumption of risk defense (by injured party) 
+  One recognizes dangers involved in an activity 
+  Voluntarily chooses to encounter it 
+  Attending a hockey game 
+  Going skydiving - you know you re getting into something risky 
+  Loss must be inherent to actual activity 
+
+
+ 
+  comparative/contributory negligence 
+   You re not an innocent party  
+  Plaintiff was partially to blame for what happens 
+  Ex: two people fighting, 1st person throws a punch and misses and the 2nd 
+person fights back. 1st person sustains losses but is not innocent because he 
+instigated it 
+Res Ipsa Loquitur (not strict liability) 
+   The thing speaks for itself  
+  Modification to law of negligence 
+  Presumption of negligence on part of defendant 
+  The fact of an injury sometimes enough 
+  Often seen in medical area because there is limited expertise 
+  Requirements: 
+  Normally would not occur unless negligence 
+  Defendant exclusively controls tool/equipment 
+  Injured party does not contribute to loss 
+  Dentists removes wrong tooth, surgeon operates on wrong ACL 
+Vicarious Liability 
+  One person becomes LL for the negligent behavior of another 
+  Employers are held responsible for actions of their employees acting within the capacit y 
+of employment 
+  Employee must act on behalf of employer 
+Joint and Several Liability 
+  Negligence of two or more parties contribute to the injury or damage 
+  Walking on campus construction site, machine hits you and you suffer damages - 
+sue construction company and temple ( temple hired contractors) 
+  Injured party may recover the entire amount of compensation from any negligent party 
+who is able to pay - regardless of degree of that party s negligence 
+   The search for the deep pockets  - sue the person with the most $ 
+  Construction 90% responsible, TU only 10% - construction co says they will go 
+out of business so TU takes the blame 
+Product Liability 
+  Manufacturers of a faulty product that injures someone or damages property may be 
+held LL 
+  negligence  
+  Product is negligently made or improperly designed 
+  Faulty coffee cup lid 
+  Proper warning is not given to the consumer 
+  Warning label of peanuts in product is not properly specified 
+Product Liability Loss 
+  Cost of defending and paying claims for injury 
+  Cost of recalling and batched of products suspected of being defective 
+  Damage to your names - bad publicity 
+
+
+ 
+  Evolution of coffee cup is risk management 
+Premises Liability (harm to people) 
+  Owner or tenant may be held liable for damages if someone s injured 
+  If the property of others is damaged as a result of a condition in or arising out of the 
+premises 
+  Trespasser - never kids 
+  Someone comes without right and consensent - only obligated to abstain from 
+doing intentional harm 
+  Licensee (door hangers, law enforcement) 
+  Comes onto property without knowledge of owner 
+  No purpose of benefit to owner 
+  Must  warn   of any hidden dangers 
+  Social guest/invitee 
+  Been invited for some purpose 
+  From business perspective: customer in store 
+  Must keep premises safe so no harm comes 
+  Ex: party, kid gets hurt - kid sues everyone on the lease and co signers 
+Animal Liability 
+  Exotic animals - tiger, giant snake 
+  Strict liability: owner is liable 
+  Dogs 
+  Some states have strict liability 
+  Some states  one bite rule  - if dog has never bit before, could easily escape 
+liability 
+  Most insurance co won t cover you if you own a  dangerous breed  if dog does 
+something 
+  5 year old bit by neighbor's pit bull, sued and got lots of $ 
+Traditional Risk Management 
+  TRM 
+  4 loss exposures (property, net income, personnel, liability) 
+  Silo approach: individualized, departments 
+  property/liability pure risk (hazard risks) - risk manager 
+  Personnel risk - human resources 
+  Operation risk - COO/business units 
+  Financial risk - CFO 
+  Strategic risk - CEO/Board of directors 
+  Pure insurable risks 
+Enterprise Risk Management 
+  Manage risk and seize opportunity - proactive 
+  Risk based approach to managing an enterprise 
+  Very strategic, scientific approach 
+  Breaks it down into quadrants 
+  ERM does not ignore TRM 
+
+
+ 
+  Quadrant #1: Hazard risks (TRM) 
+  Fire, flood, lawsuits/liability 
+  Generally pure 
+  Quadrant #2: financial risks 
+  Inflation, foreign exchange rates/currency, stock market, interest rates, volat ility, 
+liquidity, credit, debt rating,   mostly speculative 
+  How do these things impact how I finance things? 
+  If I cant finance things how does that impact the future of my business? 
+  Quadrant #3: operational risks (risks that arise out of business operations) -  mostly pure 
+  Manufacturing products 
+  Supply chain issue 
+  service provider failures 
+  system failures  
+  product recall 
+  Regulatory issues: (Commerce Bank example) 
+  Employment practices/company policies and procedures 
+  Discrimination - TRM would only worry about this 
+  Turnover 
+  Workplace violence/sexual assault - ERM worries about this 
+  Quadrant #4: strategic of business risk (SWOT):  speculative in nature 
+  Customer service issues (growing to be important because of social media) 
+  Public relations (how you deal with certain things, topics, or issues) 
+  Reputation 
+  Competition 
+  Bad business decisions (Blockbuster had the opportunity to buy Netflix and said 
+no, they weren t worry about streaming, they were only worried about Walmart - 
+BAD BUSINESS DECISION) 
+  Amazon adapted and expanded horizons: very successful 
+  Intellectual property 
+  Ethics 
+  Union issues 
+ERM vs TRM 
+  TRM is a silo approach: departmentalized approach 
+  Focuses mainly on hazard risks (flood, fire) - handles by risk management area 
+  Financial type risks are handled by CFO, finance or accounting 
+  People tend to focus on what they manage, don t think about other 
+departments or business in total (close minded approach) 
+  Other risks are handled by their specific areas (departments) 
+  Not much effort to make comparisons among various risks to understand 
+cumulative impact on the firm 
+  ERM is an integrated approach: occurs at enterprise level instead of individual 
+departments 
+  Risk management activities heavily impact business decisions 
+
+
+ 
+  Designed to facilitate comparison and evaluation 
+  Identify risks and determine if risks are correlated or independent 
+  Certain departments (in TRM) may not know if they correlate 
+  Risk maps 
+  CRO 
+  Change business strategy 
+  Seize opportunity 
+  CRO is critical 
+ 
+ 
+ 
+
+

@@ -1,0 +1,878 @@
+﻿UNIT 1: B IOLOGY : THE SCIENCE  OF LIFE   
+Module 1: Introduction to Biology
+  Biotic (living) 
+oOrganized in hierarchical pattern; uses energy and raw materi al to survive; senses and responds to 
+environment to maintain homeostasis; grows, develops, and reproduces; be  of population that evolves.
+ Bacteria (yogurt), cells, matter (if makeup was ever alive)
+  Abiotic (nonliving)
+oDoes not meet all qualifications for biotic.
+ Water, DNA, protein, Viruses
+  Identify the levels of biological organization from atom to biome .
+oHierarchical System
+ Cell 
+ Fundamental and smallest unit of life
+ Prokaryotes Cell - small & simple without defined compartmen ts.
+ Eukaryotes Cell - includes membrane bound organelles (compartments ins ide that contain specific 
+groups of macromolecules to carry out specific functions [Exp. Nuc leus houses DNA])
+ Micro-organisms   single celled life forms (also unicellular) such as bacteria and protists
+ Tissue
+ Formed by cells working together to perform same detailed function.
+ Organs
+ Collections of tissues that work together to perform common general func tions.
+ Also present in plants
+ Organ System
+ Organized functionally related organs.
+ Organisms
+ Individual living entities that survive and reproduce as a unit.
+
+
+UNIT 2: B ASIC  CHEMISTRY  AND BIOLOGICAL  MACROMOLECULES    
+Module 3: Atoms and Chemical Bonding
+ Atom
+oSmallest unit of matter
+oMade up of subatomic particles:
+ Protons
+ Positive electrical charge (+ 1)
+ Included in center of nucleus (always positively charged)
+ One atomic mass unit (amu)
+ Neutrons
+ Electrically neutral (+/- 0)
+ Included in center of nucleus.
+ One atomic mass unit (amu)
+ Electrons
+ Negative electrical charged (- 1)
+ Found outside of nucleus orbiting it (shells)
+ Nearly no atomic mass 
+oShells
+ Filled with electrons from closest to furthest from nucleus.
+ First shell always has two electrons.
+ Second and third shells have room for eight electrons each.
+oIon
+ When Atom has excess of protons or electrons, it is positive or  negatively charged.
+ Cations (+) or Anions (-)
+oNeutral
+ When total number of protons and electrons are equal
+ Atomic Mass:
+oSum of Protons and Neutrons (electrons have no mass)
+ Chemical Bonds
+oAttractions that hold two or more atoms together (molecules)
+oAtoms form bonds in attempt to fill 2nd and 3rd shells to achieve stability.
+oTypes of Bonds
+ Covalent   
+ Strongest
+ Occur between atoms in same molecule.
+ Electron pairs shared .
+ Exp.: Hydrogen   1 electron (shell 1) / Carbon   4 electrons (shell 2)
+4 Hydrogens share each electron w/ 1 Carbon
+Each H gets 2 electrons (shell 1) / Carbon gets 8 electrons (she ll 2)
+ Ionic   
+ Moderately strong
+ Occur between charged atoms (ions)
+ Electron transfer  from one atom to another resulting in moderately strong electrostatic a ttractions 
+between oppositely charged ions.
+ Exp.:  Chlorine   7 electrons (shell 3) / Sodium   1 electron (shell  3)
+Sodium -1 electron (shell 2 now outermost) / Chlorine +1 electron (s hell 3 full)
+
+
+ Hydrogen Bond
+ Weakest
+ Occurs between atoms in different molecules or parts of molecul es.
+ Weak electrostatic attraction between areas of molecules with opposite partial charge
+ Occurs between electronegative  atoms such as when covalent bonds form.
+  2 H2O covalent bonds being bonded together.
+  Water, DNA, proteins, etc.
+ Special Properties of Water:
+oSolution   
+ Mixture of two or more substances which are evenly distributed (sal t in water)
+ Solvent   
+ Component of the solution in the greatest quantity
+ Exp. Adding sugar to saltwater solution, water is solvent.
+ Solute   
+ Component(s) present in lower quantities.
+ Exp. Adding sugar to saltwater solution, sugar and salt are solute s.
+ Dissolves in solvent
+ Solutions with water as solvent are called aqueous solutions  (exp. inside of our cells)
+oHydrophilic   
+ Substances that will dissolve in water.
+ Molecules bonded by ionic bonds split into positive and negative ions and diss olve.
+ Hydrophobic   
+ Nonpolar Molecules that do not dissolve in water (oils, fats, etc.)
+oCohesion   
+ Attraction of molecules to each other to 
+ Causes Surface Tension  to develop.
+ Ability of the surface of water to resist being ruptured and distr ibuted.
+ Adhesion   
+ Attraction between water molecules and other molecules (water  climbing up a straw)
+ Allows water to flow up tubes within plants.
+oWater Temperature
+ Water temperature tends to be stable and heats as a full unit  vs one atom at a time and bonds must be 
+broken to warm the water.
+ Freezing - molecules join in crystal structure releasing heat to surrounding environment.
+oWater Density
+ Molecules are bound to neighbors and unable to move closer, thus expanding the s tructure but making it 
+less dense than liquid water.
+
+
+ Molecule   
+oChemical structure made of at least two atoms.
+ Macromolecules   
+oBiologically important molecules that are polymers 
+oPolymers - combination of simple macromolecules or monomers
+oExp. Genetic molecule deoxyribonucleic acid (DNA)
+ Organic Molecules   
+oAny molecule containing a carbon-Hydrogen Bond (C-H)
+oAtoms within are connected by covalent bonds.
+oModular smaller organic molecules (monomers ) that can be linked to form larger organic molecules 
+(polymers )
+oStore a lot of chemical potential energy.
+oFour Groups
+ Carbohydrates   
+ Polymers made up sugars  (monomers)
+ Energy storage, cellular communication, and structural support
+ Simple Carbs   :
+  Sugars - one or two sugar monomers (monosaccharide or disaccharide)
+ Complex Carbs   :
+  More than two sugar monomers covalently bonded together (polysaccharide)
+ Glucose      used by plants and animals to store energy, cells break apart to r elease / use energy.
+ Lipids   
+ Energy storage and maintain boundary between living organism and environment.
+ Fats & oils (AKA Triglycerides )
+  Glycerol & fatty acids
+  Store energy (fat twice as much as carbs)
+ Phospholipids   
+ Fatty acids & phosphate
+  Made of hydrophilic glycerol heads and hydrophobic fatty acid tails
+  Provide cell membrane structure and protective barrier for cel ls or separating compartments.
+ Steroids   
+  Carbon ring molecules
+  Cell membrane structure and regular metabolic and energy processe s
+  Includes cholesterol - synthesized by liver to build steroids secr eted by sex organs and precursor to 
+vitamins D and K as well as bile salts.
+ Waxes   
+  Esters of fatty acids
+  Form protective layers on plants and animals to repel water.
+ Proteins   
+ Macromolecules (Polymers) made up of amino acids (monomers)
+  Amino Acids   building blocks of a protein, attached end to end via covalent bonds which allow for
+different protein shapes.
+ Protein Folding
+  Amino acids driven to core because they are repelled by water
+ Carry out most of necessary functions of life.
+ Work as enzymes  which speed up and control chemical reactions in cells.
+  Enzymes   catalysts, make reactions go faster and are not alte red by the reaction
+ Inorganic Molecules
+oRelatively stable, simple, and store little chemical potent ial energy
+ Exp. Water, oxygen, carbon dioxide, ionic salts
+
+
+ Nucleic Acid   
+oMacromolecules (Polymers) to store genetic info and synthesize  proteins.
+oConsists of a chain of nucleotides  that can be linked to build different nucleic acids.
+ Nucleotides   :
+ Molecules that make up units of nucleic acids (monomers)
+ Creates the helix structure (double stranded) which twist around and a re connected by two 
+strings of nucleotides. 
+ Built from phosphate & sugar (outside) and a nitrogenous base (inside)
+ Held together by hydrogen bond.
+ Nitrogenous Base   :
+ DNA   Adenine (A), Guanine (G), Cytosine (C), Thymine (T)
+ RNA   Adenine (A), Guanine (G), Cytosine (C), Uracil (U)
+ Pairing rules (A-T and G-C)
+ ATP   :
+ Nucleotide with Adenine Nitrogenous Base, a sugar, and 3 phosphate creates A TP.
+ A molecule formed that contains large amount of very readily accessible  energy.
+(Note: only 1 phosphate is part of RNA and DNA)
+oTypes of Nucleic Acids
+ Ribonucleic Acid    (RNA)
+ Transmits the information from DNA so that it can be used to produce proteins.
+ Involved in protein synthesis.
+ Leaves the nucleus. 
+ Single stranded.
+ C, U, A, G
+ Deoxyribonucleic Acid    (DNA)
+ Stores and transmits inherited genetic information.
+ Nucleotides are the building blocks (monomers) of DNA.
+ Contains coded directions for making proteins.
+ Stores genetic information.
+ Remains in nucleus.
+ Double stranded.
+ C, T, A, G
+ Single molecule of DNA is chromosome.
+ DNA Replication
+  Synthesis of new DNA double helix, each strand is used as a templa te stand to build a new 
+DNA strand.
+oDNA will then complement those bases.
+  Catalyzed by DNA Polymerase .
+oHelix untwists and strands to separate down the middle, pairing one side  of separated 
+helix with a new complementary base.
+  Is semiconservative .
+oHalf of the original molecule (the template strand ) is conserved by the new molecule.
+  During S Phase
+  Critical that copy is exact, changes can lead to issues (mutati ons)
+
+
+ Cell Theory   
+oAll living things are composed of one or more cells.
+oAll new cells are created by pre-existing cells dividing.
+oThe cell is the most basic unit of structure and function in all l iving organisms.
+ Cells   
+oTypes of Cells:
+ Prokaryotes   
+ Simple cells that make single celled organisms (i.e., bacte ria)
+ DNA is circular, looping around itself like rubber band.
+ Nucleoid Region
+  Area where DNA is stored.
+  P-Cells do NOT contain a Nucleus. 
+ Eukaryotes      
+ Larger, more complex cells most often creating multicellular organisms (plants, animals, fungi)
+ DNA is linear and does NOT loop but has ends.
+ Can also be single celled organisms.
+ Contains Organelles  & Nucleus.
+oMUST HA VE:
+ DNA
+ Instructions for building cells machinery
+ Membrane    
+ Acts as boundary to control what comes in or out.
+ Cytoplasm    
+ Fluid substance inside of the cell.
+ Space where chemical reactions than enable life take place.
+ Contains the Cytoskeleton
+ Cytoskeleton   
+ Network of filaments that support and frame the cell to move things  around the cytoplasm.
+ Ribosomes   
+ Structures that facilitate building of proteins
+oCAN HA VE:
+ Cell Walls   
+ Only in plants
+ Layer outside of membrane that provides rigid structural support and shapes cell.
+ Mostly in prokaryote cells but can be in eukaryote cells.
+ Made of cellulose   complex carb that is durable.
+ Cilia   
+ External appendages on some cells 
+ Can be present in both P & E Cells
+ Flagella   
+ Long extensions from the surface of the cell that can move back and fort h to help cells move.
+ Can be present in both P & E Cells
+ i.e., the tail on a sperm cell allowing it to swim (E-Cell).
+
+
+ Organelles   
+oSpecialized structures for carrying out functions similar to a f actory. 
+oHave own membrane to enclose self from rest of the cell.
+oInclude:
+ Nucleus   
+ a specialized compartment organelle for holding DNA surrounded by a double l ayered 
+membrane, the Nuclear Envelope .
+ Mitochondria   
+ Converts sugar to ATP (usable energy)
+ Chloroplast    
+ Plant specific 
+ Captures energy from sun and uses to build sugar molecules (Photosynthesis )
+ Endoplasmic Reticulum (ER)    
+ series of sacs and tubes where proteins and cellular components are  assembled.
+ Rough ER   
+  Has ribosomes embedded to give beheaded appearance.
+  Assist ribosomes in protein production.
+ Smooth ER   
+  Various functions, most often site of synthesis for lipids 
+  NO ribosomes.
+ Golgi Apparatus   
+ Packaging and shipping center of cell
+ Where proteins, built by ER, are delivered to parts of the cell ( or body in multicellular).
+ Often packages in membrane-bound sacs (Vesicles  & Vacuoles ) that function in storage and 
+transportation.
+ Vesicles   
+  Specialized for transport and some other functions.
+  Their membranes can fuse with cell membrane or membranes of E R and Golgi apparatus 
+to empty contents out of cell or into organelles.
+  Lysosomes    
+ospecialized vesicles only in animals containing digestive enzymes for recycling of cells
+or destruction of invaders.
+ Vacuoles   
+  For storage, their membranes do not fuse with others.
+  In plants, can have central vacuole where water is stored for  use.
+ Chlorophyll   
+ Pigments embedded in the membrane.
+ Gives plants their green color.
+ Used to capture the sun s energy and use it to build sugar/glucose molecules.
+
+
+ Cell Membranes   :
+oFunctions as a boundary to control what enters and exits the cell, as sisting homeostasis.
+oSome molecules require proteins to transport them across the me mbrane, helping control cell security.
+ Phospholipid Bilayer    
+ Creates the Membrane.
+ Contains a variety of proteins and other compounds.
+ Causes membrane to be semipermeable.
+ Core is hydrophobic, blocking diffusion of hydrophilic ions and polar molecules.
+ Also have carbs acting as signaling molecules or markers to cell i nteract with environment.
+ Phospholipids   
+ Fluid in which components in the membrane float.
+ Both hydrophilic (head) and Hydrophobic (tail)
+ Arrange in pattern that allows the tail to avoid water, thus wor king as boundary for cell.
+ Allow cell to change shape, by adding or removing phospholipids (growth and movement).
+ Selectively Permeable   
+  Can control to extend what substances pass through membrane.
+ Osmosis   
+ Diffusion of water across the cell membrane.
+ Water will flow into or out of cells if they are exposed to environments with different 
+concentrations.
+oMovement Methods:
+ Simple Diffusion   
+ Molecules spontaneously moving from areas of high concentration to areas of low 
+concentration due to random movement.
+  i.e., a drop of ink in water.
+ Allows molecules to diffuse out of the cell down their concen tration gradient.
+  i.e., small molecules, polar molecules, and nonpolar molecules.
+ Facilitated Diffusion   
+ Channels or pores that allow specific molecules to pass through the  membrane.
+  For large polar molecules and charged molecules.
+ Can be always open or gated channels that open and close in response to cell needs.
+  Doesn t require added energy from cell due to movement down concentration gradients.
+ Active Transport   
+ How molecules move against their concentration gradient.
+ Requires the cell to do work (expend energy) with the source of the energy b eing ATP.
+ Endocytosis   
+ Material is engulfed within an enfolding of the membrane and brought inside with cytoplasmic 
+vesicle.
+  Particle encounters cell surface, producing a dimple or pit in membrane.  Pit will then 
+deepen and finally pinch off to form a vesicle in the cytoplasm of the  cell.
+  i.e., immune cells protect animals by engulfing foreign objects suc h as bacteria
+ Exocytosis   
+ Reverse of Endocytosis
+ Internal vesicle fuses with the membrane and releases contents to the outside.
+  i.e., nerve cells release signal molecules en masse.
+
+
+UNIT 4: M ETABOLISM  (M ODULE  10-11)   
+Module 10: Photosynthesis
+ Photosynthesis   :
+oMetabolic pathway that uses light energy to build Carbs from C O2.
+ CO2 + H2O + Light = Sugar + O2
+ Oxygen given off as by-product from splitting water.
+oDoes this to store energy in glucose molecules for later use (c hemical potential energy )
+oOccurs in the chloroplast in two steps.
+ Step 1: Light Dependent
+ Absorb light energy to use in breaking water apart, exciting one of water  s electrons.
+  Electron used to produce ATP and NADPH
+ NADPH   
+  Moves electron from one reaction to another.
+oElectron that starts in water moved to where it will split the  water to produce O2.
+oLight + H2O = ATP + NADPH + O2
+ Step 2: Light Independent
+ Calvin Cycle    (Calvin-Benson Cycle)
+  The light independent reaction that takes place after energy has been captured from 
+sunlight.
+oPlant uses ATP energy and the NADPH electron to build sugar and CO2.
+oATP + NADPH + CO2 = Sugar
+ Adenosine Triphosphate   ATP   
+oThe major energy carrier for cells, held in phosphate group.
+o3 phosphate groups, when broken releases energy for cell to perform wor k (building glucose in Calvin 
+Cycle)
+oLinks Calvin Cycle and Light Dependent Reaction
+ Calvin Cycle makes ATP become ADP   .   
+ From remaining phosphate group
+ Doesn t contain as much energy as before but can return to Light Dependent R eaction to go 
+through Phosphorylation.
+  Third phosphate group is added, and ATP rebuilt by light energy.
+ NADPH   
+oHold energy by carrying excited electron.
+oLinks Calvin Cycle and Light Dependent Reaction
+ Becomes NADP+
+ Doesn t contain as much energy as before.
+ FADH2   
+oElectron carrier molecule produced in the Krebs Cycle of aerobic cellular respiration.
+oTransferred to the electron transport chain where electrons are used to generate ATP.
+
+
+ Cellular Respiration   
+oEnergy released from glucose is put into (ATP)
+ Requires ADP +P and Sugar, 
+ Produces CO2 and Water
+oIs photosynthesis running in reverse.
+oAerobic Process      requires oxygen to perform.
+oStep 1: Glycolysis
+ Process of breaking down glucose into simple molecules, releasing some of the energy stored in the
+glucose bonds.
+ Produces NADH, ATP, and Pyruvate
+ Pyruvate   
+  Three carbon molecules broken down from glucose.
+  Converted into Acetyl coA  for next step.
+oTwo carbon molecules.
+ Can lead to fermentation.
+  Process in that does not require oxygen (Anaerobic ) in order to produce small amount of 
+ATP.
+  Can produce lactic acid, ethanol, others.
+oStep 2: Citric Acid Cycle  (also Krebs Cycle )
+ Occurs in inner space of Mitochondria.
+ Acetyl coA    broken down further to release energy and CO2.
+  Energy release is used to build ATP, NADH, and FADH2
+oStep 3: Electron Transport Chain
+ NADH and FADH2 are transported through the membrane inside to mitochondri on and used to 
+build more ATP.
+ Uses oxygen to accept electrons and produces water.
+ Converts them back into NAD+ and FADH where they can be used again in g lycolysis and 
+Krebs Cycle.
+ Main source of ATP from Cellular respiration.
+
+
+UNIT 5: C ELL DIVISION    
+Module 12: The Cell Cycle
+ Cell Cycle   
+oLife of a Cell, 5 stages that it goes through during lifetime.
+ Interphase      activity in the first three stages of the cycle
+ Stage 1: G1 (First Gap)
+  Actively growing and producing enzymes and other components needed for later stages.
+ Stage 2: Synthesis (S Phase)
+  DNA Replication - duplicate copies (2) of the chromosomes is synt hesized (built) by using 
+replication enzymes to copy the DNA.
+ Stage 3: G2 (Second Gap)
+  Cells actively growing again and producing materials needed for later s tages.
+  Checks DNA for errors.
+ Stage 4: Mitosis (M Phase)
+  The nucleus is split into two separate but identical nuclei (cell division).
+ Stage 5: Cytokinesis
+  Separates the 2 nuclei into two new daughter cells.
+oCycle is completed and the two identical cells restart at G1 .
+ If conditions are not good, cell will stop cycle until conditions change.
+oMutations   
+ Break the checkpoints during Interphase  that stop a cell from dividing.
+ Errors in the DNA that can result from genetic predispositi on or environmental factors.
+ Mutagens   
+ Chemicals in the environment that produce mutations.
+  i.e., cigarettes contain mutagens that can alter DNA and dis rupt proper regulation of the 
+cycle.
+ Increased and prolonged exposure lead to development of cancer.
+  Cancer   result of numerous mutations in multiple genes involved in r egulating cycle.
+
+
+ Chromosomes   
+oCoiled form of the DNA-Protein complex
+ E Cells   located in Nucleus
+ P Cells   located in cytoplasm
+ Made up of DNA and proteins called Histones.
+ Histones   
+ Proteins that can move closer or further apart to help chromosomes contract into chromatin
+during cell division or decondense after cell division.
+oDNA loosely coiled around during S Phase  for ease of access.
+oDNA tightly compacts when ready to move.
+ Centromere   
+ Point where duplicated chromosomes of S Phase  remain attached.
+ Helps sorting process for eventual division.
+ Chromatids   
+ Each copy of the chromosome, which are attached at the centromere (sist er chromatids) to 
+form a chromosome.
+ Diploid   
+ Status of having one copy of each chromosome from each parent.
+ The two copies combined are Homologous Chromosomes .
+  Similar in length, gene position, and centromere location, but NOT sister chromatids.
+  Alleles   
+oDifferent specific versions of genes that may appear alike (hair , blood type, etc.)
+oHair Gene > wavy allele from parent 1 vs. straight allele fr om parent 2.
+ Haploid   
+ Cells that only have one copy of each chromosome.
+ Can have sister chromatids, but NOT homologous chromosomes.
+
+
+ Mitosis   
+oCell division used to increase cell numbers when we grow or need d amaged cells replaced.
+ Produces 2 identical cells at the end.
+ Diploid    cell will produce Diploid  cell (duplicates)
+ Must have all necessary proteins prior to start.
+oSomatic Cells   
+ All non-reproductive cells in an organism.
+ i.e., tissue cells, nerve cells, blood cells.
+ Most of the cells in multicellular organisms.
+ Go through mitosis  when dividing.
+oCan be used to reproduce asexually in single-celled organisms.
+oP.M.A.T.    (Process)
+ Prophase (P)
+ Chromosomes condense.
+ Nuclear membrane begins to disintegrate, allowing cellular components to act upon 
+chromosomes.
+ Metaphase (M)
+ Chromosomes are moved to center of cell.
+ Centromeres of each chromosomes pushed to middle to form a line of c hromosomes.
+ Anaphase (A)
+ Sister Chromatids are separated and moved to opposite sides of cell.
+ Chromatids become individual chromosomes and move to opposite poles
+ Telophase (T)
+ New nuclear membranes are formed around clusters of chromosomes on each side of the cell, 
+creating separate but identical nuclei.
+ Cytokinesis
+ Daughter cells form
+
+
+ Meiosis   
+oCell division that prepares organisms for sexual reproduction.
+ Diploid    cell will produce a Haploid  cell (produces half the number of chromosomes)
+ Haploid   could then undergo fertilization to receive the full Diploid  number of chromosomes.
+oProduces gametes .
+ Sperm and egg cells in animals
+ When two combine, unique new cell is produced and goes through process of mi tosis to grow.
+oProcess:
+ Meiosis I   
+ Numbers of chromosomes divided in half, because Homologous separated.
+    to 1 daughter cell /   to the other daughter cell.
+  Ending results in connected chromatid via the centromere still.
+ Prophase I    (P)
+  Chromosomes condense and membrane breaks down.
+  Homologous chromosomes pair up and cross over occurs.
+oIncreases genetic diversity, as new combinations of alleles form.
+ Metaphase I    (M)
+  Homologous pairs line up on metaphase plate, unlike mitosis.
+ Anaphase I    (A)
+  Homologous pairs are pulled apart and move toward opposite polls of cell.
+ Telophase I    (T)
+  Cytokinesis occurs and two new daughter cells form.
+oTwo haploid daughter cells because homologous pairs of chromosomes separated.
+ Meiosis II   
+ Begins with two haploid cells, each containing too much DNA.
+ Like Meiosis I , however, there are half as many chromosomes.
+  Sister cells are separated from each other.
+ Produces 4 unique haploid cells at the end.
+ Prophase II    (P)
+ Metaphase II    (M)
+ Anaphase II    (A)
+ Telophase II    (T)
+ Crossing Over   
+oAlternative to reorganize genes.
+oProcess swaps gene positions on Homologous Chromosomes, resulting in new combination of genes on
+each chromosome.
+oOccurs during Prophase I
+
+
+ Gene   
+oRegion of a Chromosome that has specific function.
+oUsually, one contains instructions for building one protein.
+ Proteins produced by living organisms will determine traits, their  Phenotype .
+ Phenotype   
+ Manifestation of the genes in an organism
+ Physical or physiological characteristics present.
+  i.e., protein enzymes in plants build pigment resulting in flowe r color.
+ What it looks like or what it is (purple flowers, lactose intol erance, sickle cell anemia).
+ Genotype   
+ The genetic information that produces the traits in phenotype .
+ The Alleles  present.
+  i.e., plant genotype  will produce proteins that lead to a pigment of a certain color.
+ Usually assigned upper case and lower-case letters
+  i.e., plants genotype is BB or bb.
+ Why it looks like or has what it does (Alleles for what flowers , Alleles for lactose intolerance)
+oGene Pool   
+ All the genes and alleles present in a population.
+oDiploid cells have 2 copies of each chromosome and each gene.
+ One set from mother (egg) one set from father (sperm).
+ Can have the same alleles of a gene or different.
+ Homozygous   
+  Cells that have the same alleles.
+oi.e., genotype is bb.
+ Heterozygous   
+  Cells that have different alleles.
+oi.e., genotype is bB.
+oPunnett Square   
+ Uses to determine probability of a genotype in offspring.
+ Phenotype can be determined by the looking at the genotype dominant  and recessive  traits.
+Alleles:
+(Trait)B
+(Purple)b
+(White)
+B
+(Purple)BB
+(Purple)Bb
+(Purple)
+b
+(White)Bb
+(Purple)bb
+(white)
+ 75% of offspring will have purple phenotype and 25% will have white.
+oLaw of Segregation   
+ Two Alleles for each gene separate from each other when game tes form.
+ Results in each gamete containing one allele of each gene.
+oTraits
+ A specific characteristic of an individual.
+ Recessive   
+ A trait that is masked by the Dominant trait (Bb ) and is only expressed in the homozygous 
+condition (bb).
+
+
+ Dominant   
+ A trait that is expressed (manifested as a phenotype) even when onl y one copy of the alleles 
+encoding the trait is present in the genotype (B b).
+  Does not mean it is more likely to be passed to offspring, is st ill only distributed to half of 
+the gametes.
+  When individuals have one Dominant and one Recessive Allele, Dominant dic tates 
+phenotype.
+  Exceptions can occur if mutated dominant allele codes enzyme improperly , resulting in 
+Recessive trait being manifested as the phenotype.
+  Are NOT more favored from an evolutionary point of view.
+oMonohybrid Cross   
+ Cross between two organisms, each of which is heterozygous for the t rait.
+ Results in two heterozygous and two homozygous offspring.
+oDihybrid Cross   
+ Cross between two organisms, each of which is heterozygous for two distinct traits.
+ Law of Independent Assortment   
+ Each pair of Alleles segregates separately of any other pair of alleles when gametes are formed.
+Alleles: RY Ry rY ry
+RY RY RRYy RrYY RrYy
+Ry RRYy RRyy RrYy Rryy
+rY RrYY RrYy rrYY rrYy
+ry RrYy Rryy rrYy rryy
+oIncomplete Dominance   
+ Inheritance where one allele for a specific trait is not compl etely expressed over the other allele in 
+the heterozygote.
+ Results in third phenotype, where the expressed physical trait is a c ombination of the 
+phenotypes of both alleles.
+  i.e., red flower and white flower offspring get pink flowers.
+oCo-Dominant   
+ Both phenotypes are expressed.
+ i.e., red flower and white flower offspring get red and white spotte d flowers.
+oPolygenic Inheritance   
+ One phenotype is controlled by two or more genes.
+ Usually indicated by along the continuum.
+ i.e., human height, skin color, eye color, and weight are determined by multiple genes.
+ Most visual traits are polygenic.
+oEnvironment Factors
+ Many traits can be influenced by the environment conditions surrounding them.
+ i.e., flower color in acidic soil vs. alkaline soil.
+ i.e., blood cell count can vary depending on physical fitness, altitude, medical history.
+
+
+oSex-Linked   
+ Traits associated to alleles located on sex chromosomes.
+ Disorders
+  i.e., hemophilia, color blindness (red/green)
+  Most linked to X Chromosome.
+ Sex Chromosomes   
+ 1 of the 23 chromosomes in Diploids.
+  X and Y (Male XY / Female XX)
+ Autosomal   
+ Chromosomes that are not sex determining.
+  22 of the 23 chromosomes in Diploids.
+ Disorders
+  Progeria, Cystic Fibrosis, Tay-Sachs Disease, Huntington s Dis ease.
+oKaryotype   
+ Picture of the chromosomes of a cell during mitosis
+oDisorders
+ Nondisjunction
+ Chromosomes not separating properly during anaphase.
+ Can result in extra or missing Chromosomes being created.
+  Down Syndrome (3 copies of chromosome 21)
+  Klinefelter Syndrome (Two copies of X and one Y)
+  Turner Syndrome (One X only)
+  Edward s Syndrome (3 copies of chromosome 18)
+  Patau Syndrome (3 copies of chromosome 13)
+ Can occur in Meiosis I or II.
+oBRCA Gene   
+ Code for proteins involved in detecting and repairing double strand breaks in DN A molecules.
+ Defects in BRCA result in increased chances of DNA errors.
+ Very important in stopping development of cancer.
+ Works as a tumor suppressor gene.
+
+
+ Gene Expression
+oDNA information organized into genes which contain instructions for making proteins.
+oDNA > RNA > Protein
+ Transcription
+ DNA is transcribed and encoded to RNA (specifically mRNA or Messenger RNA) with 
+information to be taken to protein synthesizing regions of cell.
+  Uses same complementation and polymerase as DNA but uses ba ses found in RNA.
+ Translation
+ Synthesis of polypeptide (the molecules than join to form proteins) f rom the information in the 
+RNA sequence.
+oProteins are synthesized by ribosomes, using mRNA as a template.
+ Codons    (Triplets)
+ Every three bases encoded for a single amino acid.
+  Most organisms use same amino acids, meaning genes can be transferr ed to and expressed 
+in cells of another organism.
+  Only 20 amino acids used by living organisms.
+ Transfer RNA (tRNA)   
+ RNA directly involved in protein synthesis that transports amino acids to ribosomes to be 
+incorporated into emerging protein.
+ Contains bases that can pair with a particular codon in mRNA.
+  Binds with mRNA via base pairing and brings the correct amino aci ds to the growind 
+polypeptide chain.
+ Each carries specific amino acid.
+ Ribosomal RNA (rRNA)   
+ Component of a ribosome, which assists with process of translating the instructions for making
+proteins that are present in mRNA.
+oSummary
+ mRNA      Encodes Protein.
+ tRNA      Brings amino acids to mRNA.
+ rRNA      a component of the ribosome
+
+
+ Evolution   
+oHow and why genetic changes occur in populations or higher-level groups ove r generations.
+ Macroevolution   
+ Change in a biological lineage, including the origin or extinction of s pecies.
+  Biological lineages - species and higher-level taxonomic groups
+  Biodiversity - features and numbers of species.
+  Occur over many generations, too slow to observe directly in most cas es.
+ Speciation Event   
+  An existing species splits or branches into two or more new species that evolve 
+independently of each other.
+  Formation of new species.
+ Clade   
+  A group that includes all the species that came from a branch point.
+ Linnean Classifications
+  Species: Domestic Cat
+  Genus: Cats
+  Family: Felids
+  Order: Carnivores
+  Class: Mammals
+  Phylum: Chordates
+  Kingdom: Animals
+ Homologous Features   
+  Shared feats. / traits that were inherited from the same s ource and reflect common ancestry.
+  Species that are closely or distantly related can share many or few.
+oNot all similarities between species are homologous, only if inheri ted from common 
+source.
+ Phylogenetic Trees (Phylogeny)   
+  Tree diagram that represents a hypothesis as to how a biological  lineage may have 
+branched and formed clades over time.
+oAre subject to change as more data is gathered and analysis technique s improve.
+ Microevolution   
+ Occurs when the type or frequency of alleles and genotypes in a population change over one to 
+many generations.
+  Changes for a single population .
+oPopulation    - All the individuals of the same species  occupying the same area that are 
+likely to breed.
+ Genes can be exchanged between different populations of the same species  on 
+occasion.
+ Species   
+- A group of organisms whose members can and will breed with each other.
+- Populations are a subset of species and do not include every member of the 
+species, just a group in the same area. 
+  Gene Pool - genetic makeup of the population.
+  One to many generations, may be observed directly in short-lived species.
+ Main process is natural selection .
+  Nature impacts the evolution of a population.
+  Environmental factors favor the reproduction of organisms with so me traits.
+ Fitness   
+  A measure of reproductive success in organisms.
+
+
+ Adaptation   
+ The fit between organisms and their natural environment.
+  Ability to camouflage, tolerate temperature, etc.
+  Are inherited characteristics that enable an organism s success ful reproduction in a given 
+environment.
+oBecome common as result of past and ongoing natural selection .
+oCan be physical, chemical, or behavioral.
+oSexual Selection   
+ Traits that attract more mates or allow victory in competition over mates.
+ Natural selection    arising through preference by one sex for certain characteristics 
+in individuals.
+oArtificial Selection    (Selective Breeding)
+ Human trait selection to domesticate plants and animals to suit needs.
+oMutations can be adaptive traits that change a population.
+oGene Flow   
+ Result of fertile members of a species moving into or out of a popul ation.
+oGene Drift   
+ Change in a gene pool because of random chance.
+ Alleles being eliminated from a population.
+ A natural disaster eliminating a chunk of a population.
+ Not Evolution
+ Individual changes including features acquired through development, learning, i njury, etc.
+ Single life span changes.
+
+
+ Ecology   
+oStudy of how organisms relate to one another and their environment.
+ Population   
+ All the same individuals of a species that occupy same area and breed.
+ Community   
+ All the populations  (living organisms) within an area interacting with each other.
+  i.e., a forest community, a desert community, etc.
+ Ecosystem   
+ Includes the community  as well as the non-living factors in an area such as chemicals in t he 
+soil, rainfall, etc.
+ Biosphere   
+ All the areas on, within, or around Earth that are capable of supporting life.
+ Interspecific Interaction   
+oAn effect of one population on another in a community.
+oAny interaction between members of different species.
+ Symbiosis   
+ Direct community interaction between pairs of species that ar e intimately and physically 
+connected.
+ Species 1 (symbiont) living in or on the body of Species 2 (host)
+ Mutualism   
+ Species 1 & 2 benefit from each other s presence (win-win)
+  May involve trading materials, services, or both.
+ Can be Symbiosis .
+ Predation   
+ Species 1 (Predator) benefits / Species 2 (prey) is harmed.
+ Also includes herbivory  species (plant eating).
+ Competition   
+ Species 1 & 2 are both are harmed by the presence of each other (l ose-lose)
+  May involve two species interfering directly (fighting) or using the  same limited resource.
+ Parasitism   
+ Parasite benefits / harmful to host.
+ Commensalism   
+ Species 1 is unaffected / species 2 benefits.
+  i.e., barnacles on a whale
+ Foundation Species    
+oA species that are physically dominant (largest and/or most abundan t) in a community).
+ The most abundant trees in a forest, reed building corals, common grass es.
+ Anything that threatens them will likely negatively impact other spe cies in the community.
+ Keystone Species   
+oA species that has an unexpectedly strong effect on the stability or diversity of a community that is 
+much larger than its abundance or biomass would suggest.
+
+
+ Trophic Levels   
+oAny of the sequential stages in a food chain
+ Level 1: Producers
+ Organisms that make simple organic food molecules from inorganic ra w materials using light 
+energy to obtain nutrients.
+ Tomato  > Caterpillar > Small Bird > Large Bird
+ Level 2: Primary Consumers
+ Organisms that consume or feed on plants (herbivores)
+  Tomato > Caterpillar  > Small Bird > Large Bird
+ Level 3: Secondary Consumers
+ Organisms that consume or feed on primary consumers (carnivores or omnivores)
+  Tomato > Caterpillar > Small Bird  > Large Bird
+ Level 4: Tertiary Consumers
+ Organisms that consume secondary consumers (large predators)
+  Tomato > Caterpillar > Small Bird > Large Bird
+ Level 5: Quaternary Consumer
+ Top of the food chain.
+ Detritivores   
+ Animals that feed on dead organic matter
+  Earthworms, vultures, etc.
+ Decomposers   
+ Bacteria and fungi that colonize dead material and absorb food molecules.
+ At the end, Detritivores  and Decomposers  extract remaining calories and nutrients, releasing 
+simple inorganic wastes to the environment, making chemical elem ents available for Producers .
+ Energy Pyramid   
+oThe transfer of energy passed up through the Trophic Levels .
+ On average, only 10% of available energy in one Trophic Level  is incorporated and stores as 
+calories in the bodies of the next level up.
+ Rest of energy is released undigested in feces or dissipated as hea t.
+  Once released it is inaccessible as a form of energy for l iving things.
+ Biochemical Cycles   
+oPathways that chemical elements follow through ecosystems involving l ife (bio) and nonliving 
+components (geo).
+ Water Cycle   
+ Importance: Solvent that makes up most of the mass of all liv ing cells and stabilizes 
+temperature.
+ Reservoirs: Air, groundwater, ice, salt, and freshwater bodies.
+ Driving Process: Evaporation and precipitation.
+ Carbon Cycle   
+ Importance: Forms backbone of carbs, lipids, proteins, and nucleic a cids.
+ Reservoirs:  Air, dissolved in water, soil, rock.
+ Driving Process: Cellular respiration and photosynthesis (also bur ning of fossil fuels).
+ Nitrogen Cycle   
+ Importance: Found in proteins and nucleic acids.
+ Reservoirs: Air, dissolved in water, soil.
+ Driving Process: Bacterial action
+  i.e., bacteria convert N2 gas from the air to usable form for  producers.
+
+
+Module 24: Human Impact
+ Identify factors related to human activities and population size tha t impact the environment.
+ Recognize the importance of biodiversity and ways it can be threatene d.
+Key Terms:  biodiversity, ecosystem, climate change, genetic diversity, pollution, renewable resource, 
+species richness, sustainable technology, non-renewable resource,  ecosystem diversity
+
+

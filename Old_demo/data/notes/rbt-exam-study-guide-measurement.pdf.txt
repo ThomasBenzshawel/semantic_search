@@ -1,0 +1,52 @@
+﻿A-1. Prepare for data collection.
+1. Read data from last session.
+2. Prepare data sheets and materials based on data from last session.
+3. Determine what programs you plan to work on during the session.
+4. Gather materials for those programs.
+5. Set up the first set of programs so they are ready when you begin the session.
+A-2. Implement continuous measurement procedures (frequency, duration).
+Continuous measurement : Records every possible behavior occurrence
+Frequency : Count per observation
+Duration : Total amount of time in which a behavior occurs
+Latency : Elapsed time between onset of a stimulus to the initiation of a response
+Inter-Response Time (IRT) : Elapsed time between two successive responses
+A-3. Implement discontinuous measurement procedures (partial and whole interval
+momentary time sampling)
+Discontinuous measurement : Records a sample of behavior during an observation
+Partial : Did the behavior occur at all during the intervention
+Whole : Did the behavior occur during the whole intervention
+Momentary time sampling : Is the behavior occurring at this point in time
+A-4. Implement permanent-product recording procedures.
+Measuring behavior after it occurred by measuring tangible items or the effects a behavior has on
+an environment.
+For example : The number of windows broken, the number of homework problems completed,
+the number of test questions answered correctly.
+A-5. Enter data and update graphs.
+RBTs may assist the BCBA with entering data and updating graphs. Although electronic data
+may decrease the need for RBT assistance in this area, RBTs should still understand the purpose
+of data and graphs and also be able to enter data and update graphs as requested by their
+supervisor.
+
+
+Data and graphs 
+ Are important tools in determining effective interventions
+ Are the collection of all data taken during the session
+ Are the cornerstone of Applied Behavior Analysis (ABA)
+ Can be taken and processed by hand or through computer programs such as Microsoft
+Excel
+A-6. Describe behavior and environment in observable and measurable terms.
+In order to describe behavior is observable and measurable terms, follow these guidelines:
+Behavior is anything a person does that can be observed, repeated, or measured.
+Environment is anything that we perceive through the senses.
+A good rule of thumb is to always describe a behavior and/or environment so that someone
+completely unfamiliar with the case would be able to take over data collection just by reading the
+description.
+If I were writing a description of a tantrum behavior, these examples show the difference
+between a subjective description and an observable andmeasurable description.
+Subjective Observable and Measurable
+Getting extremely worked up and frustrated,
+yelling or cryingAny incident of kicking legs, throwing self on
+ground, banging head on floor, crying that
+lasts at least 1 minute
+
+

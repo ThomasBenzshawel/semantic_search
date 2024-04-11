@@ -1,0 +1,124 @@
+﻿C-1. Identify the essential components of a written skill acquisition plan.
+1. Identify skill deficit
+2. Create a goal to address deficit
+3. Identify measurement procedures.
+4. Access current skill level (baseline).
+5. Select and implement skill acquisition procedure(s).
+6. Take data of target behaviors to determine effectiveness.
+7. Modify if necessary to maintain/increase effectiveness.
+C-2. Prepare for the session as required by the skill acquisition plan.
+1. Determine what occurred last session to decide where to start.
+2. Select skill acquisition procedures to complete during the session
+3. Prepare materials you will need for the skill acquisition procedure (including data
+collection materials).
+C-3. Use contingencies of reinforcement.
+Unconditioned reinforcement - Inherent and naturally occurring reinforcement, such as food.
+Conditioned reinforcement - Previously neutral stimuli that has become a reinforcer through
+association with an established reinforcer.
+Continuous reinforcement (CRF) - Reinforcement is provided for each occurrence of behavior,
+typically used int he initial stages of learning a new behavior.
+Intermittent reinforcement (INT) - Some but not all occurrences of a behavior are reinforced,
+typically used to maintain established behaviors and when progressing toward naturally
+occurring reinforcement.
+Fixed Ratio (FR) - Reinforce every nth response.
+Variable Ratio (VR) - Reinforce roughly every nth response.
+Fixed Interval (FI) - Reinforce after namount of time
+Variable Interval (VI) - Reinforce roughly after namount of time
+C-4. Implement discrete-trial teaching procedures.
+Mass trial - Asking the target multiple times in a repetitive manner. That would look like this:
+<Trial 1: Touch dog  Trial 2: Touch dog  Trial 3: Touch dog=. Mass trialing is typically used
+to teach very young children, children new to ABA, or lower functioning children.
+
+
+Distractor trial - Asking the same target each trial, but including two 8unknown9 choices as
+answer options. For example, having a dog card and two cards with objects that are unknown to
+the learner and saying <touch dog.=
+Random Rotation - This is a trial that includes one mastered choice and one trail choice. You
+would rotate prompts during each trial.
+Expanded Trial - Similar to the random rotation, but you include several mastered choices and
+only one trial choice. You would rotate prompts with each trial.
+Maintenance/Generalization - Once a trial choice has been mastered, you would include it in
+the rotation of mastered choices during random rotation and expanded trials.
+C-5. Implement naturalistic teaching procedures.
+Naturalistic teaching procedures are used to help learners generalize the skills they are learning
+through their ABA program. You are using the natural environment to generalize learned skills
+into natural, everyday use.
+An example of implementing naturalistic teaching procedures would be to put a desirable item in
+clear view of a learner to encourage manding.
+If a learner can identify and tact a picture of a dog, bringing them in the presence of a real dog
+and asking <What is it?= would be another example.
+C-6. Implement task analyzed chaining procedures.
+Task analysis - Breaking complex skills into smaller, teachable units creating sequential steps.
+Forward Chaining - Teach the first step of a task, then the second, then the third, until the entire
+sequence is mastered.
+Backward Chaining - Complete a task entirely except for the last step. Teach the learner to
+complete the last step. Once they have mastered the last step, complete the whole task until the
+second to last step, and then allow them to master that. Continue this process until the entire task
+is learned.
+C-7. Implement discrimination training.
+Discrimination Training - Discrimination training is teaching a client how to tell the difference
+between two or more stimuli. Reinforcing occurrences of a behavior in the presence of one
+stimulus condition and not in the presence of another stimulus condition.
+
+
+Simultaneous - Both stimuli are presented at once.
+Successive - Only one stimulus condition is present.
+C-8. Implement stimulus control transfer procedures.
+Stimulus control transfer procedures are techniques in which prompts are discontinued once the
+target behavior is being displayed in the presence of the discriminative stimulus (Sd). Prompt
+fading and prompt delay are used in stimulus control transfer procedures.
+Example :
+RBT: <Say cup=
+Learner: <Cup=
+RBT: Points to a picture of a cup
+Learner: <Cup=
+C-9. Implement prompt and prompt fading procedures.
+Prompt fading - there are two methods to fade a prompt.
+ Most to least - With this method you start the most intrusive prompts and gradually fade
+to less intrusive prompts. You might follow a prompting hierarchy such as: Full physical,
+partial physical, model, verbal, gestural, independent.
+ Least to most - The method involves starting with the least intrusive prompts and
+moving up in the prompting hierarchy. This can be beneficial because it gives students
+the opportunity to be independent and you are only providing as much prompting as
+needed. This is a strategy we tend to use naturally. Once you introduce a task, allow wait
+time to see how they respond naturally, then you can give a gestural prompt. If this
+doesn9t produce a correct response, move up to a verbal, and so on.
+C-10. Implement generalization and maintenance procedures.
+Generalization - teach learned targets in the natural environment
+Examples:
+ Teach the word car with many different pictures of different cars
+ Having two people teach the same skill
+Maintenance - Including mastered item or skill into programs
+Examples:
+ Discrete trials using random rotation or extended trials
+
+
+C-11. Implement shaping procedures.
+Shaping is the process of teaching a new behavior gradually by rewarding behaviors that
+progressively come close to the target behavior. An example of shaping could be:
+Target behavior: Jane to complete a full 10-question homework assignment. After probing, she
+has not been successful in completing the task independently.
+1. Require Jane to turn in a paper with just her name on it. Reward with reinforcement.
+2. Require Jane to turn in a paper with one question completed. Provide reinforcement.
+3. Require Jane to turn in a paper with two questions completed. Provide reinforcement.
+You would continue this process until the child has met the target behavior. This is only one
+example of shaping and the method of shaping can be used in many different ways.
+C-12. Implement token economy procedures.
+Atoken economy is a system of generalized conditioned reinforcers.
+The individual whom receives the generalized tokens can save them and exchange for a variety
+of backup reinforcers.
+Basically, an individual earns generalized reinforcers (stickers, points, tokens ) which can be
+exchanged for an actual reward (i.e., break, game, toy, snack).
+Conditioned reinforcer - A stimulus that acquired its reinforcing value by being paired with
+other reinforcers. Conditioned reinforcers are also called secondary reinforcers or learned
+reinforcers and required pairing to understand their value and be positive for <me=. Such as
+social, hugs, tickles, activities, etc.
+Backup reinforcer - The reinforcer that is paired with a conditioned reinforcer or a generalized
+conditioned reinforcer.
+An example might be:
+Jamie loves to watch Barney videos
+She earns tokens on a board for staying seated on the carpet during story time
+After earning a predetermined number of tokens she exchanges them for access to Barney
+videos.
+
+

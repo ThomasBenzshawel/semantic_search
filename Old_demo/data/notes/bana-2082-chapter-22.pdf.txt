@@ -1,0 +1,86 @@
+﻿BANA 2082
+Chapter 2.2
+Types of Data
+In order to ensure that Dow companies make up a representative sample, c ompanies are added and 
+removed from the Dow regularly. The companies in Dow today may ha ve changed from what appears in 
+Table 2.1. 
+Data can be classified in many ways depending on the set and form. In cer tain instances, data from the 
+population with all elements with interest can not be obtained. In su ch cases, we obtain data from a 
+population subset known as a sample. For example, with the thousands of publicly traded firms in the 
+United States, it would be too time consuming and costly to track and  evaluate all these stocks every day.
+The Dow represents a sample of 30 stocks of major public companies base d in the United States, and the
+broader population of all publicly listed companies is also viewed as b eing. It is very important to collect 
+sample data that reflect population data in order to generalize t hem. In most cases (although not for the 
+Dow), a representative sample may be obtained from population data  by random sample. The treatment
+of populations and samples will introduce subtle variations in how th e summary statistics are measured 
+and interpreted. We can work with sample data in nearly all  realistic applications of business analytics.
+Quantitative and Categorical Data
+Data shall be called quantitative data if numerical and ari thmetical operations may be performed on 
+them, such as addition , subtraction , multiplication and division. For ex ample, in table 2.1, we can add 
+up the values for Dow data volume to determine the total volume of  all shares exchanged by the Dow 
+companies. If arithmetic operations on the data can not be performe d, categorical data are considered. 
+Categorical data can be summarized by counting the number of obser vations or by calculating the 
+
+
+proportions of observations in either group. For example , the data in T able 2.1 in the Industry column is 
+categorical. The number of Dow companies in the telecommunicati ons industry can be counted. Table 
+2.1 introduces three financial industry companies: America n Express, Goldman Sachs and Visa. 
+Arithmetic operations on the Industry column data can not be done.
+Cross-Sectional and Time Series Data
+It is important to differentiate between cross-sectional data and time se ries data for statistical analysis. 
+Cross-sectional data was obtained at or about the same time by multiple enti ties. Table 2.1 data are 
+cross-sectional because at the same time (June 2019), they identify t he 30 companies that form Dow. 
+Data from time series was accumulated over a variety of periods. Data  from time series are also used in 
+corporate and economic publications. Those graphs allow analysts to unde rstand what occurred in the 
+past, to identify patterns over time and to predict potential time se ries levels. The time series diagram in 
+Figure 2.1, for example, shows the value of the DJI from January 2 006 to May 2019. The figure shows 
+that the DJI in 2007 crossed over 14,000. The financial crisis in 2 008, however, led to a big decrease in 
+the DJI to between 6,000 and 7,000 by 2009. Since 2009, the DJ I has risen by 26,000 generally in 2019.
+Sources of Data
+Data necessary to analyze a business problem or opportunity can often be obt ained with an appropriate 
+study; such statistical studies can be classified as either experi mental or observational. In an 
+experimental study, a variable of interest is first identifie d. Then one or more other variables are 
+identified and controlled or manipulated to obtain data about how th ese variables influence the variable 
+of interest. For example, if a pharmaceutical firm conducts an ex periment to learn about how a new drug
+affects blood pressure, then blood pressure is the variable of inter est. The dosage level of the new drug 
+is another variable that is hoped to have a causal effect on blood pressu re. To obtain data about the 
+effect of the new drug, researchers select a sample of individual s. The dosage level of the new drug is 
+
+
+controlled by giving different dosages to the different groups of ind ividuals. Before and after the study, 
+data on blood pressure are collected for each group. Statistical analy sis of these experimental data can 
+help determine how the new drug affects blood pressure.
+Nonexperimental, or observational, studies make no attempt to control th e variables of interest. A 
+survey is perhaps the most common type of observational study. For inst ance, in a personal interview 
+survey, research questions are first identified. Then a questionnair e is designed and administered to a 
+sample of individuals. Some restaurants use observational studies to ob tain data about customer 
+opinions with regard to the quality of food, quality of service, atmosph ere, and so on. A customer 
+opinion questionnaire used by Chops City Grill in Naples, Florida, is show n in Figure 2.2. Note that the 
+customers who fill out the questionnaire are asked to provide rating s for 12 variables, including overall 
+experience, the greeting by hostess, the table visit by the manage r, overall service, and so on. The 
+response categories of excellent, good, average, fair, and poor pro vide categorical data that enable 
+Chops City Grill management to maintain high standards for the res taurant s food and service.
+In certain instances, data for a specific application may be derive d from a previously performed 
+experimental or observational research. For example , businesses main tain a number of databases 
+concerning their staff , clients and businesses. Data on wages, age s and years of experience of workers 
+can typically be collected from internal personnel records. Othe r internal reports provide information on 
+revenue, promotional expenses, shipping costs , inventory level s and quantities of output. Most 
+businesses often hold accurate customer records. 
+Anyone wanting to use data and statistical analysis for decision making  needs to be mindful of the time 
+and expense to collect the data. If data are to be collected in a  relatively brief time, the use of existing 
+
+
+data sources is desirable. If key data are not readily available  from a credible established source, 
+consideration must be given to the extra time and expense involved in obt aining the data. In both 
+situations, the decision-maker should consider the possible contrib ution to the decision making process 
+of the statistical analysis. The cost of collecting data and subse quent analytical data should not go 
+beyond the savings gained by making a better decision using the information.
+Comments
+Organizations specialized in data processing and maintenance mak e vast volumes of market and 
+economic data accessible. Companies can use leasing agreements or  purchases to access these external 
+data sources. Three companies that offer robust business database se rvices to customers include Dun & 
+Bradstreet, Bloomberg and Dow Jones & Company. Nielsen and Ipsos are tw o companies that have 
+successfully developed companies that collect and process data tha t they sell to marketers and 
+manufacturers. Data from a range of industry groups and special i nterest organizations are also available.
+
+

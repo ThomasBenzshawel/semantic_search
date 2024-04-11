@@ -1,0 +1,22 @@
+﻿BANA 2082
+Chapter 2.1
+For presentation and analysis data are the facts and figures obtained , evaluated and summarized. Table 
+2.1 displays an inventory data collection in the Dow Jones Industr ial Index (or simply "Dow") on 25 June 
+2019. Many investment advisors and investors watch the Dow as a n indicator of the current condition of 
+the financial and economic markets in the United States. The  Dow Jones Industrial Average (DJI), which is
+continuously monitored by virtually every financial publication, i s calculated based on the share prices of
+the 30 companies listed in Table 2.1. Charles Dow and Edward Jone s, who introduced the measurement 
+of the DJI in 1896, are named for the index.
+Almost every challenge (and opportunity) facing an organiz ation (or individual) is concerned with the 
+effect on the business result of the potential values of related varia bles. Therefore, we are concerned 
+how the value of a variable varies; the difference in a variab le determined by observations (time, 
+customers, objects, etc.).
+The role of descriptive analytics is to collect and analysis data so that  variations and their effect on a 
+business environment are better understood. The values of such vari ables are regulated directly by the 
+decision maker (often called decision variables). The values of othe r variables may differ with uncertainty
+due to factors beyond the decision-maker 's direct control. A quantit y whose values are uncertainly 
+understood is commonly called a random or incomplete variable. Wh en we collect data, we collect 
+previously observed values or accomplishments of a variable. Our pur pose is to learn how a specific 
+business situation changes by collecting these past realizations of one or  more variables.
+
+

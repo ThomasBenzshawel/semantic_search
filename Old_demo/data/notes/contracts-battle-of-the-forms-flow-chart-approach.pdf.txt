@@ -1,0 +1,114 @@
+﻿U.C.C.   2-207:  Battle of the Forms Flow Chart / Ap proach 
+ 
+ 
+ 
+If Same Terms exist in both the 
+Offer and the Acceptance, then a 
+contract is created on the terms of 
+the Offer and the Acceptance.  
+No UCC   2-207 issue exists.   - If Additional  or Different Terms  exist between the 
+Offer and the Acceptance, then a UCC   2-207 issue 
+exists.  Go on to the next two possible scenarios:   
+A definite and seasonable  expression of 
+acceptance was given (i.e. if offeree clearly 
+accepted)?  If so, then go on to examine the 
+possible 2 scenarios about that acceptance: 
+If so, a contract is not created by  the 
+exchange of Offer and Acceptance 
+under UCC   2-207(1).   
+ 
+But a contract may still be created by 
+conduct.  Ask if the facts fall within the 
+following the next 2 scenarios: A definite and seasonable  expression 
+of acceptance was NOT  given (i.e. if 
+offeree didn t clearly accept).  
+Parties  conduct 
+indicates existence 
+of a contract?   Parties  conduct 
+does not indicate 
+existence of a 
+contract?   
+If so, then a 
+contract by conduct 
+exists under UCC   
+2-207(3). No contract 
+exists.  Acceptance IS NOT  expressly conditional 
+on assent to different or additional terms.  Acceptance IS expressly conditional on 
+assent to different or additional terms.  
+Consequently, the 
+terms of the contract 
+are those terms that 
+are a mirror-image of 
+one another. 
+Conflicting and 
+additional terms are 
+knocked out and 
+replaced by UCC 
+gapfillers).  UCC   2-
+207(3). If so, then a contract  is created under UCC 
+2-207(1).  But the additional and different 
+terms will be determined by the following: 
+ADDITIONAL TERMS FOR K 
+BETWEEN 2 MERCHANTS:   If 
+the contract is between 
+merchants , additional terms are 
+included in the contract unless :  
+ 
+(a) the offer expressly limits 
+acceptance to the terms of the 
+offer; OR 
+ 
+(b) the additional terms 
+materially  alter the contract; OR  
+ 
+(c) notification of objection to 
+them has already by given or is 
+given within a reasonable time 
+after notice of them is received 
+(UCC   2-207(2). 
+DIFFERENT/CONFLICTING 
+TERMS:   Different (Conflicting) 
+terms are knocked out and 
+replaced by UCC Article 2 gap-
+fillers. ADDITIONAL TERMS FOR K 
+NOT BETWEEN MERCHANTS:   
+If one or more parties is not a 
+merchant , additional terms ARE 
+NOT included in the contract 
+unless that party s assent to 
+inclusion of that term is separately 
+expressed.  If so, acceptance operates as a 
+counteroffer .  Go on to the 
+following 2 scenarios below:   
+If the other party 
+expressly and 
+unequivocally 
+accepts additional 
+and different 
+terms, a contract is 
+formed of terms of 
+the counteroffer.  If the other 
+party does not 
+expressly & 
+unequivocally 
+accept, then a 
+contract may 
+still be formed 
+by conduct 
+under UCC   
+2-207(3).  Go 
+to the following 
+analysis.   Always  start by asking whether the fact pattern shows that both Offer and 
+Acceptance contains (1) the Same Terms; OR (2) Additional or Different Terms.  
+Note:   This flow chart was 
+prepared by Washburn Bar 
+Services and is merely intended 
+as a supplement to help 
+students gain practical 
+comprehension of the topic that 
+it reflects.  It is not intended to 
+replace materials for a 
+comprehensive bar program, 
+such as BarBri or Kaplan.     
+
+

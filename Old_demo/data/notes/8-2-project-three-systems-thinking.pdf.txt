@@ -1,0 +1,85 @@
+﻿Spear 1
+Jake Spear
+Mr. Gabriel Alaniz
+IT-200
+25 October 2020
+8-2 Project Three: Systems Thinking
+Lost Pines Outfitters is a small business that includes an online shop as well as a  brick 
+and mortar location that specializes in outdoor clothing for value-conscious customers. Bel ow 
+are the key elements for this system.
+Description
+ Fulfillment Department: An associate from the Fulfillment Department assigns tracking
+numbers and packages orders to be shipped.
+ Online Portal: This is where a customer can shop and order from the comfort of their 
+own home.
+ Retail Store: This is where customers of LPO can go to shop in person.
+ Warehouse: This is where LPO keeps its products and where the warehouse associate 
+picks items from.
+ Warehouse Associate: The warehouse associate reviews the customer order from the 
+warehouse computer and then views where to find the product(s) using the inventory 
+tracking system. The warehouse associate then picks the item(s) from the warehouse, 
+updates the inventory system and then sends the order to the fulfillment department.
+
+
+Spear 2
+ Warehouse Computer: The warehouse computer is used to review orders made by 
+customers through the LPO online portal and to update/modify the inventory tracking 
+system.
+The online ordering system that LPO uses is very straight forward and simplistic. The 
+process begins when the consumer uses LPO s online portal to place an order. The order then 
+makes its way to the warehouse computer where it is reviewed and processed by an employee. 
+The employee then uses the inventory tracking system to locate the item in the ware house. The 
+employee removes the item(s) from the shelves and follows up by updating the inventory 
+tracking system to show that the customer s order has been picked. The warehouse employee 
+then sends the customer s order to the fulfillment department where it is packaged and  assigned a
+tracking number by a fulfillment employee. The employee then ships the order via USPS and 
+then the fulfillment employee updates the status of shipment by changing the status from 
+processing to shipped. The customer receives the package and when that happens, the employee 
+updates shipment to delivered. When that is complete, the employee then sends a thank you c ard 
+to the customer and asks if the customer can leave a review based on their experience. LPO  s 
+retail system for customer purchases is also very simplistic and straightforward. The cu stomer 
+enters Lost Pine Outfitter s brick and mortar location. The customer shops around and figures out
+if they would like to purchase anything or not. If they do, the customer brings the item(s) to the 
+register. The LPO cashier then asks if the customer is apart of LPO s rewards program (of cours e
+they are!). The customer then gives the cashier their information regarding the rewards program 
+and then the cashier relays the total price of the purchase to the customer. The customer pa ys 
+with either cash or card and while the customer is paying, the LPO employee is folding the 
+wonderful black and red flannel shirt the customer has bought and asks if the customer would 
+
+
+Spear 3
+like a bag. The customer then receives the receipt and walks towards the door as the LPO c an be 
+heard saying  Have an awesome day!  in the increasing distance from the register. A feedbac k 
+loop present in this system is when a customer receives a package and when a customer pla ces 
+an order. Another feedback loop in this system is when the associate updates the tracking 
+information when the package has been shipped. One more feedback loop current in the retail 
+system is when the employee asks the customer how they would like to pay.
+Recommendations
+The first issue the CEO is experiencing is discrepancies between LPO s inventory 
+database and the inventory tracking system at their retail store. My recommendation  regarding 
+this issue would be to ensure all technology linked to the inventory to be regularly updated after 
+sales. The sales team needs to ensure all products leaving the store are accounted for and a re 
+swiftly logged in the inventory database. A lack of communication seems to be plaguing the 
+business as well. Information needs to flow between the workers on the frontlines, the warehouse
+and management on a more consistent and effective basis.
+The second issue is regarding there only being a single computer for the warehouse. 
+Delays and downtime are expected when only having a single, functioning computer. The first 
+order of business is to get a second or even a third computer system for the warehouse so that 
+downtime is a thing of the past. The lack of more computer systems could also attribute to the  
+discrepancies the CEO is noticing. Employees may be unable to update or modify information in 
+the inventory tracking system due to system downtime, therefore causing a discrepancy bet ween 
+actual physical inventory and what the system says there is.
+System Model
+
+
+Spear 4
+Conclusion
+Systems Thinking is an effective way to visualize the steps taken in any given syst em. It 
+allows you to see into the future to either see where things are going wrong or where something 
+needs modification. It gives you the opportunity to see the cause and effect of any situation and 
+shows you in real-time how a small change can make or break an entire system. System Thi nking
+gives you the chance to envision a fix to a current system or to create something entirely new . It 
+essentially lets you see where optimizations can be made and where your problem areas are if 
+done correctly.
+
+

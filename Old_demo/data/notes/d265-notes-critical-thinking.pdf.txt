@@ -1,0 +1,187 @@
+﻿wCritical Thinking T erms:
+ Premise    The statements being offered in support of the co nclusion.
+ Conclusion   is the statement being argued for.
+ Non Propositions    are not statements about matters of fact (or ficti on). 
+They do not make a claim that can be true or false.
+ Deductive Arguments    Arguments where the premises guarantee or 
+necessitate the conclusion. Leaves no question or p ossibility.
+oExample: All rabbits have long ears. Bugs is a rabb it. Consequently, 
+Bugs has long ears.
+ Inductive Arguments    Arguments where the premises make the 
+conclusion probable. (I think)
+oExample: Because most penguins are from areas with cold climates, it 
+is probable that the penguin you saw at the zoo was  from an area with 
+a cold climate.
+ Abduction Arguments    Arguments where the best available explanation is  
+chosen as the correct explanation.
+ Validity   In a good deductive argument structure, true premi ses make the 
+conclusion necessarily true.
+oExample: When I went outside this morning, the gras s was completely 
+covered with dew. It must have rained last night.
+ Valid Argument    It is not possible that the conclusion is false w hen the 
+premises are true.
+oExample: Ralph is a dog. No dogs are allowed on the  roller-coaster. 
+Therefore, Ralph is not allowed on the roller-coast er.
+ Invalid Argument    An argument is invalid when its conclusion is not  proven
+by its premises.
+oExample: If I am President then I am famous. I am n ot President. 
+Therefore, I am not famous.
+ Sound Argument    A sound argument is valid and has true premises.
+oExample: All whales are mammals. Killer Whale is a whale. Therefore, 
+Killer whale is a mammal.
+oExample: All Planets in our solar system orbit the sun. Mars is a planet 
+in our solar system. Therefore, Mars orbits the Sun .
+ Unsound Argument    An argument is unsound when it is either invalid or 
+has one or more false premises.
+oExample: All dogs are mammals. Therefore, dogs are cows.
+CONGENCY
+ Uncogent Argument   There are three ways in which an argument can be 
+uncogent:
+1.It is weak: I am 40 years old. I have had oxygen to breath my who le life. 
+Therefore, tomorrow I will not have oxygen to breat he.
+2.The premises are false: All asteroids observed so far have contained 
+chocolate fudge inside of them. Therefore, the next  asteroid to be 
+observed will also contain chocolate fudge inside o f it.
+
+
+3.It is weak AND the premises are false: T wo asteroids observed so far 
+contain chocolate fudge inside of them. Therefore, the next asteroid to be 
+observed will also contain chocolate fudge.
+ Cogent Argument    is clear, logical, and convincing. Has two indica tors
+1.Cogency only applies to inductive arguments.
+2.An argument is cogent if it is strong, and the prem ises are true.
+oExample: The Sun has risen every day for the past 5, 000 years; 
+therefore, it will probably rise tomorrow.
+ Affirming the Consequent    A fallacy that involves taking a true statement
+and assuming the converse form would be true as wel l: If X, then Y . Y, 
+Therefore, X.
+ Denying the Antecedent    A formal fallacy of interring the inverse from th e
+original statement: If P, then Q. Therefore, if not  P, then not Q.
+oMy opponent argues that kangaroos can hop because h opping is 
+something that kangaroos are able to do. Since my o pponent has 
+committed the fallacy of begging the question, one must infer that 
+their conclusion is false, and that kangaroos canno t hop.
+ Modus  Ponens
+ Modus Tollens
+ Formal Fallacies   Have a bad structure.
+ Fallacy   Is a type of bad argument.
+TYPES OF FALLACIES
+ Ad Hominem    is a type of informal logical fallacy. This is an  attack on the 
+character of a person rather than his or her opinio ns or arguments.
+ Straw Man    This fallacy oversimplifies an opponent s viewpoi nt and then 
+attacks that hollow argument.
+ Appeal to ignorance    is a claim that something must be true because it  
+hasn t been proven false and vice versa.
+oExample: There is no proof that God exists; therefo re, God does not 
+exist.
+ Appeal to Authority    the arguer claims an authority figure s expertise  to 
+support a claim despite this expertise being irrele vant or overstated.
+ Hasty Generalization    happens when someone uses inductive reasoning 
+with evidence or a sample size that s too small to prove their point. 
+Conclusions based on insufficient or biased evidenc e.
+
+
+oThe car that just cut me off is from South Dakota, so all South 
+Dakotans are jerks.
+ Slippery Slope    This is the baseless assumption that once someone  has 
+taken a step, the next steps automatically occur.
+ Red Herring    Something that misleads or distracts from a relev ant or 
+important question.
+ Begging the Question    Occurs when an argument s premises assume the 
+truth of the conclusion.
+ Post Hoc Ergo Propter Hoc    is an informal fallacy that states:  Since 
+event Y followed event X, event Y must have been ca used by event X. 
+oExample: Nearly all heroin addicts used marijuana b efore they tried 
+heroin. Clearly, marijuana use leads to heroin addi ction. 
+ Equivocation    Occurs when a key term or phrase in an argument i s used in 
+an ambiguous way, with one meaning in one portion o f the argument and 
+then another meaning in another portion of the argu ment.
+oExample: I have the right to watch  the Real World.  Therefore, it s 
+right for me to watch the show.
+oExample: Salad is healthy, and taco salad is a sala d. Therefore, taco 
+salad is healthy.
+ False Dichotomy    This fallacy takes a complex topic and falsely as serts 
+that there are only two possible explanations, when  in fact more explanations
+exist. (Black and White Thinking)
+ The Fallacy fallacy   is when a claim has been poorl y argued that the claim 
+itself must be wrong.
+ Genetic Fallacy   This fallacy arises whenever we di smiss a claim or argument
+because of its origin or history.
+oExample: My parents told me that God exists; theref ore, God exists. 
+oExample: My sixth-grade teacher, Mr. Harris, said t hat all women are 
+bad drivers, so it must be true.
+ Texas Sharpshooter fallacy    where an argument is made and confirmed 
+using the exact same set of information. Instead of  looking at evidence and 
+letting it determine what conclusion we develop, we  re letting our fixed 
+conclusion determine how we treat the evidence (whic h is backwards).
+ Burden of Proof shifting - 
+CONSIDERING SOURCES OF INFORMATION
+1.Is the website merely a host for people to post the ir own essays?
+2.Is it someone s personal blog?
+3.Is the website satire?
+4.Is it a deeply ideological source pushing an agenda ? 
+5.What facts from reliable sources are being used to support their claims?
+6.Are the sources individuals, professionals, organiz ations, or government 
+agencies?
+
+
+7.Is it biased? All sources have come kind of bias, b ut some are more credible 
+than others.
+8.Is it thoughtful and honest? they are less likely just to be promoting a 
+particular ideology. If not, then they are more lik ely to be doing so.  
+9.Who funded it? Be distrustful of a study that has a vested interes t in finding a
+particular outcome.
+10.Does it try to get you to distrust  the others ?
+11.Is it current? Is it local? Time and dates are impo rtant.
+12.What are others saying about it? Another way of saf eguarding against being 
+duped by false information is to look at the same n ews story or piece of 
+information from multiple independent sources. 
+13.Is it plausible? Go forward with researching the cl aims further through 
+independent reliable sources only when you have dec ided it is at least 
+plausible enough to warrant further investigation.
+14.Is it convenient? Sometimes the truth really does f it a particular narrative, but
+the more neatly and tidily it does, the more skepti cal you should be.
+15.Is it possible that it is a deepfake? People using machine learning technology 
+can create images, voices, and even videos, and at some point, 
+distinguishing which videos are fake may become imp ossible.
+TYPES OF BIASES
+ Principle of Charity    Treat people like they re intelligent to better e valuate 
+their arguments. It suggests we should try to under stand ideas before we 
+disregard them. It is morally right to give others the benefit of the doubt. It 
+allows for a clearer understanding of the issue.
+ Confirmation bias    People s tendency to process information by looki ng 
+for, or interpreting, information that is consisten t with their existing beliefs.
+oExample: Some people point to the large number of u nidentified flying 
+object sightings and the discovery of many earth-li ke planets in the 
+universe as evidence of extraterrestrial life. I do n t take this evidence 
+seriously though, because I do not believe in extra terrestrial life.
+ Cognitive bias    refers to the systemic ways in which people categ orize and 
+make sense of the world to make judgments and decis ions.
+ Heuristics    Mental shortcuts for solving problems in a quick way that 
+delivers a result that is sufficient enough to be u seful given time constraints.
+ Availability Heuristic   A process where the mind generalizes based on 
+what is available to it rather than what is objecti vely true.
+ Representative Heuristic   is a cognitive bias in which an individual 
+categorizes a new situation based on the nearest pr ototype or experience in 
+their mind.
+ Anchoring Bias    Occurs when a person arbitrarily emphasizes one p iece of 
+evidence or experience (usually the first one) over o ther relevant pieces of 
+evidence or experience.
+
+
+oExample: Jones collects five pieces of evidence to support a  belief, but 
+arbitrarily emphasizes the first piece of evidence.
+ Availability Bias    is a cognitive bias in which an individual takes available 
+information while not considering unknown informati on resulting in a person 
+jumping to conclusions.
+ Selection bias    A kind of error that occurs when the researcher d ecides 
+who is going to be studied. It is usually associate d with research where the 
+selection of participants isn't random.
+ Alief   An automatic belief-like attitude that can explain  how our instinctual 
+responses can conflict with our reasoned-out belief s.
+System One   A near-instantaneous process; it happen s automatically, intuitively, 
+and with little effort.
+System T wo   is a more  analytical,   deliberate  and  r ational  side to the thinking 
+process.
+
+

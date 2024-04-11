@@ -1,0 +1,229 @@
+﻿BANA 2082
+Chapter 5.1 Lecture notes
+The abundance of data and increased computer power have stimulat ed the development of 
+automated advisory systems that offer consumers recommendations for fil ms , music, books, clothing, 
+restaurants, dating and Twitter to follow. The complex, proprietar y algorithms that direct 
+recommendation systems calculate the level of similarity betwe en users or objects to identify possible 
+user interest recommendations. 
+Netflix, an organization that offers media content through DVD-by  - mail and Internet streaming, 
+gives its users recommendations for movies and television shows based on  the personal interests of each
+user. As the company has switched from DVD rental by mail to online c ontent streaming, Netflix has 
+been able to manage its customers more closely. This enables Netflix t o take account of the variations in 
+viewing behaviour, depending on the day of the week, daytime,  computer used and even the position of 
+view. 
+The use of recommendation systems in e-commerce is prevalent. Using  the attributes of the 
+Music Genome Project, Pandora Internet Radio plays songs with properti es identical to those a person 
+"likes." Web sites such as eHarmony, Match.com and OKCupid use many " formules" to take into account 
+hundreds of behavioral characteristics when offering date "matc hes" in online dating. 
+Technological advancement in the last few decades has resulted in a significant rise in the 
+number of reported data. Through using Smartphones, RFID tags, e lectronic sensors, credit cards and the
+Internet, data collection from phone calls, e-mails, business tran sacts, product and customer monitoring,
+business transactions and web browsing has been facilitated. The in crease in the use of data mining 
+technology in companies was primarily caused by three events: th e explosion in the amount of data 
+generated and electronically tracked, the capacity to store t hese data electronically and computer 
+
+
+resources to process the information at affordable prices. This chapte r explores analyzing vast volumes 
+of data to gain insight into consumers and identify patterns for enhan cing business processes. 
+An observation or record is defined as the set of reported values for the var iables of one person. 
+An observation is sometimes seen as a line of values in a table or database in  which the columns match 
+the variables. For example, in the database of alumni of a unive rsity the observation may be consistent 
+with an alumnus' age, sex, marital status, employer, job title s as well as university gift size and frequency.
+We concentrate in this chapter on descriptive methods of data mining , also known as non-
+supervised learning methods. No result variable is to be predicted i n an unsupervised learning 
+application; instead, the aim is to use variable values to classify associ ations between observations. 
+Unchecked approaches to learning can be seen as a high dimensional de scriptive analysis, since they are 
+constructed with several observations of several variables to explai n patterns and relationships in large 
+data sets. There is no conclusive measure of accuracy without an expli cit (or objectively known) result. 
+Very qualitative evaluations, such as how well the findings conform  to the expert decision, are used to 
+analyze and compare the results from an unregulated method of le arning.
+Cluster Analysis
+The purpose of the clustering is to arrange observations in similar grou ps based on the variables 
+observed. A clustering may also be used to classify variables or findi ngs that can be aggregated or 
+omitted from consideration as part of data planning for a broader data analysis project. Cluster analysis 
+is widely used in marketing to classify customers into various homogen eous categories. The 
+identification of various customer clusters enables an organization t o customize marketing strategies for 
+each segment. The cluster analysis may also be used to classify outlie rs which may present quality 
+control issues in a manufacturing environment and which may be fraud ulent in financial transactions.
+
+
+In this segment we discuss the use of cluster analysis to help a busin ess named Know Thy 
+Customer (KTC), which provides its clients with customized finan cial advice. KTC wishes to divide its 
+customers into different groups (or clusters), as the basis for creating t his personalized consultation, so 
+that customers within a community share key features and vary fr om customers who do not belong in 
+the group. KTC has an observation about each consumer consisting of the  following variables:
+We present two methods of clustering with a small sample of KTC dat a. First, k-means are 
+considered as clusters, a method which assigns each observation to one of  the k clusters in an attempt to
+achieve as similar observations as possible. Second, we consider the hiera rchically aggregated clustering 
+that begins with each observation belonging to its own cluster and seque ntially merges the most related 
+clusters into a sequence of nested clusters. As the difference  between observations is calculated by both 
+methods, we discuss first how to calculate distance between observations.
+Measuring Distance Between Observations
+The goal of cluster analysis is to group observations into clusters such t hat observations within a 
+cluster are similar and observations in different clusters are dissi milar. Therefore, to formalize this 
+process, we need explicit measurements of dissimilarity or, conve rsely, similarity. Some metrics track 
+similarity between observations, and a clustering method using such a  metric would seek to maximize 
+the similarity between observations. Other metrics measure dissimi larity, or distance, between 
+observations, and a clustering method using one of these metrics would see k to minimize the distance 
+between observations in a cluster.
+When observations include numerical variables, Euclidean di stance is a common method to 
+measure dissimilarity between observations.
+After converting to z-scores, unequal variables can also be taken in to account by multiplying 
+each observation 's variables with a selected set of weight values. F or example, after the units have been
+
+
+standardized for customer observations to represent their respectiv e z-scores (rather than expressed in 
+dollars and years) of income, we might multiply z-scores by 2 if we ch oose to treat income twice as large 
+as age. In other words, standardization eliminates bias because of the  variations in measurement units, 
+and the analyst may implement any desired biais according to m arket context through variable 
+weighting. 
+When clustering observations on the basis of category variables encode d as 0 1 (or dummy 
+variables), the number of variables with corresponding values can  be calculated better between two 
+observations. The simplest measure of overlap is called the correspon ding coefficient.
+k-Means Clustering
+If observations consisting entirely of numerical observations are c onsidered, an approach k-
+means clustering is widely used in grouping observations into related  groups. The analyst must define 
+the number of clusters k in k-means clustering. The k-means al gorithm starts by assigning each 
+observation at a random random value of k to one of the k-clusters. Th e cluster centroids are determined
+after all observations have been allocated to a cluster (these class cen troids are the "means" of k-
+means). All the observations are assigned to the nearest centroid clus ter using the modified cluster 
+centroids (where the Euclidean distance is the default metr ic). The algorithm repeats this (calculate the 
+centroid cluster, allocate each observation to the closest central c luster) until no change in the clusters 
+occurs, or until a specified maximum number of iterations has been re ached.
+Cluster analyzes are not controlled by any clear measure of p recision as an unattended learning 
+technique and the idea of a "healthy" cluster is therefore subje ctive and depends on what the analyser 
+hopes the cluster analysis will show. However, by comparing the ave rage distance between observations 
+within the same cluster to the average distance between observati ons in different pairs of clusters, one 
+can calculate the intensity of a cluster. One thumb rule is tha t the average distance to average distance 
+
+
+inside the cluster for useful clusters should exceed 1.0. If the  cluster strength varies widely over a set of k
+clusters, a stronger clustering of the data could be establish ed by removing all the observations of the 
+powerful clusters and then continued the clustering process on the  remaining observations.
+Hierarchical Clustering and Measuring Dissimilarity Between Cl usters
+An alternative to partitioning observations with the k-means approach is an agglomerative 
+hierarchical clustering approach that starts with each observ ation in its own cluster and then iteratively 
+combines the two clusters that are the least dissimilar (most simi lar) into a single cluster. Each iteration 
+corresponds to an increased level of aggregation by decreasing the num ber of distinct clusters. 
+Hierarchical clustering determines the dissimilarity of two clusters by considering the distance between 
+the observations in first cluster and the observations in the second clust er. Given a way to measure 
+distance between observations (e.g., Euclidean distance, Manh attan distance, matching distance, Jaccard
+distance), there are several agglomeration methods for comparing  observations in two clusters to obtain 
+a cluster dissimilarity measure. Using Euclidean distance to ill ustrate, Figure 5.5 provides a two-
+dimensional depiction of four agglomeration methods we will discuss.
+The difference between two clusters is defined by the distance be tween the pair of observations 
+(one from each cluster) that is more similar when using the single l inkage agglomeration process. Single 
+relation is thus known as similar to two clusters if an observation in one  cluster is close to at least one 
+observation in the other cluster. However, a cluster of two closely r elated clusters which often consist of 
+pairs of observations that are highly different. The explanation i s that the difference between an 
+observation and other observations in a cluster can not be considered, g iven that it is identical to at least
+one observation in this cluster. Thus, a single linkage clusterin g can lead to large, elongated clusters in 
+two dimensions (variables), rather than to small , circular clust ers.
+
+
+The complete agglomeration method describes the difference bet ween two clusters as the 
+distance between the two most different observations (one from each cl uster). Thus, two clusters are 
+considered similar if their most diverse pair of observations are close. T his approach creates clusters in 
+such a way that all cluster observations are equally similar.  The clusters formed by complete connection 
+have a diameter approximately equal. Absolute linkage clust ering can however be skewed by external 
+observations.
+The single bonding and the full bonding processes describe the dissim ilarity between the 
+clusters on the basis of one pair of observations in two clusters most simil ar or less similar. In 
+comparison, the group average linking agglomeration technique des cribes the gap between two clusters 
+as the average distance measured over all observation pairs betwe en the two clusters. If cluster 1 is 
+made up of observations and cluster 2 consists of observations, the average  distance will be the 
+dissemblance of these clusters. This approach generates cluster s less dominated by the disparity 
+between individual pairs of observations. The median relation meth od is similar to the group average 
+connection, except that it uses the median (not the average) distanc e computed over all observations 
+between the two clusters. By using the median, the impact of out liers is minimized.
+Centroid connection uses the averaging principle of cluster centr oids to describe the difference 
+between clusters. The centroid for cluster k, denoted as "k," is fou nd in all the cluster observations by 
+measuring average value per variable; in other words, the cen troid is the average cluster observation. 
+The difference between cluster k and cluster j is then defined as t he distance between the center and 
+the center.
+The approach used by Ward for the merger of clusters is based on the assu mption that the 
+cluster with its center can be seen as a loss of information in the sen se that the individual differences in 
+
+
+cluster observations can not be reported by the centroid cluster. Wa rd's method calculates the centroid 
+of the resulting combined cluster for a pair of clusters conside red for aggregation and then calculates the
+sum of the squared differences between this centroid and each ob servation in the union of both clusters.
+The Ward method combines the pair of clusters with the lowest valu e of this dissimilarity measure in 
+each iteration. Consequently, hierarchical clustering with t he Ward method results in a set of clusters 
+that mitigate this loss of knowledge from each level of observation to the lev el of the cluster.
+Similar to the average group relation, McQuitty's cluster mix ing method also defines the average 
+difference between two clusters, but measures the average in a d ifferent way. To explain this, assume 
+that an iteration cluster A and cluster B are the most similar for  the whole set. Differences between the 
+cluster AB and every other cluster C are modified in ((differenc es between A and C) + (dissimillance 
+between B and C)  2 for the next iteration. This is distinct from group  average since this figure is an 
+average of just two dissimilarity measurements instead of measuring  the mean dissimilarity between 
+Cluster AB and Cluster C for all pairs of observations. By always e stimating the average dissimilarity 
+between the two clusters as a simple average of the two component di ssimilarity steps, McQuitty 's 
+approach indirectly places different weights on the distances bet ween the individual observations, while 
+the discrepancy between the two clusters is weighed equall y in the community average.
+KTC is involved in creating consumer segments based on gender, m arital status, whether the 
+customer pays a car loan and whether the customer pays a mortgage. W e base the clusters on a set of 
+
+
+categorical variables (female, married, loan and mortgage) usin g data from the DemoKTC register. To 
+calculate the similarities between the observations and the average  group bonding agglomeration 
+process, we use the matching distance. The choice of the matching d istance (over the distance of 
+Jaccard) is rational since some degree of similarity between a pair  of customers that both have zero 
+entries for each of these four variables. For example , two buyers , both with zero mortgage entries, do 
+not have substantial mortgage debt.
+Figure 5.6 displays a dendrogram to visually summarize the effects of a hierarchical clustering by 
+means of a correlation distance to measure dissimilarity between find ings and the group average 
+agglomeration method to measure dissimilarity. A dendrogram is a di agram showing the collection of 
+clusters in each phase of aggregation. The dendrogram's horizon tal axis lists the observation indices. The 
+dendrogram's vertical axis reflects the difference (distance) re sulting from the fusion of two separate 
+observation groups. Every horizontal blue line in the dendrogram rep resents a merger of two (or more) 
+clusters in which the observations made up of the merged clus ters are linked to the horizontal blue line 
+and a vertical blue line.
+Hierarchical Clustering versus k-Means Clustering
+Hierarchical clustering is a good choice in situations where solutions wi th a wide variety of 
+clusters are easily tested. Hierarchical clusters are also rea listic if you're looking at the nesting of clusters.
+Hierarchical clustering can however be very sensitive to outliers,  and clusters may drastically alter if 
+observations are withdrawn from the collection of data (or added to).  Hierarchical clustering may be less 
+suitable as the number of observations in the data set grows and the process i s relatively costly (starting 
+with each observation within its own cluster).
+
+
+The k-means method is a good way to cluster data on the basis of numeri cal variables and is 
+sufficiently computationally powerful to cope with an increasing numb er of observations. Note that k-
+means clustering the observations, which is acceptable if you attempt  to sum up the data with 
+k-"average "observations representing the data with the lowest err or level. However, the clustering of k-
+means is usually not suitable for categorical or ordinal data for which  "average" is not significant.
+The collection of variables on which the clustering process is based  is a key feature for both 
+hierarchical and k-mean clustering. Clustering should be ba sed on a parsimonious set of variables which 
+are calculated by the combination of contextual information and e xploration of different variable 
+combinations that show interesting data patterns. As the number of va riables from which distance is 
+measured increases, all observations appear to be equidistant. In  other words, as the number of 
+variables considered in an overlay method increases, the dist ances between pairs of observations are 
+greater (distance can only be increased by the addition of variab les), but the relative distances between 
+pairs of observations appear to be decreased.
+Notes:
+It can be difficult to observe clustering based on numerical and cat egorical variables (mixed 
+data). Differences between the numerical variables observations a re usually measured using the 
+Euclidean distance. However, for categorical variables, Euc lidean distance is not well specified as the size 
+of the Euclidean distance calculation between two category val ues would depend on the numeric 
+encoding of the categories. In addition to this book, there are elab orate methods to address the problem
+of the collection of mixed data.
+There are two alternative approaches to clustering mixed data usi ng the methods presented in 
+this section. The first method is to split the clustering down into tw o stages. The first step is to cluster 
+
+
+observations here only on categorical variables using an adequate me asure (matching distance or 
+distance of Jaccard) to define a collection of "first-step" clusters.  The second step is to apply k-means to 
+each of this "first-step" clusters using only the numerical vari ables (or the hierarchical clustering) 
+separately. This decomposition method is not dangerous since it fixes cluste rs for one of the variable 
+types in respect to the other variable type before clustering but  it helps the analyst to identify how 
+similar or different findings are with respect to the two variable t ypes.
+A second technique for clustering mixed data is to encode categorical  values numerically (e.g., 
+binary coding, ordinary coding) and then standardize both c ategorical and numerical variable values. The
+analyst will play with different variables weights and apply h ierarchical or k-mean clustering to represent 
+the relative value of the variables. This approach is highly exp erimental and subjective in weight.
+When dealing with mixed data, it is normal to scale the numerical  variable values between 0 and
+1 rather than standardizing them by repositioning them with t he corresponding z-score so that they have
+the same scale as the binary encoded categorical variables.
+
+

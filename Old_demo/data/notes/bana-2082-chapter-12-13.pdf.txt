@@ -1,0 +1,103 @@
+﻿BANA 2082
+Chapter 1.2
+Business Analytics Defined
+What makes it complicated and hard to make decisions? Uncertainty i s the number one 
+challenge, possibly. We could do a much better job of planning and scheduling production if we knew 
+how much the demand would be for our product. If we knew precisely how  long it takes for each phase 
+in a project to be completed, we could better estimate the cost an d completion date of the project. If we
+knew how stocks would do, it would be a lot easier to invest. 
+Another aspect that makes it difficult to make choices is that w e face such a large number of 
+options that we can not consider all of them. To help me reach my finan cial goals, what is the best mix of
+stocks? For a company trying to increase its market share, what is the  right product line? In order to 
+optimize sales, how does an airline market its tickets? 
+The simpler term, analytics, is used by certain companies and indu stries. Analytics is also 
+considered a wider term than market analytics, which often inv olves the use of analytical approaches in 
+science and engineering. We use company analytics and analytics i n this text synonymously. 
+Business analytics is the analytical method of converting knowledge int o insight for better 
+decision-making. Business analytics is used for decision-making based on e vidence or facts, and is also 
+seen as more objective than other decision-making alternatives. As we  can see, business analytics tools 
+will improve decision-making by producing data insights, enhan cing our ability to forecast for planning 
+more accurately, helping us measure risk, and offering better alte rnatives through analysis and 
+optimization. A study conducted by researchers at MIT's Sloan School  of Management and the University
+
+
+of Pennsylvania based on a broad sample of companies concluded tha t companies led by data-driven 
+decision-making have higher productivity and market value and  improved production and profitability.
+Chapter 1.3
+A Categorization of Analytical Methods and Models
+From basic reports to the most sophisticated optimization techniques (meth ods for finding the 
+best course of action), business analytics can include everything.  Three broad types of techniques are 
+commonly thought to consist of analytics: descriptive analytics, pred ictive analytics, and prescriptive 
+analytics.
+Descriptive Analytics
+The collection of techniques explaining what has occurred in the p ast includes descriptive 
+analytics. Examples are data requests, reports, descriptive stati stics, visualization of information 
+including data dashboards, several techniques for data mining, an d simple models of what-if 
+spreadsheets.
+A data query is a request from a database for information with certai n characteristics. For 
+instance, during the month of March, a query to the database of a  manufacturing plant could be for all 
+records of shipments to a specific distribution center. This ques tion offers descriptive information on 
+these shipments: the number of shipments, the amount of each shipm ent included, the date each 
+shipment was sent, etc. The use of descriptive statistics (means, me asures of variance, etc.) and data 
+visualization tools (tables, charts , and maps) could convey a report summa rizing relevant historical 
+information for management. To find patterns or relationships in a large  database, simple descriptive 
+statistics and data-visualization techniques can be used.
+
+
+Data dashboards are tables, charts , maps, and summary statistic s sets that are updated as new 
+data becomes available. Dashboards are used to help management mon itor various aspects of the 
+performance of the company related to their decision-making duti es. Daily data dashboards could 
+summarize sales by region, current inventory levels, and other  company-wide metrics for corporate-level
+managers; front-line managers could view dashboards containing  metrics related to staffing levels, local 
+inventory levels, and short-term sales forecasts.
+Data mining is the use of computational approaches that occur in massiv e data sets to better 
+understand patterns and relationships. For instance, data-mini ng techniques (including cluster analysis 
+and sentiment analysis) are used by businesses to better understand t heir clients by analyzing text on 
+social network sites such as Twitter. A business like Apple can better understand how its clients feel 
+about a product like the Apple Watch by categorizing those terms as p ositive or negative and keeping 
+track of how much certain terms appear in tweets.
+Predictive Analytics
+Predictive analytics are techniques that use models developed from  previous data to forecast 
+the future or to assess the influence of one variable on another. For e xample, to create a mathematical 
+model to forecast future sales, past data on product sales may be  used. Based on past trends, this mode 
+will factor in the growth path and seasonality of the product. T o assist in estimating the lift in unit sales 
+due to coupons or sales events, a packaged-food producer can use point-of -  sale scanner data from 
+retail outlets. In order to help forecast the market share of a n ew product, survey data and previous 
+buying history can be used. All of these are predictive ana lytics applications. 
+
+
+Linear regression, analysis of time series, some data-mining approach es, and simulation, also referred to 
+as risk analysis, all fall under the predictive analytics banner.  Later in this text, we address all of these 
+approaches in greater detail.
+In predictive analytics , data mining, previously mentioned as a descri ptive analytics tool, is also 
+often used. A large grocery store chain, for example, may be intere sted in creating a targeted marketing 
+campaign that provides potato chips with a discount coupon. The s tore may be able to use data mining 
+by analyzing historical point-of - sale data to predict the cust omers are more likely to react to a deal on 
+discounted chips by buying higher-margin products such as beer or soft drinks in addition to the chips, 
+thereby raising the overall revenue of the store. 
+In order to research the effect of uncertainty on a decision, simulati on includes the use of 
+probability and statistics to construct a computer model. In order t o stress-test financial models, for 
+instance, banks also use simulation to model investment and default ri sk. In the pharmaceutical industry,
+modeling is most sometimes used to determine the possibility of a new dr ug being launched.
+Prescriptive Analytics
+Prescriptive analytics vary from descriptive and predictive ana lytics in that a course of action to 
+be taken is suggested by prescriptive analytics; that is, a decision i s the product of a prescriptive model. 
+A forecast or prediction is given by predictive models, but does not inc lude a judgment. A forecast or 
+estimate, however, becomes a prescriptive model when paired wit h a law. We will, for instance, develop 
+a model to predict the likelihood that an individual will defaul t on a loan. If we create a rule that says 
+that if the approximate likelihood of default is more than 0.6, we  do not grant a loan, prescriptive 
+analytics is now the predictive model, combined with the rule. Oft en referred to as rule-based models 
+are those types of prescriptive models that rely on a rule or set of ru les.
+
+
+Portfolio models in banking, supply network architecture models in ope rations, and price-
+markdown models in retail are other examples of prescriptive anal ytics. In order to determine which mix 
+of investments will produce the highest expected return whil e controlling or limiting risk exposure, 
+portfolio models use historical investment return data. Supply -network design models provide locations 
+for plants and distribution centers that will minimize costs while s till meeting requirements for customer 
+service. Given historical evidence, when items have not sold as exp ected, retail price markdown models 
+yield revenue-maximizing discount levels and the timing of discou nt offers. All of these models are 
+known as models of optimization, that is, models that are subject to the cons traints of the situation to 
+offer the best decision.
+
+
