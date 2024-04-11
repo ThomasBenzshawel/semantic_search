@@ -26,7 +26,6 @@ def get_files_in_folder(folder_path):
     documents = []
     # Grab all text in the files
     for file in files:
-        print(file)
         with open(file, 'r', encoding= 'utf-8') as f:
             text = f.read()
             documents.append(unicodeToAscii(text.strip()))

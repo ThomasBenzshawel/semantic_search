@@ -4,12 +4,10 @@ from haystack.components.embedders import SentenceTransformersTextEmbedder, Sent
 from haystack.components.retrievers.in_memory import InMemoryEmbeddingRetriever
 import docs_folder
 from haystack import Pipeline
+import os
+import haystack_api
 
 document_store = InMemoryDocumentStore(embedding_similarity_function="cosine")
-
-import os
-
-#list all files in the doc folder
 
 path = os.path.join(os.getcwd(), "docs")
 
@@ -29,8 +27,9 @@ query_pipeline.add_component("text_embedder", SentenceTransformersTextEmbedder(m
 query_pipeline.add_component("retriever", InMemoryEmbeddingRetriever(document_store=document_store))
 query_pipeline.connect("text_embedder.embedding", "retriever.query_embedding")
 
-query = "Are you good at your job?"
-
-results = query_pipeline.run({"text_embedder": {"text": query}})
-
-print(results['retriever']['documents'][0])
+run = True
+while run:
+    query = haystack_api.get_query()
+    results = query_pipeline.run({"text_embedder": {"text": query}})
+    haystack_api.return_results(results)
+    run = haystack_api.continue_running()
