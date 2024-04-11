@@ -21,12 +21,14 @@ def get_files_in_folder(folder_path):
     files = []
     for path, subdirs, filenames in os.walk(folder_path):
         for name in filenames:
-            files.append(os.path.join(path, name))
-    
+            files.append(os.path.join(path, name))    
 
     documents = []
     # Grab all text in the files
     for file in files:
+        print(file)
         with open(file, 'r', encoding= 'utf-8') as f:
+            text = f.read()
+            documents.append(unicodeToAscii(text.strip()))
 
-            documents.append(unicodeToAscii(file.read().strip()))
+    return documents
