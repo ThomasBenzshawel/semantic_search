@@ -30,4 +30,4 @@ def get_files_in_folder(folder_path):
             text = f.read()
             documents.append(unicodeToAscii(text.strip()))
 
-    return documents
+    return documents, files

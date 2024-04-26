@@ -9,8 +9,13 @@ def get_query():
 def return_results(results):
     # This function will return the results from the query to the user.
     # Eventually, this function will be edited to be a function that will return the results to the javascript frontend.
-    # For now, it will just print the results to the console.
-    print(results["retriever"]["documents"][:3])
+    # Return the top 3 results to the user, including the document names.
+    top_results = []
+    for i, result in enumerate(results["retriever"]["documents"][:3]):
+        document_name = result.meta.get("name", "")
+        top_results.append({"rank": i + 1, "document_name": document_name, "content": result.content})
+
+    return top_results
 
 def continue_running():
     # This function will return a boolean value that will determine if the program should continue running.
